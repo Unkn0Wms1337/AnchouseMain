@@ -1,0 +1,172 @@
+[      0] [+] Loaded
+[      0] [+] Config C:\Users\Unkn0Wn\Desktop\anchousechanger\build\anchousechanger.cfg loaded, 2 keys
+[     16] [+] UIEngine 00007FF83D8DE1C8 -> 000002EEFCBE8E00
+[     31] [+] SchemaSystem_001 00007FF876ED6610
+[    172] [+] Schema scopes 21, bindings 16607, classes 12195, fields 43339
+[    406] [+] g_pGameRules 00007FF8166A8008 m_nGameState 0x7C
+[    437] [+] g_pGameEntitySystem 00007FF816A392D8 -> 000002EF0E51E000
+[    719] [+] LocalPlayerControllers 00007FF816677D38 m_hAssignedHero 0x914
+[    812] [+] GetItemSchema 00007FF8137EAFF0 GetItemDefinition 00007FF8137B2640
+[   1062] [+] CDOTAInventoryManager 00007FF816927800
+[   1156] [+] ResourceSystem013 00007FF8772C70C0
+[   1578] [+] NetworkClientService_001 00007FF853233BC0 NetworkServerService_001 00007FF8532340B0
+[   1609] [+] CGCClient 00007FF81685C9C0
+[   1609] [+] ISteamUser 000001E5B4F00D00
+[   1656] [+] RunFrame 0x7ff83d3a6860
+[   1672] [+] Grant: prepared, 0 new items, 18 ms
+[   1672] [+] Grant: queued 12491 items, chunk 256
+[   1672] [+] Dump 3244 lines -> C:\Users\Unkn0Wn\Desktop\anchousechanger\build\panorama_dump.txt
+[   1687] [+] Panel context 0 root DotaDashboard depth 5
+[   1687] [+] Panel context 1 root DotaDashboard depth 8
+[   1687] [+] Panel context 2 root DotaDashboard depth 4
+[   1687] [+] Panel context 3 root DotaHud depth 3
+[   1687] [+] Panel context 4 root DotaHud depth 3
+[   1687] [+] Panel context 5 root DotaHud depth 4
+[   1687] [+] Panel context 6 root DotaHud depth 9
+[   1687] [+] Panel context 7 root DotaHud depth 6
+[   1687] [+] Panel context 8 root DotaHud depth 6
+[   1687] [+] Panel context 9 root DotaHud depth 3
+[   1687] [+] Panel context 10 root DotaHud depth 3
+[   1687] [+] Panel context 11 root DotaHud depth 2
+[   1687] [+] Panel context 12 root DotaHud depth 2
+[   1687] [+] Panel context 13 root DotaHud depth 2
+[   1687] [+] Panel context 14 root DotaHud depth 1
+[   1687] [+] Panel context 15 root DotaDashboard depth 5
+[   1687] [+] Panorama root DotaDashboard depth 4
+[   1719] [+] FrameStageNotify 0x7ff811dcef00
+[   1812] [+] GcSend 0x7ff813b8dcf0
+[   1891] [+] GcRecvPump 0x7ff813b92390
+[   1891] [+] Steam GC hooked 000001E5B4B50790
+[   2016] [+] EconWearableSpawn 0x7ff8137fa040
+[   2187] [+] GetItemInLoadout 0x7ff813746990
+[   2219] [+] NetFilter 0x7ff8529f8c20
+[   2234] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[   2234] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[   2234] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[   2297] [+] SequenceDataChanged 0x7ff811f1efb0
+[   3187] [+] GC post: EMsg 28 (34 bytes) sent
+[   3187] [+] Grant: refresh -> gc (EMsg 28, attempt 1/5)
+[   3453] [+] SO cache subscribed owner 76561198650887504 version 30073743257881481
+[   3469] [+] Subscribe: 0 real items, 0 replaced, 12491 fakes added, 244 -> 506175 bytes
+[   3531] [+] SO cache subscribed owner 76561198650887504 version 318305104425241627
+[   3531] [+] Subscribe: 4 real items, 0 replaced, 12491 fakes added, 219 -> 506145 bytes
+[   4656] [+] Loadout hero 1000 slot 31 0 -> 0x70000000000084e2 fake
+[   4687] [+] GC send framing: type 0x80000a09 header 9 size 37
+[   4687] [+] GC send: EMsg 2569 (37 bytes, #1)
+[   4812] [+] Pump: 93 ms
+[   5594] [+] Cache probe: fake 0x7000000000001e3d present
+[  13531] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[  16656] [+] Watchdog: frames=574 queued=0 delivery=12491/12491 mode=2
+[  20031] [+] GC send: EMsg 8944 (19 bytes, #1)
+[  23969] [+] GC send: EMsg 1077 (190910 bytes, #1)
+[  24750] [+] Pump: 307 ms
+[  26000] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[  26328] [+] GC send: EMsg 8082 (10 bytes, #1)
+[  26437] [+] GC send: EMsg 8274 (19 bytes, #1)
+[  31656] [+] Watchdog: frames=1285 queued=0 delivery=12491/12491 mode=2
+[  39109] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[  39656] [+] NetDelta classinfo create_on_client 1 classes 0
+[  39656] [-] NetDelta classinfo has no class list create_on_client 1
+[  40641] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[  40641] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[  42266] [+] Precache equipped assets 577 loaded 577 manifest 000002EF23C69540
+[  42391] [+] SO cache subscribed owner 76561198650887504 version 318305104425241627
+[  42391] [+] Subscribe: version 318305104425241627 <= applied 318305104425241627, cache intact, held
+[  42391] [+] Subscribe: version 30073743257881481 <= applied 318305104425241627, cache intact, held
+[  43281] [+] Subscribe: held duplicate dropped, cache intact
+[  45656] [+] Loadout hero 109 slot 0 0 -> 0x7000000000007ab4 fake
+[  45656] [+] Loadout hero 109 slot 1 0 -> 0x7000000000007ab1 fake
+[  45656] [+] Loadout hero 109 slot 2 0 -> 0x7000000000007ab0 fake
+[  45656] [+] Loadout hero 109 slot 3 0 -> 0x7000000000007ab3 fake
+[  45656] [+] Loadout hero 109 slot 13 0 -> 0x7000000000001745 fake
+[  46406] [+] NetSkins client model 310 0 -> 0x740993988420101
+[  46406] [+] NetSkins hero 310 npc_dota_hero_terrorblade models/heroes/terrorblade/terrorblade_arcana.vmdl style 0 skin 0
+[  46656] [+] Watchdog: frames=1724 queued=0 delivery=12491/12491 mode=2
+[  47984] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  48953] [+] NetDelta roundtrip check done verify_failures 0 packets 858 mismatches 0 failures 0
+[  59000] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  60359] [+] NetDelta stats packets 1200 failures 0 mismatches 0 rewrites 0 active 148 records 4
+[  61656] [+] Watchdog: frames=2284 queued=0 delivery=12491/12491 mode=2
+[  69953] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 2 sequence 27 alt_idle default -
+[  70656] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  73828] [+] AnimLog particle index 2 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 4 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 6 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 8 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 10 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 12 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 14 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 16 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 18 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 20 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 22 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 24 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 26 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 28 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 30 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 32 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 34 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 36 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 38 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 40 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 42 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 44 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 46 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 48 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 50 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 52 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 54 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 56 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  73828] [+] AnimLog particle index 58 entity 310 modifiers 16383 attach 1 name particles/generic_hero_status/hero_levelup.vpcf
+[  74859] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  75125] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  76656] [+] Watchdog: frames=3374 queued=0 delivery=12491/12491 mode=2
+[  77359] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  77422] [+] AnimLog m_hAttackTarget class CDOTA_Modifier_MonkeyKing_FurArmy_SoldierInPosition offset 0x1AB4
+[  77422] [+] AnimLog unit npc 310 type 1 activity 1513 variant 1 rate 0.898438 castpoint 0.350000 lag 0.000000 sequence 23 arcane_sunder default - target 0
+[  77422] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1513 variant 1 sequence 23 arcane_sunder default -
+[  77781] [+] AnimLog particle index 60 entity 310 modifiers 16383 attach 2 name particles/units/heroes/hero_terrorblade/terrorblade_sunder.vpcf
+[  77781] [+] AnimLog particle index 61 entity 310 modifiers 16383 attach 2 name particles/units/heroes/hero_terrorblade/terrorblade_sunder.vpcf
+[  78578] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  78828] [+] AnimLog unit npc 310 type 0 activity 1503 variant 2 rate 2.730000 castpoint 0.109890 lag 0.000000 sequence 8 attack03 default - target 0
+[  78828] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1503 variant 2 sequence 8 attack03 default -
+[  79281] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 2 sequence 27 alt_idle default -
+[  79422] [+] AnimLog unit npc 310 type 0 activity 1503 variant 1 rate 2.730000 castpoint 0.109890 lag 0.000000 sequence 7 attack02 default - target 0
+[  79422] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1503 variant 1 sequence 7 attack02 default -
+[  79859] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 2 sequence 27 alt_idle default -
+[  79953] [+] AnimLog unit npc 310 type 0 activity 1503 variant 4 rate 2.730000 castpoint 0.109890 lag 0.000000 sequence 25 attack01_abysm default - target 0
+[  79953] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1503 variant 4 sequence 25 attack01_abysm default -
+[  80344] [+] NetDelta stats packets 1800 failures 0 mismatches 0 rewrites 0 active 182 records 8
+[  80391] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  80516] [+] AnimLog unit npc 310 type 0 activity 1503 variant 2 rate 2.730000 castpoint 0.109890 lag 0.000000 sequence 8 attack03 default - target 0
+[  80516] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1503 variant 2 sequence 8 attack03 default -
+[  80984] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  81047] [+] AnimLog unit npc 310 type 0 activity 1503 variant 4 rate 2.730000 castpoint 0.109890 lag 0.000000 sequence 25 attack01_abysm default - target 0
+[  81047] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1503 variant 4 sequence 25 attack01_abysm default -
+[  81516] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 2 sequence 27 alt_idle default -
+[  81625] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  81719] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  82422] [+] AnimLog unit npc 310 type 1 activity 1511 variant 0 rate 0.898438 castpoint 0.150000 lag 0.000000 sequence 13 conjure_anim default - target 0
+[  82422] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1511 variant 0 sequence 13 conjure_anim default -
+[  82594] [+] AnimLog particle index 67 entity 310 modifiers 16383 attach 1 name particles/generic_gameplay/illusion_created.vpcf
+[  83062] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  84422] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  84453] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  84797] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1500 variant 0 sequence 2 idle default -
+[  89562] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  89828] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  90266] [+] AnimLog seq npc 310 model models/heroes/terrorblade/terrorblade_arcana.vmdl activity 1502 variant 0 sequence 34 run default -
+[  91656] [+] Watchdog: frames=5135 queued=0 delivery=12491/12491 mode=2
+[  94375] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[  94375] [-] NetDelta classinfo has no class list create_on_client 1
+[  94422] [+] NetDelta classinfo create_on_client 1 classes 0
+[  94422] [-] NetDelta classinfo has no class list create_on_client 1
+[  98672] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[  98687] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[  98937] [+] Precache equipped assets 577 loaded 577 manifest 000002EFD0781F00
+[  98969] [+] GC send: EMsg 8673 (19 bytes, #1)
+[ 102156] [+] GC send: EMsg 4006 (108 bytes, #1)
+[ 106125] [+] NetDelta stats packets 2400 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 106656] [+] Watchdog: frames=5762 queued=0 delivery=12491/12491 mode=2
+[ 121656] [+] Watchdog: frames=6380 queued=0 delivery=12491/12491 mode=2
+[ 126125] [+] NetDelta stats packets 3000 failures 0 mismatches 0 rewrites 0 active 0 records 0

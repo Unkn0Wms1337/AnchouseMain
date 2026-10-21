@@ -1,0 +1,166 @@
+[      0] [+] Loaded
+[     16] [+] Config C:\Users\Unkn0Wn\Desktop\ovr-skinchanger-main\build\ovr_skins.cfg loaded, 2 keys
+[     16] [+] UIEngine 00007FFFB7CEE1C8 -> 0000046659A39E00
+[     16] [+] SchemaSystem_001 00007FF879626610
+[     47] [+] Schema scopes 21, bindings 16607, classes 12195, fields 43339
+[     79] [+] g_pGameRules 00007FFFA6EE8008 m_nGameState 0x7C
+[     94] [+] g_pGameEntitySystem 00007FFFA72792D8 -> 000004666451A800
+[    172] [+] LocalPlayerControllers 00007FFFA6EB7D38 m_hAssignedHero 0x914
+[    266] [+] GetItemSchema 00007FFFA402AFF0 GetItemDefinition 00007FFFA3FF2640
+[    516] [+] CDOTAInventoryManager 00007FFFA7167800
+[    610] [+] ResourceSystem013 00007FF8791870C0
+[   1079] [+] NetworkClientService_001 00007FF8699B3BC0 NetworkServerService_001 00007FF8699B40B0
+[   1110] [+] CGCClient 00007FFFA709C9C0
+[   1110] [+] ISteamUser 000001FA50180D00
+[   1141] [+] RunFrame 0x7fffb77b6860
+[   1188] [+] Grant: prepared, 0 new items, 23 ms
+[   1188] [+] Grant: queued 12491 items, chunk 256
+[   1188] [+] Dump 3385 lines -> C:\Users\Unkn0Wn\Desktop\ovr-skinchanger-main\build\panorama_dump.txt
+[   1204] [+] Panel context 0 root DotaDashboard depth 5
+[   1204] [+] Panel context 1 root DotaDashboard depth 8
+[   1204] [+] Panel context 2 root DotaDashboard depth 4
+[   1204] [+] Panel context 3 root DotaHud depth 3
+[   1204] [+] Panel context 4 root DotaHud depth 3
+[   1204] [+] Panel context 5 root DotaHud depth 4
+[   1204] [+] Panel context 6 root DotaHud depth 9
+[   1204] [+] Panel context 7 root DotaHud depth 6
+[   1204] [+] Panel context 8 root DotaHud depth 6
+[   1204] [+] Panel context 9 root DotaHud depth 3
+[   1204] [+] Panel context 10 root DotaHud depth 3
+[   1204] [+] Panel context 11 root DotaHud depth 2
+[   1204] [+] Panel context 12 root DotaHud depth 2
+[   1204] [+] Panel context 13 root DotaHud depth 2
+[   1204] [+] Panel context 14 root DotaHud depth 1
+[   1204] [+] Panel context 15 root DotaDashboard depth 5
+[   1204] [+] Panorama root DotaDashboard depth 4
+[   1219] [+] FrameStageNotify 0x7fffa260ef00
+[   1329] [+] GcSend 0x7fffa43cdcf0
+[   1407] [+] GcRecvPump 0x7fffa43d2390
+[   1407] [+] Steam GC hooked 000001FA4D9C0790
+[   1500] [+] EconWearableSpawn 0x7fffa403a040
+[   1688] [+] GetItemInLoadout 0x7fffa3f86990
+[   1719] [+] NetFilter 0x7ff869178c20
+[   1735] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[   1735] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[   1735] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[   1782] [+] SequenceDataChanged 0x7fffa275efb0
+[   2704] [+] GC post: EMsg 28 (34 bytes) sent
+[   2704] [+] Grant: refresh -> gc (EMsg 28, attempt 1/5)
+[   3016] [+] SO cache subscribed owner 76561198650887504 version 318304119090190584
+[   3016] [+] Subscribe: 3 real items, 0 replaced, 12491 fakes added, 178 -> 505975 bytes
+[   3079] [+] Subscribe: version 30073743257881481 <= applied 318304119090190584, cache unknown, held
+[   3266] [+] Cache probe: fake 0x7000000000001e3d present
+[   3360] [+] Subscribe: held duplicate dropped, cache intact
+[   4079] [+] GC send framing: type 0x800022f0 header 9 size 19
+[   4079] [+] GC send: EMsg 8944 (19 bytes, #1)
+[   6735] [+] GC send: EMsg 1077 (190911 bytes, #1)
+[   7188] [+] Loadout hero 1000 slot 31 0 -> 0x7000000000008c12 fake
+[   7204] [+] GC send: EMsg 2569 (37 bytes, #1)
+[   7219] [+] Loadout hero 1000 slot 31 0 -> 0x70000000000084e2 fake
+[  14532] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[  16172] [+] Watchdog: frames=989 queued=0 delivery=12491/12491 mode=2
+[  24579] [+] Loadout hero 1000 slot 14 0x7000000000002eaa -> 0x70000000000053c1 fake
+[  25172] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[  28532] [+] Loadout hero 1000 slot 14 0x7000000000002eaa -> 0x7000000000002c4b fake
+[  29672] [+] Loadout hero 1000 slot 14 0x7000000000002eaa -> 0x7000000000002c34 fake
+[  31172] [+] Watchdog: frames=2475 queued=0 delivery=12491/12491 mode=2
+[  32172] [+] Loadout hero 1000 slot 14 0x7000000000002eaa -> 0x7000000000002cb4 fake
+[  32891] [+] Loadout hero 1000 slot 14 0x7000000000002eaa -> 0x7000000000002cd4 fake
+[  33766] [+] Loadout hero 1000 slot 14 0x7000000000002eaa -> 0x7000000000002ef6 fake
+[  35610] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[  43782] [+] SO cache subscribed owner 76561198650887504 version 318304119090190584
+[  43782] [+] Subscribe: version 318304119090190584 <= applied 318304119090190584, cache intact, held
+[  43875] [+] Subscribe: version 30073743257881481 <= applied 318304119090190584, cache intact, held
+[  44032] [+] Subscribe: held duplicate dropped, cache intact
+[  44079] [+] NetDelta instancebaseline create size 0 compressed 0 uncompressed 0 entries 0 flags 1 varint 1
+[  44079] [+] NetDelta instancebaseline created entries 0 baselines 0
+[  44079] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[  44313] [+] NetDelta classinfo create_on_client 1 classes 0
+[  44313] [-] NetDelta classinfo has no class list create_on_client 1
+[  44688] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[  44704] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[  46125] [+] Precache equipped assets 530 loaded 530 manifest 00000466906624E0
+[  46172] [+] Watchdog: frames=3880 queued=0 delivery=12491/12491 mode=2
+[  53157] [+] GC send: EMsg 8729 (244 bytes, #1)
+[  53563] [+] GC send: EMsg 8673 (19 bytes, #1)
+[  55063] [+] NetDelta roundtrip check done verify_failures 0 packets 1192 mismatches 0 failures 0
+[  55329] [+] NetDelta stats packets 1200 failures 0 mismatches 0 rewrites 0 active 59 records 1
+[  61172] [+] Watchdog: frames=5214 queued=0 delivery=12491/12491 mode=2
+[  65063] [+] Loadout hero 6 slot 0 0 -> 0x7000000000008722 fake
+[  65063] [+] Loadout hero 6 slot 1 0 -> 0x700000000000871d fake
+[  65063] [+] Loadout hero 6 slot 2 0 -> 0x700000000000871c fake
+[  65063] [+] Loadout hero 6 slot 3 0 -> 0x7000000000008721 fake
+[  65063] [+] Loadout hero 6 slot 4 0 -> 0x700000000000871f fake
+[  65063] [+] Loadout hero 6 slot 5 0 -> 0x700000000000871e fake
+[  65063] [+] Loadout hero 6 slot 6 0 -> 0x7000000000008720 fake
+[  65063] [+] Loadout hero 6 slot 12 0 -> 0x7000000000004a92 fake
+[  65094] [+] NetSkins client model 147 0 -> 0xbed22bdac76ed771
+[  65094] [+] NetSkins hero 147 npc_dota_hero_drow_ranger models/items/drow/drow_arcana/drow_arcana.vmdl style 0 skin 0
+[  65110] [+] NetSkins animation fields ? ?
+[  65110] [+] NetSkins hero 147 model -> models/items/drow/drow_arcana/drow_arcana.vmdl 0x15b05b39af6c74dc tick 842
+[  65157] [+] NetSkins hero 147 client model 0xbed22bdac76ed771 after tick 842, resending
+[  65157] [+] NetSkins hero 147 model -> models/items/drow/drow_arcana/drow_arcana.vmdl 0x15b05b39af6c74dc tick 845
+[  65157] [+] Animation npc 147 activity 1502 variant 0 -> 1 sequence 19
+[  65157] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 1 sequence 19 drow_arc_run_long_copy default run_anim
+[  65157] [+] Animation npc 147 activity 1502 variant 1 -> 6 sequence 24
+[  65157] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 6 sequence 24 drow_arc_run_alt_reload_copy default run_anim
+[  65172] [+] NetSkins client model 147 0xbed22bdac76ed771 -> 0x15b05b39af6c74dc
+[  65188] [+] Animation npc 147 activity 1502 variant 0 -> 2 sequence 20
+[  65188] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 2 sequence 20 drow_arc_run_long_copy_2 default run_anim
+[  65219] [+] Animation npc 147 activity 1502 variant 0 -> 4 sequence 22
+[  65219] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 4 sequence 22 drow_arc_run_long_copy_4 default run_anim
+[  69485] [+] Animation npc 147 activity 1500 variant 4 -> 2 sequence 58
+[  69485] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 2 sequence 58 drow_arc_idle default idle_manias_mask_anim
+[  69594] [+] Animation npc 147 activity 1502 variant 2 -> 0 sequence 18
+[  69594] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 0 sequence 18 drow_arc_run_long default run_anim
+[  69610] [+] Animation npc 147 activity 1500 variant 0 -> 2 sequence 58
+[  69610] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 2 sequence 58 drow_arc_idle default idle_manias_mask_anim
+[  69922] [+] Animation npc 147 activity 1502 variant 2 -> 6 sequence 24
+[  69922] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 6 sequence 24 drow_arc_run_alt_reload_copy default run_anim
+[  76172] [+] Watchdog: frames=6412 queued=0 delivery=12491/12491 mode=2
+[  76360] [+] NetDelta stats packets 1800 failures 0 mismatches 0 rewrites 339 active 750 records 16
+[  91172] [+] Watchdog: frames=7776 queued=0 delivery=12491/12491 mode=2
+[  94329] [+] Animation npc 147 activity 1500 variant 6 -> 3 sequence 59
+[  94329] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 3 sequence 59 drow_arc_idle_short default idle_manias_mask_anim
+[  96735] [+] NetDelta stats packets 2400 failures 0 mismatches 0 rewrites 939 active 750 records 16
+[  97500] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 3 sequence 59 drow_arc_idle_short default idle_manias_mask_anim
+[ 100625] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 3 sequence 59 drow_arc_idle_short default idle_manias_mask_anim
+[ 101532] [+] Animation npc 147 activity 1502 variant 3 -> 2 sequence 20
+[ 101532] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 2 sequence 20 drow_arc_run_long_copy_2 default run_anim
+[ 105297] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1502 variant 2 sequence 20 drow_arc_run_long_copy_2 default run_anim
+[ 106172] [+] Watchdog: frames=9237 queued=0 delivery=12491/12491 mode=2
+[ 110344] [+] AnimLog m_hAttackTarget class CDOTA_Modifier_MonkeyKing_FurArmy_SoldierInPosition offset 0x1AB4
+[ 110344] [+] AnimLog unit npc 147 type 0 activity 1503 variant 0 rate 1.344100 castpoint 0.371996 lag 0.000000 sequence 6 drow_arc_attack default attack01_anim target 0
+[ 110344] [+] Animation npc 147 activity 1503 variant 2 -> 0 sequence 6
+[ 110344] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1503 variant 0 sequence 6 drow_arc_attack default attack01_anim
+[ 110594] [+] AnimLog unit npc 147 type 0 activity 1503 variant 0 rate 1.344100 castpoint 0.371996 lag 0.000000 sequence 6 drow_arc_attack default attack01_anim target 0
+[ 110594] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1503 variant 0 sequence 6 drow_arc_attack default attack01_anim
+[ 111000] [+] AnimLog projectile source 147 target 218 attack 1 attachment 1 particle particles/units/heroes/hero_drow/drow_frost_arrow.vpcf additional ?
+[ 111000] [+] Particle particles/units/heroes/hero_drow/drow_frost_arrow.vpcf -> particles/econ/items/drow/drow_arcana/drow_arcana_frost_arrow.vpcf
+[ 111094] [+] Animation npc 147 activity 1500 variant 0 -> 2 sequence 58
+[ 111094] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 2 sequence 58 drow_arc_idle default idle_manias_mask_anim
+[ 111907] [+] AnimLog unit npc 147 type 0 activity 1503 variant 0 rate 1.344100 castpoint 0.371996 lag 0.000000 sequence 6 drow_arc_attack default attack01_anim target 0
+[ 111907] [+] Animation npc 147 activity 1503 variant 2 -> 0 sequence 6
+[ 111907] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1503 variant 0 sequence 6 drow_arc_attack default attack01_anim
+[ 112266] [+] Animation npc 147 activity 1500 variant 0 -> 3 sequence 59
+[ 112266] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1500 variant 3 sequence 59 drow_arc_idle_short default idle_manias_mask_anim
+[ 112594] [+] AnimLog particle index 22 entity 147 modifiers 1496 attach 2 name particles/units/heroes/hero_death_prophet/death_prophet_carrion_swarm_impact.vpcf
+[ 113157] [+] AnimLog particle index 25 entity 16383 modifiers 147 attach 2 name particles/generic_hero_status/hero_bloodpool.vpcf
+[ 113188] [+] Animation npc 147 activity 1506 variant 1 -> 0 sequence 57
+[ 113188] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1506 variant 0 sequence 57 drow_arc_death default death
+[ 113235] [+] Animation npc 147 activity 1506 variant 1 -> 0 sequence 57
+[ 113235] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1506 variant 0 sequence 57 drow_arc_death default death
+[ 113266] [+] Animation npc 147 activity 1506 variant 1 -> 0 sequence 57
+[ 113266] [+] AnimLog seq npc 147 model models/items/drow/drow_arcana/drow_arcana.vmdl activity 1506 variant 0 sequence 57 drow_arc_death default death
+[ 115188] [+] GC send: EMsg 7197 (8 bytes, #1)
+[ 116860] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[ 116860] [-] NetDelta classinfo has no class list create_on_client 1
+[ 116875] [+] NetDelta classinfo create_on_client 1 classes 0
+[ 116875] [-] NetDelta classinfo has no class list create_on_client 1
+[ 118344] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[ 118344] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[ 118360] [+] Precache equipped assets 530 loaded 530 manifest 000004672F79B320
+[ 119641] [+] NetDelta stats packets 3000 failures 0 mismatches 0 rewrites 1518 active 0 records 0
+[ 121172] [+] Watchdog: frames=10421 queued=0 delivery=12491/12491 mode=2
+[ 125625] [+] GC send: EMsg 4523 (291 bytes, #1)
+[ 126625] [!] Detach, process exit 1

@@ -1,0 +1,3244 @@
+=== Global context ===
+panorama : function
+    Msg : function -> panorama.dll+0xa8c10
+    AssertHelper : function -> panorama.dll+0xa8f90
+    Warning : function -> panorama.dll+0xa8dc0
+    DispatchEvent : function -> panorama.dll+0xa62c0
+    DispatchEventAsync : function -> panorama.dll+0xa62a0
+    RegisterEventHandler : function -> panorama.dll+0xa9310
+    RegisterForUnhandledEvent : function -> panorama.dll+0xa9990
+    UnregisterForUnhandledEvent : function -> panorama.dll+0xa9cf0
+    FindChildInContext : function -> panorama.dll+0xadf50
+    AsyncWebRequest : function -> panorama.dll+0xade00
+    CreatePanel : function -> panorama.dll+0xabb50
+    CreatePanelWithProperties : function -> panorama.dll+0xacde0
+    CanLocalize : function -> panorama.dll+0xaaad0
+    Localize : function -> panorama.dll+0xaabe0
+    ConstructString : function -> panorama.dll+0xabb10
+    ConstructMFString : function -> panorama.dll+0xabb30
+    Language : function -> panorama.dll+0xaaa30
+    Schedule : function -> panorama.dll+0xaa300
+    CancelScheduled : function -> panorama.dll+0xaa740
+    FrameTime : function -> panorama.dll+0xaa8e0
+    GetContextPanel : function -> panorama.dll+0xaa940
+    RegisterKeyBind : function -> panorama.dll+0xad590
+    Each : function -> panorama.dll+0xace30
+    DbgIsReloadingScript : function -> panorama.dll+0xad3a0
+    HTMLEscape : function -> panorama.dll+0xad3c0
+    LogChannel : function -> panorama.dll+0xa8260
+    BImageFileExists : function -> panorama.dll+0xae260
+    MousePosition : function -> panorama.dll+0xae3c0
+    CreatePanelWithCurrentContext : function -> client.dll+0x38b68c0
+$ : function
+    Msg : function -> panorama.dll+0xa8c10
+    AssertHelper : function -> panorama.dll+0xa8f90
+    Warning : function -> panorama.dll+0xa8dc0
+    DispatchEvent : function -> panorama.dll+0xa62c0
+    DispatchEventAsync : function -> panorama.dll+0xa62a0
+    RegisterEventHandler : function -> panorama.dll+0xa9310
+    RegisterForUnhandledEvent : function -> panorama.dll+0xa9990
+    UnregisterForUnhandledEvent : function -> panorama.dll+0xa9cf0
+    FindChildInContext : function -> panorama.dll+0xadf50
+    AsyncWebRequest : function -> panorama.dll+0xade00
+    CreatePanel : function -> panorama.dll+0xabb50
+    CreatePanelWithProperties : function -> panorama.dll+0xacde0
+    CanLocalize : function -> panorama.dll+0xaaad0
+    Localize : function -> panorama.dll+0xaabe0
+    ConstructString : function -> panorama.dll+0xabb10
+    ConstructMFString : function -> panorama.dll+0xabb30
+    Language : function -> panorama.dll+0xaaa30
+    Schedule : function -> panorama.dll+0xaa300
+    CancelScheduled : function -> panorama.dll+0xaa740
+    FrameTime : function -> panorama.dll+0xaa8e0
+    GetContextPanel : function -> panorama.dll+0xaa940
+    RegisterKeyBind : function -> panorama.dll+0xad590
+    Each : function -> panorama.dll+0xace30
+    DbgIsReloadingScript : function -> panorama.dll+0xad3a0
+    HTMLEscape : function -> panorama.dll+0xad3c0
+    LogChannel : function -> panorama.dll+0xa8260
+    BImageFileExists : function -> panorama.dll+0xae260
+    MousePosition : function -> panorama.dll+0xae3c0
+    CreatePanelWithCurrentContext : function -> client.dll+0x38b68c0
+GameEvents : object
+    Subscribe : function -> client.dll+0x21cd100 method=client.dll+0x2222460 this+0x2ee00000000
+    Unsubscribe : function -> client.dll+0x21cd4c0 method=client.dll+0x22236e0 this+0x2ee00000000
+    SendCustomGameEventToServer : function -> client.dll+0x21cdc40 method=client.dll+0x221db60 this+0x2ee00000000
+    SendCustomGameEventToAllClients : function -> client.dll+0x21cdc40 method=client.dll+0x221da40 this+0x2ee00000000
+    SendCustomGameEventToClient : function -> client.dll+0x21cd8c0 method=client.dll+0x221dac0 this+0x2ee00000000
+    SendEventClientSide : function -> client.dll+0x21cdc40 method=client.dll+0x221dbe0 this+0x2ee00000000
+CustomNetTables : object
+    GetTableValue : function -> client.dll+0x21cc920 method=client.dll+0x22018e0 this+0x2ee00000000
+    GetAllTableValues : function -> client.dll+0x21cc4d0 method=client.dll+0x21feed0 this+0x2ee00000000
+    SubscribeNetTableListener : function -> client.dll+0x21ce7c0 method=client.dll+0x2222590 this+0x2ee00000000
+    UnsubscribeNetTableListener : function -> client.dll+0x21ccd00 method=client.dll+0x2223700 this+0x2ee00000000
+SteamFriends : object
+    RequestPersonaName : function -> client.dll+0x21cdfb0 method=client.dll+0x221a2b0 this+0x2ee00000000
+    SetLargeAvatarImage : function -> client.dll+0x21ce9b0 method=client.dll+0x221e9f0 this+0x2ee00000000
+SteamUtils : object
+    GetConnectedUniverse : function -> client.dll+0x21ce590 method=client.dll+0x21ffc50 this+0x2ee00000000
+    GetAppID : function -> client.dll+0x21ce360 method=client.dll+0x21ff160 this+0x2ee00000000
+SteamUGCQuery : object
+    RankedByVote : number = 0
+    RankedByPublicationDate : number = 1
+    AcceptedForGameRankedByAcceptanceDate : number = 2
+    RankedByTrend : number = 3
+    FavoritedByFriendsRankedByPublicationDate : number = 4
+    CreatedByFriendsRankedByPublicationDate : number = 5
+    RankedByNumTimesReported : number = 6
+    CreatedByFollowedUsersRankedByPublicationDate : number = 7
+    NotYetRated : number = 8
+    RankedByTotalVotesAsc : number = 9
+    RankedByVotesUp : number = 10
+    RankedByTextSearch : number = 11
+    RankedByTotalUniqueSubscriptions : number = 12
+    RankedByPlaytimeTrend : number = 13
+    RankedByTotalPlaytime : number = 14
+    RankedByAveragePlaytimeTrend : number = 15
+    RankedByLifetimeAveragePlaytime : number = 16
+    RankedByPlaytimeSessionsTrend : number = 17
+    RankedByLifetimePlaytimeSessions : number = 18
+SteamUGCMatchingUGCType : object
+    Items : number = 0
+    Items_Mtx : number = 1
+    Items_ReadyToUse : number = 2
+    Collections : number = 3
+    Artwork : number = 4
+    Videos : number = 5
+    Screenshots : number = 6
+    AllGuides : number = 7
+    WebGuides : number = 8
+    IntegratedGuides : number = 9
+    UsableInGame : number = 10
+    ControllerBindings : number = 11
+    GameManagedItems : number = 12
+    All : number = -1
+SteamUniverse : object
+    Invalid : number = 0
+    Internal : number = 3
+    Dev : number = 4
+    Beta : number = 2
+    Public : number = 1
+GameUI : object
+    SetDefaultUIEnabled : function -> client.dll+0x1f11d00 method=client.dll+0x1ffb0f0 this+0x2ee00000000
+    SavePersistentEventGameData : function -> client.dll+0x1f12b50 method=client.dll+0x1ff9720 this+0x2ee00000000
+    LoadPersistentEventGameData : function -> client.dll+0x1f2b2b0 method=client.dll+0x1fe0680 this+0x2ee00000000
+    CustomUIConfig : function -> client.dll+0x1f2b2b0 method=client.dll+0x1f712f0 this+0x2ee00000000
+    PingMinimapAtLocation : function -> client.dll+0x1f12b50 method=client.dll+0x1fe70d0 this+0x2ee00000000
+    SetMouseCallback : function -> client.dll+0x1f12b50 method=client.dll+0x1ffb210 this+0x2ee00000000
+    AreTipsAvailable : function -> client.dll+0x1f13e20 method=client.dll+0x1f5c990 this+0x2ee00000000
+    IsPlayerTippable : function -> client.dll+0x1f148e0 method=client.dll+0x1fc18c0 this+0x2ee00000000
+    TipPlayer : function -> client.dll+0x1f132b0 method=client.dll+0x1ffd0a0 this+0x2ee00000000
+    EnableAliMode : function -> client.dll+0x1f13ab0 method=client.dll+0x1f75660 this+0x2ee00000000
+    GetCursorPosition : function -> client.dll+0x1f2b2b0 method=client.dll+0x1f85430 this+0x2ee00000000
+    FindScreenEntities : function -> client.dll+0x1f2b2b0 method=client.dll+0x1f7e200 this+0x2ee00000000
+    GetScreenWorldPosition : function -> client.dll+0x1f2b2b0 method=client.dll+0x1f91b80 this+0x2ee00000000
+    WasMousePressed : function -> client.dll+0x1f14050 method=client.dll+0x1ffe870 this+0x2ee00000000
+    WasMouseDoublePressed : function -> client.dll+0x1f14050 method=client.dll+0x1ffe850 this+0x2ee00000000
+    IsMouseDown : function -> client.dll+0x1f14050 method=client.dll+0x1fc09c0 this+0x2ee00000000
+    IsShiftDown : function -> client.dll+0x1f13e20 method=client.dll+0x1fc2270 this+0x2ee00000000
+    IsAltDown : function -> client.dll+0x1f13e20 method=client.dll+0x1fbe230 this+0x2ee00000000
+    IsControlDown : function -> client.dll+0x1f13e20 method=client.dll+0x1fbe960 this+0x2ee00000000
+    IsKeyDown : function -> client.dll+0x1f14050 method=client.dll+0x1fc0480 this+0x2ee00000000
+    GetClickBehaviors : function -> client.dll+0x1f0fd30 method=client.dll+0x1f83e70 this+0x2ee00000000
+    SelectUnit : function -> client.dll+0x1f11d00 method=client.dll+0x1ff9d50 this+0x2ee00000000
+    GetCameraLookAtPosition : function -> client.dll+0x1f11290 method=client.dll+0x1f834c0 this+0x2ee00000000
+    GetCameraPosition : function -> client.dll+0x1f11290 method=client.dll+0x1f83560 this+0x2ee00000000
+    GetCameraLookAtPositionHeightOffset : function -> client.dll+0x1f103b0 method=client.dll+0x1f83530 this+0x2ee00000000
+    SetCameraPitchMin : function -> client.dll+0x1f12070 method=client.dll+0x1ff9ff0 this+0x2ee00000000
+    SetCameraPitchMax : function -> client.dll+0x1f12070 method=client.dll+0x1ff9fc0 this+0x2ee00000000
+    SetCameraYaw : function -> client.dll+0x1f12070 method=client.dll+0x1ffa180 this+0x2ee00000000
+    GetCameraYaw : function -> client.dll+0x1f103b0 method=client.dll+0x1f835c0 this+0x2ee00000000
+    SetCameraLookAtPositionHeightOffset : function -> client.dll+0x1f12070 method=client.dll+0x1ff9f90 this+0x2ee00000000
+    SetCameraPositionFromLateralLookAtPosition : function -> client.dll+0x1f12470 method=client.dll+0x1ffa020 this+0x2ee00000000
+    SetCameraTerrainAdjustmentEnabled : function -> client.dll+0x1f136b0 method=client.dll+0x1ffa150 this+0x2ee00000000
+    SetCameraDistance : function -> client.dll+0x1f12070 method=client.dll+0x1ff9f60 this+0x2ee00000000
+    SetRenderBottomInsetOverride : function -> client.dll+0x1f11900 method=client.dll+0x1ffbb40 this+0x2ee00000000
+    SetRenderTopInsetOverride : function -> client.dll+0x1f11900 method=client.dll+0x1ffbb90 this+0x2ee00000000
+    SetCameraTarget : function -> client.dll+0x1f11900 method=client.dll+0x1ffa070 this+0x2ee00000000
+    SetCameraTargetPosition : function -> client.dll+0x1f12f50 method=client.dll+0x1ffa0e0 this+0x2ee00000000
+    MoveCameraToEntity : function -> client.dll+0x1f11900 method=client.dll+0x1fe1730 this+0x2ee00000000
+    WorldToScreenXYClamped : function -> client.dll+0x1f114c0 method=client.dll+0x1ffeb60 this+0x2ee00000000
+    GetPlayerScoreboardScore : function -> client.dll+0x1f0ff60 method=client.dll+0x1f8fa20 this+0x2ee00000000
+    SendCustomHUDError : function -> client.dll+0x1f127d0 method=client.dll+0x1ff9e20 this+0x2ee00000000
+    ReplaceDOTAAbilitySpecialValues : function -> client.dll+0x1f2b2b0 method=client.dll+0x1fec3c0 this+0x2ee00000000
+    DisplayCustomContextualTip : function -> client.dll+0x1f2b2b0 method=client.dll+0x1f73b90 this+0x2ee00000000
+    SetupDOTATalentNameLabel : function -> client.dll+0x1f2b2b0 method=client.dll+0x1ffbc60 this+0x2ee00000000
+    IsAbilityDOTATalent : function -> client.dll+0x1f14490 method=client.dll+0x1fbdf50 this+0x2ee00000000
+    GetUnitLocToken : function -> client.dll+0x1f105e0 method=client.dll+0x1f94da0 this+0x2ee00000000
+    GetUnitNameLocalized : function -> client.dll+0x1f105e0 method=client.dll+0x1f94e90 this+0x2ee00000000
+    GetHeroNameLocalizedForHeroID : function -> client.dll+0x1f10e60 method=client.dll+0x1f885d0 this+0x2ee00000000
+    GetHeroNameForHeroID : function -> client.dll+0x1f10e60 method=client.dll+0x1f88580 this+0x2ee00000000
+    GetAbilityNameLocalizedForAbilityID : function -> client.dll+0x1f10a20 method=client.dll+0x1f80d30 this+0x2ee00000000
+    ConstructNumberString : function -> client.dll+0x1f2b2b0 method=client.dll+0x1f6f890 this+0x2ee00000000
+Particles : object
+    CreateParticle : function -> client.dll+0x1f15160 method=client.dll+0x1f70d00 this+0x2ee00000000
+    ReleaseParticleIndex : function -> client.dll+0x1f15520 method=client.dll+0x1fe9550 this+0x2ee00000000
+    DestroyParticleEffect : function -> client.dll+0x1f16030 method=client.dll+0x1f738a0 this+0x2ee00000000
+    SetParticleControl : function -> client.dll+0x1f15cd0 method=client.dll+0x1ffb330 this+0x2ee00000000
+    SetParticleControlForward : function -> client.dll+0x1f15cd0 method=client.dll+0x1ffb4c0 this+0x2ee00000000
+    SetParticleControlTransform : function -> client.dll+0x1f163a0 method=client.dll+0x1ffb670 this+0x2ee00000000
+    SetParticleControlTransformForward : function -> client.dll+0x1f163a0 method=client.dll+0x1ffb8c0 this+0x2ee00000000
+    SetParticleAlwaysSimulate : function -> client.dll+0x1f15520 method=client.dll+0x1ffb310 this+0x2ee00000000
+    SetParticleControlEnt : function -> client.dll+0x1f15920 method=client.dll+0x1ffb3a0 this+0x2ee00000000
+EventData : object
+    GetEventActionScore : function -> client.dll+0x1f0f320 method=client.dll+0x1f86770 this+0x2ee00000000
+    GetPeriodicResourceUsed : function -> client.dll+0x1f0f6c0 method=client.dll+0x1f8dc50 this+0x2ee00000000
+    GetPeriodicResourceMax : function -> client.dll+0x1f0f6c0 method=client.dll+0x1f8dc10 this+0x2ee00000000
+    IsFirstRunThisEvent : function -> client.dll+0x1f0fb00 method=client.dll+0x1fbf7d0 this+0x2ee00000000
+LocalInventory : object
+    HasItemByDefinition : function -> client.dll+0x1f14d20 method=client.dll+0x1f96180 this+0x2ee00000000
+Buffs : object
+    GetName : function -> client.dll+0x1f1a770 method=client.dll+0x1f8ae60 this+0x2ee00000000
+    GetClass : function -> client.dll+0x1f1a770 method=client.dll+0x1f83d00 this+0x2ee00000000
+    GetTexture : function -> client.dll+0x1f1a770 method=client.dll+0x1f93530 this+0x2ee00000000
+    GetDuration : function -> client.dll+0x1f1a3d0 method=client.dll+0x1f85f20 this+0x2ee00000000
+    GetDieTime : function -> client.dll+0x1f1ab10 method=client.dll+0x1f85b20 this+0x2ee00000000
+    GetRemainingTime : function -> client.dll+0x1f1a3d0 method=client.dll+0x1f90a20 this+0x2ee00000000
+    GetElapsedTime : function -> client.dll+0x1f1a3d0 method=client.dll+0x1f86120 this+0x2ee00000000
+    GetCreationTime : function -> client.dll+0x1f1ab10 method=client.dll+0x1f84760 this+0x2ee00000000
+    GetStackCount : function -> client.dll+0x1f1a030 method=client.dll+0x1f92900 this+0x2ee00000000
+    IsDebuff : function -> client.dll+0x1f1aeb0 method=client.dll+0x1fbeea0 this+0x2ee00000000
+    IsHidden : function -> client.dll+0x1f1aeb0 method=client.dll+0x1fbfcd0 this+0x2ee00000000
+    GetCaster : function -> client.dll+0x1f1a030 method=client.dll+0x1f83810 this+0x2ee00000000
+    GetParent : function -> client.dll+0x1f1a030 method=client.dll+0x1f8d5f0 this+0x2ee00000000
+    GetAbility : function -> client.dll+0x1f1a030 method=client.dll+0x1f80780 this+0x2ee00000000
+Players : object
+    GetMaxPlayers : function -> client.dll+0x1f28310 method=client.dll+0x1f8ac60 this+0x2ee00000000
+    GetMaxTeamPlayers : function -> client.dll+0x1f28310 method=client.dll+0x1f8ac70 this+0x2ee00000000
+    GetLocalPlayer : function -> client.dll+0x1f2a340 method=client.dll+0x1f89d40 this+0x2ee00000000
+    IsValidPlayerID : function -> client.dll+0x1f2ae70 method=client.dll+0x1fc2be0 this+0x2ee00000000
+    GetPlayerName : function -> client.dll+0x1f29210 method=client.dll+0x1f8f940 this+0x2ee00000000
+    GetPlayerHeroEntityIndex : function -> client.dll+0x1f28540 method=client.dll+0x1f8e390 this+0x2ee00000000
+    GetSelectedEntities : function -> client.dll+0x1f29650 method=client.dll+0x1f91fc0 this+0x2ee00000000
+    GetQueryUnit : function -> client.dll+0x1f28540 method=client.dll+0x1f905a0 this+0x2ee00000000
+    GetLocalPlayerPortraitUnit : function -> client.dll+0x1f28310 method=client.dll+0x1f89ee0 this+0x2ee00000000
+    CanPlayerBuyback : function -> client.dll+0x1f2ae70 method=client.dll+0x1f69470 this+0x2ee00000000
+    HasCustomGameTicketForPlayerID : function -> client.dll+0x1f2ae70 method=client.dll+0x1f95d10 this+0x2ee00000000
+    GetAssists : function -> client.dll+0x1f28540 method=client.dll+0x1f82810 this+0x2ee00000000
+    GetClaimedDenies : function -> client.dll+0x1f28540 method=client.dll+0x1f83c40 this+0x2ee00000000
+    GetClaimedMisses : function -> client.dll+0x1f28540 method=client.dll+0x1f83ca0 this+0x2ee00000000
+    GetDeaths : function -> client.dll+0x1f28540 method=client.dll+0x1f85940 this+0x2ee00000000
+    GetDenies : function -> client.dll+0x1f28540 method=client.dll+0x1f85ac0 this+0x2ee00000000
+    GetGold : function -> client.dll+0x1f28540 method=client.dll+0x1f87ac0 this+0x2ee00000000
+    GetKills : function -> client.dll+0x1f28540 method=client.dll+0x1f89610 this+0x2ee00000000
+    GetLastBuybackTime : function -> client.dll+0x1f29aa0 method=client.dll+0x1f89640 this+0x2ee00000000
+    GetLastHitMultikill : function -> client.dll+0x1f28540 method=client.dll+0x1f89790 this+0x2ee00000000
+    GetLastHits : function -> client.dll+0x1f28540 method=client.dll+0x1f89850 this+0x2ee00000000
+    GetLastHitStreak : function -> client.dll+0x1f28540 method=client.dll+0x1f897f0 this+0x2ee00000000
+    GetLevel : function -> client.dll+0x1f28540 method=client.dll+0x1f89c70 this+0x2ee00000000
+    GetMisses : function -> client.dll+0x1f28540 method=client.dll+0x1f8ad60 this+0x2ee00000000
+    GetNearbyCreepDeaths : function -> client.dll+0x1f28540 method=client.dll+0x1f8afe0 this+0x2ee00000000
+    GetReliableGold : function -> client.dll+0x1f28540 method=client.dll+0x1f909c0 this+0x2ee00000000
+    GetRespawnSeconds : function -> client.dll+0x1f28540 method=client.dll+0x1f90b00 this+0x2ee00000000
+    GetStreak : function -> client.dll+0x1f28540 method=client.dll+0x1f92af0 this+0x2ee00000000
+    GetTotalEarnedGold : function -> client.dll+0x1f28540 method=client.dll+0x1f94120 this+0x2ee00000000
+    GetTotalEarnedXP : function -> client.dll+0x1f28540 method=client.dll+0x1f94180 this+0x2ee00000000
+    GetUnreliableGold : function -> client.dll+0x1f28540 method=client.dll+0x1f94f00 this+0x2ee00000000
+    GetTeam : function -> client.dll+0x1f28540 method=client.dll+0x1f92f60 this+0x2ee00000000
+    GetSelectedHeroID : function -> client.dll+0x1f29ef0 method=client.dll+0x1f92190 this+0x2ee00000000
+    GetGoldPerMin : function -> client.dll+0x1f28dc0 method=client.dll+0x1f87c10 this+0x2ee00000000
+    GetXPPerMin : function -> client.dll+0x1f28dc0 method=client.dll+0x1f951b0 this+0x2ee00000000
+    GetPlayerSelectedHero : function -> client.dll+0x1f29210 method=client.dll+0x1f8fa90 this+0x2ee00000000
+    GetPlayerColor : function -> client.dll+0x1f28980 method=client.dll+0x1f8de60 this+0x2ee00000000
+    IsSpectator : function -> client.dll+0x1f2ae70 method=client.dll+0x1fc2520 this+0x2ee00000000
+    PlayerPortraitClicked : function -> client.dll+0x1f2a8d0 method=client.dll+0x1fe72a0 this+0x2ee00000000
+    PlayerPortraitDoubleClicked : function -> client.dll+0x1f2a8d0 method=client.dll+0x1fe72c0 this+0x2ee00000000
+    BuffClicked : function -> client.dll+0x1f2a570 method=client.dll+0x1f61960 this+0x2ee00000000
+    IsLocalPlayerLiveSpectating : function -> client.dll+0x1f2ac40 method=client.dll+0x1fc06a0 this+0x2ee00000000
+    IsLocalPlayerInPerspectiveCamera : function -> client.dll+0x1f2ac40 method=client.dll+0x1fc0620 this+0x2ee00000000
+    GetPerspectivePlayerEntityIndex : function -> client.dll+0x1f28310 method=client.dll+0x1f8dc90 this+0x2ee00000000
+    GetPerspectivePlayerId : function -> client.dll+0x1f2a340 method=client.dll+0x1f8dd30 this+0x2ee00000000
+Entities : object
+    GetAbsOrigin : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f81270 this+0x2ee00000000
+    GetAbsAngles : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f811c0 this+0x2ee00000000
+    GetForward : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f87950 this+0x2ee00000000
+    GetLeft : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f89aa0 this+0x2ee00000000
+    GetRight : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f90bc0 this+0x2ee00000000
+    GetUp : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f94f60 this+0x2ee00000000
+    GetAllBuildingEntities : function -> client.dll+0x1f1cda0 method=client.dll+0x1f81d00 this+0x2ee00000000
+    GetAllHeroEntities : function -> client.dll+0x1f1cda0 method=client.dll+0x1f820a0 this+0x2ee00000000
+    GetAllEntitiesByName : function -> client.dll+0x1f1d410 method=client.dll+0x1f81f00 this+0x2ee00000000
+    GetAllEntitiesByClassname : function -> client.dll+0x1f1d410 method=client.dll+0x1f81d60 this+0x2ee00000000
+    GetAllCreatureEntities : function -> client.dll+0x1f1cda0 method=client.dll+0x1f81d20 this+0x2ee00000000
+    GetAllEntities : function -> client.dll+0x1f1cda0 method=client.dll+0x1f81d40 this+0x2ee00000000
+    CanBeDominated : function -> client.dll+0x1f1e890 method=client.dll+0x1f690b0 this+0x2ee00000000
+    HasAttackCapability : function -> client.dll+0x1f1e890 method=client.dll+0x1f95bf0 this+0x2ee00000000
+    HasCastableAbilities : function -> client.dll+0x1f1e890 method=client.dll+0x1f95c70 this+0x2ee00000000
+    HasFlyingVision : function -> client.dll+0x1f1e890 method=client.dll+0x1f95eb0 this+0x2ee00000000
+    HasFlyMovementCapability : function -> client.dll+0x1f1e890 method=client.dll+0x1f95e10 this+0x2ee00000000
+    HasGroundMovementCapability : function -> client.dll+0x1f1e890 method=client.dll+0x1f95f40 this+0x2ee00000000
+    HasMovementCapability : function -> client.dll+0x1f1e890 method=client.dll+0x1f96240 this+0x2ee00000000
+    HasScepter : function -> client.dll+0x1f1e890 method=client.dll+0x1f96ad0 this+0x2ee00000000
+    HasUpgradeableAbilities : function -> client.dll+0x1f1e890 method=client.dll+0x1f96c10 this+0x2ee00000000
+    HasUpgradeableAbilitiesThatArentMaxed : function -> client.dll+0x1f1e890 method=client.dll+0x1f96c90 this+0x2ee00000000
+    IsAlive : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe1a0 this+0x2ee00000000
+    IsAncient : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe240 this+0x2ee00000000
+    IsAttackImmune : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe2c0 this+0x2ee00000000
+    IsBarracks : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe490 this+0x2ee00000000
+    IsBlind : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe570 this+0x2ee00000000
+    IsBoss : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe600 this+0x2ee00000000
+    IsBossCreature : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe690 this+0x2ee00000000
+    IsRoshan : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2000 this+0x2ee00000000
+    IsBuilding : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe710 this+0x2ee00000000
+    IsCommandRestricted : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe840 this+0x2ee00000000
+    IsConsideredHero : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe8d0 this+0x2ee00000000
+    IsControllableByAnyPlayer : function -> client.dll+0x1f1e890 method=client.dll+0x1fbe9b0 this+0x2ee00000000
+    IsCourier : function -> client.dll+0x1f1e890 method=client.dll+0x1fbec30 this+0x2ee00000000
+    IsCreature : function -> client.dll+0x1f1e890 method=client.dll+0x1fbecc0 this+0x2ee00000000
+    IsCreep : function -> client.dll+0x1f1e890 method=client.dll+0x1fbed40 this+0x2ee00000000
+    IsCreepHero : function -> client.dll+0x1f1e890 method=client.dll+0x1fbedc0 this+0x2ee00000000
+    IsDeniable : function -> client.dll+0x1f1e890 method=client.dll+0x1fbef80 this+0x2ee00000000
+    IsDominated : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf1f0 this+0x2ee00000000
+    IsEnemy : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf4d0 this+0x2ee00000000
+    IsEvadeDisabled : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf670 this+0x2ee00000000
+    IsFort : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf820 this+0x2ee00000000
+    IsFrozen : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf8b0 this+0x2ee00000000
+    IsGeneratedByEconItem : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf960 this+0x2ee00000000
+    IsHallofFame : function -> client.dll+0x1f1e890 method=client.dll+0x1fbfa40 this+0x2ee00000000
+    IsDisarmed : function -> client.dll+0x1f1e890 method=client.dll+0x1fbf000 this+0x2ee00000000
+    IsHero : function -> client.dll+0x1f1e890 method=client.dll+0x1fbfac0 this+0x2ee00000000
+    IsHexed : function -> client.dll+0x1f1e890 method=client.dll+0x1fbfba0 this+0x2ee00000000
+    IsIllusion : function -> client.dll+0x1f1e890 method=client.dll+0x1fbfe50 this+0x2ee00000000
+    IsInRangeOfFountain : function -> client.dll+0x1f1e890 method=client.dll+0x1fbffb0 this+0x2ee00000000
+    IsInventoryEnabled : function -> client.dll+0x1f1e890 method=client.dll+0x1fc01a0 this+0x2ee00000000
+    IsInvisible : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0230 this+0x2ee00000000
+    IsInvulnerable : function -> client.dll+0x1f1e890 method=client.dll+0x1fc02c0 this+0x2ee00000000
+    IsLaneCreep : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0550 this+0x2ee00000000
+    IsLowAttackPriority : function -> client.dll+0x1f1e890 method=client.dll+0x1fc06b0 this+0x2ee00000000
+    IsMagicImmune : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0740 this+0x2ee00000000
+    IsMuted : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0b00 this+0x2ee00000000
+    IsNeutralUnitType : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0d00 this+0x2ee00000000
+    IsNightmared : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0d80 this+0x2ee00000000
+    IsOther : function -> client.dll+0x1f1e890 method=client.dll+0x1fc0fb0 this+0x2ee00000000
+    IsOutOfGame : function -> client.dll+0x1f1e890 method=client.dll+0x1fc1040 this+0x2ee00000000
+    IsOwnedByAnyPlayer : function -> client.dll+0x1f1e890 method=client.dll+0x1fc10d0 this+0x2ee00000000
+    IsPhantom : function -> client.dll+0x1f1e890 method=client.dll+0x1fc1490 this+0x2ee00000000
+    IsRangedAttacker : function -> client.dll+0x1f1e890 method=client.dll+0x1fc1bb0 this+0x2ee00000000
+    IsRealHero : function -> client.dll+0x1f1e890 method=client.dll+0x1fc1c30 this+0x2ee00000000
+    IsRooted : function -> client.dll+0x1f1e890 method=client.dll+0x1fc1f70 this+0x2ee00000000
+    IsSelectable : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2090 this+0x2ee00000000
+    IsShop : function -> client.dll+0x1f1e890 method=client.dll+0x1fc22c0 this+0x2ee00000000
+    IsSilenced : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2370 this+0x2ee00000000
+    IsSpeciallyDeniable : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2400 this+0x2ee00000000
+    IsSpeciallyUndeniable : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2490 this+0x2ee00000000
+    IsStunned : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2730 this+0x2ee00000000
+    IsSummoned : function -> client.dll+0x1f1e890 method=client.dll+0x1fc27c0 this+0x2ee00000000
+    IsTower : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2a10 this+0x2ee00000000
+    IsUnselectable : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2aa0 this+0x2ee00000000
+    IsWard : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2c00 this+0x2ee00000000
+    IsZombie : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2c80 this+0x2ee00000000
+    NoHealthBar : function -> client.dll+0x1f1e890 method=client.dll+0x1fe4360 this+0x2ee00000000
+    NoTeamMoveTo : function -> client.dll+0x1f1e890 method=client.dll+0x1fe43f0 this+0x2ee00000000
+    NoTeamSelect : function -> client.dll+0x1f1e890 method=client.dll+0x1fe4480 this+0x2ee00000000
+    NotOnMinimap : function -> client.dll+0x1f1e890 method=client.dll+0x1fe4610 this+0x2ee00000000
+    NotOnMinimapForEnemies : function -> client.dll+0x1f1e890 method=client.dll+0x1fe46a0 this+0x2ee00000000
+    NoUnitCollision : function -> client.dll+0x1f1e890 method=client.dll+0x1fe4510 this+0x2ee00000000
+    ProvidesVision : function -> client.dll+0x1f1e890 method=client.dll+0x1fe7bb0 this+0x2ee00000000
+    UsesHeroAbilityNumbers : function -> client.dll+0x1f1e890 method=client.dll+0x1ffe7d0 this+0x2ee00000000
+    IsMoving : function -> client.dll+0x1f1e890 method=client.dll+0x1fc09e0 this+0x2ee00000000
+    GetAbilityCount : function -> client.dll+0x1f1b250 method=client.dll+0x1f80a80 this+0x2ee00000000
+    GetCurrentVisionRange : function -> client.dll+0x1f1b250 method=client.dll+0x1f85300 this+0x2ee00000000
+    GetDamageBonus : function -> client.dll+0x1f1b250 method=client.dll+0x1f85690 this+0x2ee00000000
+    GetDamageMax : function -> client.dll+0x1f1b250 method=client.dll+0x1f85720 this+0x2ee00000000
+    GetDamageMin : function -> client.dll+0x1f1b250 method=client.dll+0x1f857b0 this+0x2ee00000000
+    GetDayTimeVisionRange : function -> client.dll+0x1f1b250 method=client.dll+0x1f858c0 this+0x2ee00000000
+    GetHealth : function -> client.dll+0x1f1b250 method=client.dll+0x1f88040 this+0x2ee00000000
+    GetHealthPercent : function -> client.dll+0x1f1b250 method=client.dll+0x1f88150 this+0x2ee00000000
+    GetHealthThinkRegen : function -> client.dll+0x1f1bde0 method=client.dll+0x1f881e0 this+0x2ee00000000
+    GetLevel : function -> client.dll+0x1f1b250 method=client.dll+0x1f89be0 this+0x2ee00000000
+    GetMaxHealth : function -> client.dll+0x1f1b250 method=client.dll+0x1f8aaa0 this+0x2ee00000000
+    GetNightTimeVisionRange : function -> client.dll+0x1f1b250 method=client.dll+0x1f8be70 this+0x2ee00000000
+    GetPlayerOwnerID : function -> client.dll+0x1f1d860 method=client.dll+0x1f8f980 this+0x2ee00000000
+    GetStates : function -> client.dll+0x1f1e450 method=client.dll+0x1f92a70 this+0x2ee00000000
+    GetTotalPurchasedUpgradeGoldCost : function -> client.dll+0x1f1b250 method=client.dll+0x1f94230 this+0x2ee00000000
+    GetTeamNumber : function -> client.dll+0x1f1b250 method=client.dll+0x1f93490 this+0x2ee00000000
+    GetHealthBarOffset : function -> client.dll+0x1f1b250 method=client.dll+0x1f880c0 this+0x2ee00000000
+    GetAttackRange : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82980 this+0x2ee00000000
+    GetAttackSpeed : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82a10 this+0x2ee00000000
+    GetAttacksPerSecond : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82aa0 this+0x2ee00000000
+    GetBaseAttackTime : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82ca0 this+0x2ee00000000
+    GetBaseMagicalResistanceValue : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82d30 this+0x2ee00000000
+    GetBaseMoveSpeed : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82dc0 this+0x2ee00000000
+    GetBonusPhysicalArmor : function -> client.dll+0x1f1bde0 method=client.dll+0x1f82fa0 this+0x2ee00000000
+    GetCollisionPadding : function -> client.dll+0x1f1bde0 method=client.dll+0x1f83f40 this+0x2ee00000000
+    GetEffectiveInvisibilityLevel : function -> client.dll+0x1f1bde0 method=client.dll+0x1f86000 this+0x2ee00000000
+    GetHasteFactor : function -> client.dll+0x1f1bde0 method=client.dll+0x1f87f80 this+0x2ee00000000
+    GetHullRadius : function -> client.dll+0x1f1bde0 method=client.dll+0x1f88890 this+0x2ee00000000
+    GetIdealSpeed : function -> client.dll+0x1f1bde0 method=client.dll+0x1f88920 this+0x2ee00000000
+    GetIncreasedAttackSpeed : function -> client.dll+0x1f1bde0 method=client.dll+0x1f889d0 this+0x2ee00000000
+    GetMana : function -> client.dll+0x1f1bde0 method=client.dll+0x1f89fa0 this+0x2ee00000000
+    GetManaThinkRegen : function -> client.dll+0x1f1bde0 method=client.dll+0x1f8a0d0 this+0x2ee00000000
+    GetMaxMana : function -> client.dll+0x1f1bde0 method=client.dll+0x1f8abd0 this+0x2ee00000000
+    GetMagicalArmorValue : function -> client.dll+0x1f1bde0 method=client.dll+0x1f89f10 this+0x2ee00000000
+    GetPaddedCollisionRadius : function -> client.dll+0x1f1bde0 method=client.dll+0x1f8d560 this+0x2ee00000000
+    GetPercentInvisible : function -> client.dll+0x1f1bde0 method=client.dll+0x1f8db80 this+0x2ee00000000
+    GetPhysicalArmorValue : function -> client.dll+0x1f1bde0 method=client.dll+0x1f8ddd0 this+0x2ee00000000
+    GetProjectileCollisionSize : function -> client.dll+0x1f1bde0 method=client.dll+0x1f902e0 this+0x2ee00000000
+    GetRingRadius : function -> client.dll+0x1f1bde0 method=client.dll+0x1f90ca0 this+0x2ee00000000
+    GetSecondsPerAttack : function -> client.dll+0x1f1bde0 method=client.dll+0x1f91eb0 this+0x2ee00000000
+    ManaFraction : function -> client.dll+0x1f1bde0 method=client.dll+0x1fe15b0 this+0x2ee00000000
+    GetClassNameAsCStr : function -> client.dll+0x1f1c970 method=client.dll+0x1f83de0 this+0x2ee00000000
+    GetDisplayedUnitName : function -> client.dll+0x1f1c970 method=client.dll+0x1f85df0 this+0x2ee00000000
+    GetSelectionGroup : function -> client.dll+0x1f1c970 method=client.dll+0x1f92490 this+0x2ee00000000
+    GetSoundSet : function -> client.dll+0x1f1c970 method=client.dll+0x1f92870 this+0x2ee00000000
+    GetUnitLabel : function -> client.dll+0x1f1c970 method=client.dll+0x1f94d10 this+0x2ee00000000
+    GetUnitName : function -> client.dll+0x1f1c970 method=client.dll+0x1f94e00 this+0x2ee00000000
+    GetTotalDamageTaken : function -> client.dll+0x1f1e010 method=client.dll+0x1f940a0 this+0x2ee00000000
+    IsControllableByPlayer : function -> client.dll+0x1f1fb70 method=client.dll+0x1fbea30 this+0x2ee00000000
+    GetChosenTarget : function -> client.dll+0x1f1b250 method=client.dll+0x1f83bb0 this+0x2ee00000000
+    HasItemInInventory : function -> client.dll+0x1f1f7c0 method=client.dll+0x1f961b0 this+0x2ee00000000
+    GetRangeToUnit : function -> client.dll+0x1f1c220 method=client.dll+0x1f906c0 this+0x2ee00000000
+    IsEntityInRange : function -> client.dll+0x1f1f070 method=client.dll+0x1fbf560 this+0x2ee00000000
+    GetMoveSpeedModifier : function -> client.dll+0x1f1c5c0 method=client.dll+0x1f8adc0 this+0x2ee00000000
+    CanAcceptTargetToAttack : function -> client.dll+0x1f1ecd0 method=client.dll+0x1f68fa0 this+0x2ee00000000
+    InState : function -> client.dll+0x1f1ecd0 method=client.dll+0x1f96d10 this+0x2ee00000000
+    GetArmorForDamageType : function -> client.dll+0x1f1c220 method=client.dll+0x1f825f0 this+0x2ee00000000
+    GetArmorReductionForDamageType : function -> client.dll+0x1f1c220 method=client.dll+0x1f82690 this+0x2ee00000000
+    IsInRangeOfShop : function -> client.dll+0x1f1f420 method=client.dll+0x1fc0030 this+0x2ee00000000
+    GetNumItemsInStash : function -> client.dll+0x1f1b250 method=client.dll+0x1f8c5f0 this+0x2ee00000000
+    GetNumItemsInInventory : function -> client.dll+0x1f1b250 method=client.dll+0x1f8c560 this+0x2ee00000000
+    GetItemInSlot : function -> client.dll+0x1f1b690 method=client.dll+0x1f89050 this+0x2ee00000000
+    GetAbility : function -> client.dll+0x1f1b690 method=client.dll+0x1f80880 this+0x2ee00000000
+    GetAbilityByName : function -> client.dll+0x1f1ba30 method=client.dll+0x1f80930 this+0x2ee00000000
+    GetNumBuffs : function -> client.dll+0x1f1b250 method=client.dll+0x1f8c4d0 this+0x2ee00000000
+    GetBuff : function -> client.dll+0x1f1b690 method=client.dll+0x1f830a0 this+0x2ee00000000
+    SetMinimapIcon : function -> client.dll+0x1f1dca0 method=client.dll+0x1ffb170 this+0x2ee00000000
+    GetAbilityPoints : function -> client.dll+0x1f1b250 method=client.dll+0x1f80d40 this+0x2ee00000000
+    GetCurrentXP : function -> client.dll+0x1f1b250 method=client.dll+0x1f85380 this+0x2ee00000000
+    GetNeededXPToLevel : function -> client.dll+0x1f1b250 method=client.dll+0x1f8b010 this+0x2ee00000000
+    GetSelectionEntities : function -> client.dll+0x1f1cfd0 method=client.dll+0x1f921d0 this+0x2ee00000000
+    IsValidEntity : function -> client.dll+0x1f1e890 method=client.dll+0x1fc2b30 this+0x2ee00000000
+    IsItemPhysical : function -> client.dll+0x1f1e890 method=client.dll+0x1fc03f0 this+0x2ee00000000
+    PassivesDisabled : function -> client.dll+0x1f1e890 method=client.dll+0x1ff9cd0 this+0x2ee00000000
+    GetContainedItem : function -> client.dll+0x1f1b250 method=client.dll+0x1f840d0 this+0x2ee00000000
+Abilities : object
+    GetAbilityName : function -> client.dll+0x1f180a0 method=client.dll+0x1f80c70 this+0x2ee00000000
+    GetAbilityTextureName : function -> client.dll+0x1f180a0 method=client.dll+0x1f80fd0 this+0x2ee00000000
+    GetAssociatedPrimaryAbilities : function -> client.dll+0x1f180a0 method=client.dll+0x1f82840 this+0x2ee00000000
+    GetAssociatedSecondaryAbilities : function -> client.dll+0x1f180a0 method=client.dll+0x1f828e0 this+0x2ee00000000
+    GetHotkeyOverride : function -> client.dll+0x1f180a0 method=client.dll+0x1f887d0 this+0x2ee00000000
+    GetIntrinsicModifierName : function -> client.dll+0x1f180a0 method=client.dll+0x1f88b10 this+0x2ee00000000
+    GetSharedCooldownName : function -> client.dll+0x1f180a0 method=client.dll+0x1f92600 this+0x2ee00000000
+    AbilityReady : function -> client.dll+0x1f16950 method=client.dll+0x1f5b6a0 this+0x2ee00000000
+    CanBeExecuted : function -> client.dll+0x1f16950 method=client.dll+0x1f69130 this+0x2ee00000000
+    GetAbilityDamage : function -> client.dll+0x1f16950 method=client.dll+0x1f80b00 this+0x2ee00000000
+    GetAbilityDamageType : function -> client.dll+0x1f16950 method=client.dll+0x1f80ba0 this+0x2ee00000000
+    GetAbilityTargetFlags : function -> client.dll+0x1f16950 method=client.dll+0x1f80df0 this+0x2ee00000000
+    GetAbilityTargetTeam : function -> client.dll+0x1f16950 method=client.dll+0x1f80e90 this+0x2ee00000000
+    GetAbilityTargetType : function -> client.dll+0x1f16950 method=client.dll+0x1f80f30 this+0x2ee00000000
+    GetAbilityType : function -> client.dll+0x1f16950 method=client.dll+0x1f81120 this+0x2ee00000000
+    GetBehavior : function -> client.dll+0x1f19070 method=client.dll+0x1f82f00 this+0x2ee00000000
+    GetCastRange : function -> client.dll+0x1f16950 method=client.dll+0x1f836b0 this+0x2ee00000000
+    GetChannelledManaCostPerSecond : function -> client.dll+0x1f16950 method=client.dll+0x1f83a70 this+0x2ee00000000
+    GetCurrentCharges : function -> client.dll+0x1f16950 method=client.dll+0x1f84910 this+0x2ee00000000
+    GetCurrentAbilityCharges : function -> client.dll+0x1f16950 method=client.dll+0x1f84880 this+0x2ee00000000
+    GetEffectiveLevel : function -> client.dll+0x1f16950 method=client.dll+0x1f86090 this+0x2ee00000000
+    GetHeroLevelRequiredToUpgrade : function -> client.dll+0x1f16950 method=client.dll+0x1f884e0 this+0x2ee00000000
+    GetLevel : function -> client.dll+0x1f16950 method=client.dll+0x1f89b50 this+0x2ee00000000
+    GetManaCost : function -> client.dll+0x1f16950 method=client.dll+0x1f8a030 this+0x2ee00000000
+    GetMaxLevel : function -> client.dll+0x1f16950 method=client.dll+0x1f8ab30 this+0x2ee00000000
+    AttemptToUpgrade : function -> client.dll+0x1f194b0 method=client.dll+0x1f5cb00 this+0x2ee00000000
+    CanLearn : function -> client.dll+0x1f194b0 method=client.dll+0x1f693e0 this+0x2ee00000000
+    GetAutoCastState : function -> client.dll+0x1f194b0 method=client.dll+0x1f82b30 this+0x2ee00000000
+    GetToggleState : function -> client.dll+0x1f194b0 method=client.dll+0x1f93ec0 this+0x2ee00000000
+    HasScepterUpgradeTooltip : function -> client.dll+0x1f194b0 method=client.dll+0x1f96b50 this+0x2ee00000000
+    IsActivated : function -> client.dll+0x1f194b0 method=client.dll+0x1fbdfb0 this+0x2ee00000000
+    IsActivatedChanging : function -> client.dll+0x1f194b0 method=client.dll+0x1fbe050 this+0x2ee00000000
+    IsAttributeBonus : function -> client.dll+0x1f194b0 method=client.dll+0x1fbe350 this+0x2ee00000000
+    IsAutocast : function -> client.dll+0x1f194b0 method=client.dll+0x1fbe3f0 this+0x2ee00000000
+    IsCooldownReady : function -> client.dll+0x1f194b0 method=client.dll+0x1fbeae0 this+0x2ee00000000
+    IsDisplayedAbility : function -> client.dll+0x1f194b0 method=client.dll+0x1fbf140 this+0x2ee00000000
+    IsHidden : function -> client.dll+0x1f194b0 method=client.dll+0x1fbfc30 this+0x2ee00000000
+    IsHiddenWhenStolen : function -> client.dll+0x1f194b0 method=client.dll+0x1fbfdb0 this+0x2ee00000000
+    IsInAbilityPhase : function -> client.dll+0x1f194b0 method=client.dll+0x1fbfef0 this+0x2ee00000000
+    IsItem : function -> client.dll+0x1f194b0 method=client.dll+0x1fc0350 this+0x2ee00000000
+    IsMarkedAsDirty : function -> client.dll+0x1f194b0 method=client.dll+0x1fc07d0 this+0x2ee00000000
+    IsMuted : function -> client.dll+0x1f194b0 method=client.dll+0x1fc0a60 this+0x2ee00000000
+    IsOnCastbar : function -> client.dll+0x1f194b0 method=client.dll+0x1fc0e50 this+0x2ee00000000
+    IsOnLearnbar : function -> client.dll+0x1f194b0 method=client.dll+0x1fc0f00 this+0x2ee00000000
+    IsOwnersGoldEnough : function -> client.dll+0x1f194b0 method=client.dll+0x1fc1170 this+0x2ee00000000
+    IsOwnersGoldEnoughForUpgrade : function -> client.dll+0x1f194b0 method=client.dll+0x1fc1210 this+0x2ee00000000
+    IsOwnersManaEnough : function -> client.dll+0x1f194b0 method=client.dll+0x1fc12a0 this+0x2ee00000000
+    IsPassive : function -> client.dll+0x1f194b0 method=client.dll+0x1fc1340 this+0x2ee00000000
+    IsRecipe : function -> client.dll+0x1f194b0 method=client.dll+0x1fc1cc0 this+0x2ee00000000
+    IsSharedWithTeammates : function -> client.dll+0x1f194b0 method=client.dll+0x1fc21d0 this+0x2ee00000000
+    IsStealable : function -> client.dll+0x1f194b0 method=client.dll+0x1fc2600 this+0x2ee00000000
+    IsStolen : function -> client.dll+0x1f194b0 method=client.dll+0x1fc26a0 this+0x2ee00000000
+    IsToggle : function -> client.dll+0x1f194b0 method=client.dll+0x1fc2970 this+0x2ee00000000
+    UsesAbilityCharges : function -> client.dll+0x1f194b0 method=client.dll+0x1ffe740 this+0x2ee00000000
+    GetAOERadius : function -> client.dll+0x1f17140 method=client.dll+0x1f806e0 this+0x2ee00000000
+    GetBackswingTime : function -> client.dll+0x1f17140 method=client.dll+0x1f82be0 this+0x2ee00000000
+    GetCastPoint : function -> client.dll+0x1f17140 method=client.dll+0x1f83610 this+0x2ee00000000
+    GetChannelStartTime : function -> client.dll+0x1f184d0 method=client.dll+0x1f83910 this+0x2ee00000000
+    GetChannelTime : function -> client.dll+0x1f17140 method=client.dll+0x1f839d0 this+0x2ee00000000
+    GetCooldown : function -> client.dll+0x1f17140 method=client.dll+0x1f84380 this+0x2ee00000000
+    GetCooldownLength : function -> client.dll+0x1f17140 method=client.dll+0x1f84420 this+0x2ee00000000
+    GetCooldownTime : function -> client.dll+0x1f17140 method=client.dll+0x1f844c0 this+0x2ee00000000
+    GetCooldownTimeRemaining : function -> client.dll+0x1f17140 method=client.dll+0x1f84560 this+0x2ee00000000
+    GetDuration : function -> client.dll+0x1f17140 method=client.dll+0x1f85e80 this+0x2ee00000000
+    GetUpgradeBlend : function -> client.dll+0x1f17140 method=client.dll+0x1f95010 this+0x2ee00000000
+    GetAbilityChargeRestoreTimeRemaining : function -> client.dll+0x1f17140 method=client.dll+0x1f809e0 this+0x2ee00000000
+    CanAbilityBeUpgraded : function -> client.dll+0x1f16d90 method=client.dll+0x1f68f00 this+0x2ee00000000
+    GetLocalPlayerActiveAbility : function -> client.dll+0x1f16720 method=client.dll+0x1f89d60 this+0x2ee00000000
+    GetCaster : function -> client.dll+0x1f16950 method=client.dll+0x1f83760 this+0x2ee00000000
+    GetCustomValueFor : function -> client.dll+0x1f17580 method=client.dll+0x1f85590 this+0x2ee00000000
+    GetLevelSpecialValueFor : function -> client.dll+0x1f17ce0 method=client.dll+0x1ff9b60 this+0x2ee00000000
+    GetSpecialValueFor : function -> client.dll+0x1f17930 method=client.dll+0x1ff9c20 this+0x2ee00000000
+    IsCosmetic : function -> client.dll+0x1f198f0 method=client.dll+0x1fbeb80 this+0x2ee00000000
+    ExecuteAbility : function -> client.dll+0x1f19c90 method=client.dll+0x1f79590 this+0x2ee00000000
+    GetMaxAbilityCharges : function -> client.dll+0x1f16950 method=client.dll+0x1f8a9e0 this+0x2ee00000000
+    CreateDoubleTapCastOrder : function -> client.dll+0x1f18d10 method=client.dll+0x1f70430 this+0x2ee00000000
+    PingAbility : function -> client.dll+0x1f18910 method=client.dll+0x1fe7040 this+0x2ee00000000
+    GetKeybind : function -> client.dll+0x1f180a0 method=client.dll+0x1f89160 this+0x2ee00000000
+Items : object
+    ShouldDisplayCharges : function -> client.dll+0x1f27ed0 method=client.dll+0x1ffc060 this+0x2ee00000000
+    AlwaysDisplayCharges : function -> client.dll+0x1f27ed0 method=client.dll+0x1f5c8e0 this+0x2ee00000000
+    ShowSecondaryCharges : function -> client.dll+0x1f27ed0 method=client.dll+0x1ffc510 this+0x2ee00000000
+    CanBeSoldByLocalPlayer : function -> client.dll+0x1f27ed0 method=client.dll+0x1f69280 this+0x2ee00000000
+    CanDoubleTapCast : function -> client.dll+0x1f27ed0 method=client.dll+0x1f69330 this+0x2ee00000000
+    ForceHideCharges : function -> client.dll+0x1f27ed0 method=client.dll+0x1f7e860 this+0x2ee00000000
+    IsAlertableItem : function -> client.dll+0x1f27ed0 method=client.dll+0x1fbe0f0 this+0x2ee00000000
+    IsCastOnPickup : function -> client.dll+0x1f27ed0 method=client.dll+0x1fbe790 this+0x2ee00000000
+    IsDisassemblable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fbf090 this+0x2ee00000000
+    IsDroppable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fbf280 this+0x2ee00000000
+    IsInnatelyDisassemblable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc00f0 this+0x2ee00000000
+    IsKillable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc04a0 this+0x2ee00000000
+    IsMuted : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc0b90 this+0x2ee00000000
+    IsPermanent : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc13e0 this+0x2ee00000000
+    IsPurchasable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc1b00 this+0x2ee00000000
+    IsRecipe : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc1d60 this+0x2ee00000000
+    IsRecipeGenerated : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc1e10 this+0x2ee00000000
+    IsSellable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc2120 this+0x2ee00000000
+    IsStackable : function -> client.dll+0x1f27ed0 method=client.dll+0x1fc2550 this+0x2ee00000000
+    ProRatesChargesWhenSelling : function -> client.dll+0x1f27ed0 method=client.dll+0x1fe7aa0 this+0x2ee00000000
+    RequiresCharges : function -> client.dll+0x1f27ed0 method=client.dll+0x1feef00 this+0x2ee00000000
+    CanBeExecuted : function -> client.dll+0x1f27220 method=client.dll+0x1f691d0 this+0x2ee00000000
+    GetCost : function -> client.dll+0x1f27220 method=client.dll+0x1f845f0 this+0x2ee00000000
+    GetCurrentCharges : function -> client.dll+0x1f27220 method=client.dll+0x1f849b0 this+0x2ee00000000
+    GetSecondaryCharges : function -> client.dll+0x1f27220 method=client.dll+0x1f91e00 this+0x2ee00000000
+    GetDisplayedCharges : function -> client.dll+0x1f27220 method=client.dll+0x1f85d40 this+0x2ee00000000
+    GetInitialCharges : function -> client.dll+0x1f27220 method=client.dll+0x1f88a60 this+0x2ee00000000
+    GetItemColor : function -> client.dll+0x1f27220 method=client.dll+0x1f88bb0 this+0x2ee00000000
+    GetShareability : function -> client.dll+0x1f27220 method=client.dll+0x1f92550 this+0x2ee00000000
+    GetAbilityTextureSF : function -> client.dll+0x1f27660 method=client.dll+0x1f81070 this+0x2ee00000000
+    GetAssembledTime : function -> client.dll+0x1f27a90 method=client.dll+0x1f82740 this+0x2ee00000000
+    GetPurchaseTime : function -> client.dll+0x1f27a90 method=client.dll+0x1f90390 this+0x2ee00000000
+    GetPurchaser : function -> client.dll+0x1f27220 method=client.dll+0x1f90460 this+0x2ee00000000
+    LocalPlayerDisassembleItem : function -> client.dll+0x1f27ed0 method=client.dll+0x1fe0a80 this+0x2ee00000000
+    LocalPlayerDropItemFromStash : function -> client.dll+0x1f27ed0 method=client.dll+0x1fe0b40 this+0x2ee00000000
+    LocalPlayerItemAlertAllies : function -> client.dll+0x1f27ed0 method=client.dll+0x1fe0c00 this+0x2ee00000000
+    LocalPlayerMoveItemToStash : function -> client.dll+0x1f27ed0 method=client.dll+0x1fe0cc0 this+0x2ee00000000
+    LocalPlayerSellItem : function -> client.dll+0x1f27ed0 method=client.dll+0x1fe0d80 this+0x2ee00000000
+Game : object
+    Time : function -> client.dll+0x1f20d90 method=client.dll+0x1ffd090 this+0x2ee00000000
+    GetGameTime : function -> client.dll+0x1f23ad0 method=client.dll+0x1f87a40 this+0x2ee00000000
+    GetGameFrameTime : function -> client.dll+0x1f20d90 method=client.dll+0x1f87a30 this+0x2ee00000000
+    GetDOTATime : function -> client.dll+0x1f217b0 method=client.dll+0x1f85650 this+0x2ee00000000
+    IsGamePaused : function -> client.dll+0x1f26320 method=client.dll+0x1fbf940 this+0x2ee00000000
+    IsDayTime : function -> client.dll+0x1f26320 method=client.dll+0x1fbee50 this+0x2ee00000000
+    IsInToolsMode : function -> client.dll+0x1f26320 method=client.dll+0x1fc00d0 this+0x2ee00000000
+    IsInBanPhase : function -> client.dll+0x1f26320 method=client.dll+0x1fbff90 this+0x2ee00000000
+    GetGameWinner : function -> client.dll+0x1f1ff20 method=client.dll+0x1f87a60 this+0x2ee00000000
+    GetStateTransitionTime : function -> client.dll+0x1f23ad0 method=client.dll+0x1f92a30 this+0x2ee00000000
+    GetCustomGameDifficulty : function -> client.dll+0x1f1ff20 method=client.dll+0x1f85570 this+0x2ee00000000
+    IsHUDFlipped : function -> client.dll+0x1f26320 method=client.dll+0x1fbf9e0 this+0x2ee00000000
+    GetScreenWidth : function -> client.dll+0x1f1ff20 method=client.dll+0x1f91b40 this+0x2ee00000000
+    GetScreenHeight : function -> client.dll+0x1f1ff20 method=client.dll+0x1f91b00 this+0x2ee00000000
+    WorldToScreenX : function -> client.dll+0x1f20150 method=client.dll+0x1ffeb10 this+0x2ee00000000
+    WorldToScreenY : function -> client.dll+0x1f20150 method=client.dll+0x1ffeeb0 this+0x2ee00000000
+    ScreenXYToWorld : function -> client.dll+0x1f22600 method=client.dll+0x1ff9a60 this+0x2ee00000000
+    GetKeybindForAbility : function -> client.dll+0x1f21b60 method=client.dll+0x1f892e0 this+0x2ee00000000
+    GetKeybindForInventorySlot : function -> client.dll+0x1f21b60 method=client.dll+0x1f894a0 this+0x2ee00000000
+    GetKeybindForCommand : function -> client.dll+0x1f21b60 method=client.dll+0x1f893d0 this+0x2ee00000000
+    CreateCustomKeyBind : function -> client.dll+0x1f25080 method=client.dll+0x1f703f0 this+0x2ee00000000
+    GetNianFightTimeLeft : function -> client.dll+0x1f20d90 method=client.dll+0x1f8bdb0 this+0x2ee00000000
+    Diretide2020ShouldShowGameInfo : function -> client.dll+0x1f26320 method=client.dll+0x1f73ab0 this+0x2ee00000000
+    Diretide2020SetShowGameInfo : function -> client.dll+0x1f25f20 method=client.dll+0x1f73a10 this+0x2ee00000000
+    Diretide2020GetGameplayTipNumber : function -> client.dll+0x1f1ff20 method=client.dll+0x1f738d0 this+0x2ee00000000
+    Diretide2020SetGameplayTipNumber : function -> client.dll+0x1f24110 method=client.dll+0x1f73970 this+0x2ee00000000
+    NemesticeGetGameplayTipNumber : function -> client.dll+0x1f1ff20 method=client.dll+0x1fe1880 this+0x2ee00000000
+    NemesticeSetGameplayTipNumber : function -> client.dll+0x1f24110 method=client.dll+0x1fe1920 this+0x2ee00000000
+    NemesticeShouldShowGameInfo : function -> client.dll+0x1f26320 method=client.dll+0x1fe1a60 this+0x2ee00000000
+    NemesticeSetShowGameInfo : function -> client.dll+0x1f25f20 method=client.dll+0x1fe19c0 this+0x2ee00000000
+    Winter2022ShouldShowGameInfo : function -> client.dll+0x1f26320 method=client.dll+0x1ffea70 this+0x2ee00000000
+    Winter2022SetShowGameInfo : function -> client.dll+0x1f25f20 method=client.dll+0x1ffe9d0 this+0x2ee00000000
+    Winter2022GetGameplayTipNumber : function -> client.dll+0x1f1ff20 method=client.dll+0x1ffe890 this+0x2ee00000000
+    Winter2022SetGameplayTipNumber : function -> client.dll+0x1f24110 method=client.dll+0x1ffe930 this+0x2ee00000000
+    ForceCustomUILoad : function -> client.dll+0x1f23f30 method=client.dll+0x1f7e840 this+0x2ee00000000
+    CutToDefaultCamera : function -> client.dll+0x1f23f30 method=client.dll+0x1f71330 this+0x2ee00000000
+    PlayDataDrivenCamera : function -> client.dll+0x1f20fc0 method=client.dll+0x1fe7150 this+0x2ee00000000
+    GetState : function -> client.dll+0x1f1ff20 method=client.dll+0x1f92a00 this+0x2ee00000000
+    GameStateIs : function -> client.dll+0x1f26550 method=client.dll+0x1f7ed10 this+0x2ee00000000
+    GameStateIsBefore : function -> client.dll+0x1f26550 method=client.dll+0x1f7ed90 this+0x2ee00000000
+    GameStateIsAfter : function -> client.dll+0x1f26550 method=client.dll+0x1f7ed50 this+0x2ee00000000
+    AddCommand : function -> client.dll+0x1f25400 method=client.dll+0x1f5b730 this+0x2ee00000000
+    GetJoyFocusPanel : function -> client.dll+0x1f238a0 method=client.dll+0x1f89120 this+0x2ee00000000
+    SetJoyFocusPanel : function -> client.dll+0x1f257b0 method=client.dll+0x1ffb130 this+0x2ee00000000
+    PushJoyFocusPanel : function -> client.dll+0x1f257b0 method=client.dll+0x1fe8af0 this+0x2ee00000000
+    PopJoyFocusPanel : function -> client.dll+0x1f23f30 method=client.dll+0x1fe72e0 this+0x2ee00000000
+    GetLocalPlayerID : function -> client.dll+0x1f23d00 method=client.dll+0x1f89e40 this+0x2ee00000000
+    PlayerJoinTeam : function -> client.dll+0x1f24110 method=client.dll+0x1fe7220 this+0x2ee00000000
+    AutoAssignPlayersToTeams : function -> client.dll+0x1f23f30 method=client.dll+0x1f5cb90 this+0x2ee00000000
+    ShufflePlayerTeamAssignments : function -> client.dll+0x1f23f30 method=client.dll+0x1ffcb50 this+0x2ee00000000
+    SetRemainingSetupTime : function -> client.dll+0x1f24870 method=client.dll+0x1ffbac0 this+0x2ee00000000
+    SetAutoLaunchDelay : function -> client.dll+0x1f24870 method=client.dll+0x1ff9e60 this+0x2ee00000000
+    SetAutoLaunchEnabled : function -> client.dll+0x1f25f20 method=client.dll+0x1ff9ee0 this+0x2ee00000000
+    GetAutoLaunchEnabled : function -> client.dll+0x1f26320 method=client.dll+0x1f82bc0 this+0x2ee00000000
+    SetTeamSelectionLocked : function -> client.dll+0x1f25f20 method=client.dll+0x1ffbbe0 this+0x2ee00000000
+    GetTeamSelectionLocked : function -> client.dll+0x1f26320 method=client.dll+0x1f93510 this+0x2ee00000000
+    GetAllTeamIDs : function -> client.dll+0x1f21f90 method=client.dll+0x1f824f0 this+0x2ee00000000
+    GetAllPlayerIDs : function -> client.dll+0x1f21f90 method=client.dll+0x1f820c0 this+0x2ee00000000
+    GetUnassignedPlayerIDs : function -> client.dll+0x1f21f90 method=client.dll+0x1f94ba0 this+0x2ee00000000
+    GetPlayerUltimateStateOrTime : function -> client.dll+0x1f20950 method=client.dll+0x1f8fb30 this+0x2ee00000000
+    IsPlayerMuted : function -> client.dll+0x1f26de0 method=client.dll+0x1fc17b0 this+0x2ee00000000
+    SetPlayerMuted : function -> client.dll+0x1f25bb0 method=client.dll+0x1ffb990 this+0x2ee00000000
+    IsPlayerMutedVoice : function -> client.dll+0x1f26de0 method=client.dll+0x1fc1830 this+0x2ee00000000
+    SetPlayerMutedVoice : function -> client.dll+0x1f25bb0 method=client.dll+0x1ffba50 this+0x2ee00000000
+    IsPlayerMutedText : function -> client.dll+0x1f26de0 method=client.dll+0x1fc17f0 this+0x2ee00000000
+    SetPlayerMutedText : function -> client.dll+0x1f25bb0 method=client.dll+0x1ffb9e0 this+0x2ee00000000
+    GetTeamDetails : function -> client.dll+0x1f23010 method=client.dll+0x1f930a0 this+0x2ee00000000
+    GetLocalPlayerInfo : function -> client.dll+0x1f22de0 method=client.dll+0x1f89e80 this+0x2ee00000000
+    GetPlayerItems : function -> client.dll+0x1f23450 method=client.dll+0x1f8f380 this+0x2ee00000000
+    GetPlayerInfo : function -> client.dll+0x1f23450 method=client.dll+0x1f8e720 this+0x2ee00000000
+    GetPlayerIDsOnTeam : function -> client.dll+0x1f221c0 method=client.dll+0x1f8e500 this+0x2ee00000000
+    ServerCmd : function -> client.dll+0x1f24c70 method=client.dll+0x1ff9e40 this+0x2ee00000000
+    SetDotaRefractHeroes : function -> client.dll+0x1f25f20 method=client.dll+0x1ffb100 this+0x2ee00000000
+    FinishGame : function -> client.dll+0x1f23f30 method=client.dll+0x1f7e5f0 this+0x2ee00000000
+    LeaveCurrentGame : function -> client.dll+0x1f23f30 method=client.dll+0x1fdd8a0 this+0x2ee00000000
+    Disconnect : function -> client.dll+0x1f23f30 method=client.dll+0x1f73b50 this+0x2ee00000000
+    FindEventMatch : function -> client.dll+0x1f23f30 method=client.dll+0x1f79dc0 this+0x2ee00000000
+    SlideOutEventGamePlayButton : function -> client.dll+0x1f23f30 method=client.dll+0x1ffcbc0 this+0x2ee00000000
+    EmitSound : function -> client.dll+0x1f20500 method=client.dll+0x1f75610 this+0x2ee00000000
+    StopSound : function -> client.dll+0x1f24110 method=client.dll+0x1ffcfc0 this+0x2ee00000000
+    IsShopOpen : function -> client.dll+0x1f26320 method=client.dll+0x1fc2350 this+0x2ee00000000
+    SetCustomShopEntityString : function -> client.dll+0x1f24c70 method=client.dll+0x1ffb0a0 this+0x2ee00000000
+    GetConvarBool : function -> client.dll+0x1f26990 method=client.dll+0x1f84200 this+0x2ee00000000
+    GetConvarInt : function -> client.dll+0x1f20500 method=client.dll+0x1f84300 this+0x2ee00000000
+    GetConvarFloat : function -> client.dll+0x1f20fc0 method=client.dll+0x1f84280 this+0x2ee00000000
+    GetMapInfo : function -> client.dll+0x1f22de0 method=client.dll+0x1f8a630 this+0x2ee00000000
+    PrepareUnitOrders : function -> client.dll+0x1f2b4a0 method=client.dll+0x1fe7330 this+0x2ee00000000
+    DropItemAtCursor : function -> client.dll+0x1f24510 method=client.dll+0x1f754d0 this+0x2ee00000000
+    Length2D : function -> client.dll+0x1f21410 method=client.dll+0x1fdd950 this+0x2ee00000000
+    Normalized : function -> client.dll+0x1f229a0 method=client.dll+0x1fe45a0 this+0x2ee00000000
+    EnterAbilityLearnMode : function -> client.dll+0x1f23f30 method=client.dll+0x1f794d0 this+0x2ee00000000
+    EndAbilityLearnMode : function -> client.dll+0x1f23f30 method=client.dll+0x1f756e0 this+0x2ee00000000
+    IsInAbilityLearnMode : function -> client.dll+0x1f26320 method=client.dll+0x1fbfee0 this+0x2ee00000000
+DOTA_GameState : object
+    DOTA_GAMERULES_STATE_INIT : number = 0
+    DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD : number = 1
+    DOTA_GAMERULES_STATE_HERO_SELECTION : number = 4
+    DOTA_GAMERULES_STATE_STRATEGY_TIME : number = 5
+    DOTA_GAMERULES_STATE_PRE_GAME : number = 8
+    DOTA_GAMERULES_STATE_GAME_IN_PROGRESS : number = 10
+    DOTA_GAMERULES_STATE_POST_GAME : number = 11
+    DOTA_GAMERULES_STATE_DISCONNECT : number = 12
+    DOTA_GAMERULES_STATE_TEAM_SHOWCASE : number = 6
+    DOTA_GAMERULES_STATE_CUSTOM_GAME_SETUP : number = 2
+    DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD : number = 7
+    DOTA_GAMERULES_STATE_SCENARIO_SETUP : number = 9
+    DOTA_GAMERULES_STATE_PLAYER_DRAFT : number = 3
+    DOTA_GAMERULES_STATE_LAST : number = 0
+DOTA_GC_TEAM : object
+    DOTA_GC_TEAM_GOOD_GUYS : number = 0
+    DOTA_GC_TEAM_BAD_GUYS : number = 1
+    DOTA_GC_TEAM_BROADCASTER : number = 2
+    DOTA_GC_TEAM_SPECTATOR : number = 3
+    DOTA_GC_TEAM_PLAYER_POOL : number = 4
+    DOTA_GC_TEAM_NOTEAM : number = 5
+    DOTA_GC_TEAM_CUSTOM_1 : number = 6
+    DOTA_GC_TEAM_CUSTOM_2 : number = 7
+    DOTA_GC_TEAM_CUSTOM_3 : number = 8
+    DOTA_GC_TEAM_CUSTOM_4 : number = 9
+    DOTA_GC_TEAM_CUSTOM_5 : number = 10
+    DOTA_GC_TEAM_CUSTOM_6 : number = 11
+    DOTA_GC_TEAM_CUSTOM_7 : number = 12
+    DOTA_GC_TEAM_CUSTOM_8 : number = 13
+    DOTA_GC_TEAM_NEUTRALS : number = 14
+DOTA_GameMode : object
+    DOTA_GAMEMODE_NONE : number = 0
+    DOTA_GAMEMODE_AP : number = 1
+    DOTA_GAMEMODE_CM : number = 2
+    DOTA_GAMEMODE_RD : number = 3
+    DOTA_GAMEMODE_SD : number = 4
+    DOTA_GAMEMODE_AR : number = 5
+    DOTA_GAMEMODE_INTRO : number = 6
+    DOTA_GAMEMODE_HW : number = 7
+    DOTA_GAMEMODE_REVERSE_CM : number = 8
+    DOTA_GAMEMODE_XMAS : number = 9
+    DOTA_GAMEMODE_TUTORIAL : number = 10
+    DOTA_GAMEMODE_MO : number = 11
+    DOTA_GAMEMODE_LP : number = 12
+    DOTA_GAMEMODE_POOL1 : number = 13
+    DOTA_GAMEMODE_FH : number = 14
+    DOTA_GAMEMODE_CUSTOM : number = 15
+    DOTA_GAMEMODE_CD : number = 16
+    DOTA_GAMEMODE_BD : number = 17
+    DOTA_GAMEMODE_ABILITY_DRAFT : number = 18
+    DOTA_GAMEMODE_EVENT : number = 19
+    DOTA_GAMEMODE_ARDM : number = 20
+    DOTA_GAMEMODE_1V1MID : number = 21
+    DOTA_GAMEMODE_ALL_DRAFT : number = 22
+    DOTA_GAMEMODE_TURBO : number = 23
+    DOTA_GAMEMODE_MUTATION : number = 24
+    DOTA_GAMEMODE_COACHES_CHALLENGE : number = 25
+    DOTA_GAMEMODE_BOT_CHALLENGE : number = 26
+DOTAConnectionState_t : object
+    DOTA_CONNECTION_STATE_UNKNOWN : number = 0
+    DOTA_CONNECTION_STATE_NOT_YET_CONNECTED : number = 1
+    DOTA_CONNECTION_STATE_CONNECTED : number = 2
+    DOTA_CONNECTION_STATE_DISCONNECTED : number = 3
+    DOTA_CONNECTION_STATE_ABANDONED : number = 4
+    DOTA_CONNECTION_STATE_LOADING : number = 5
+    DOTA_CONNECTION_STATE_FAILED : number = 6
+dotaunitorder_t : object
+    DOTA_UNIT_ORDER_NONE : number = 0
+    DOTA_UNIT_ORDER_MOVE_TO_POSITION : number = 1
+    DOTA_UNIT_ORDER_MOVE_TO_TARGET : number = 2
+    DOTA_UNIT_ORDER_ATTACK_MOVE : number = 3
+    DOTA_UNIT_ORDER_ATTACK_TARGET : number = 4
+    DOTA_UNIT_ORDER_CAST_POSITION : number = 5
+    DOTA_UNIT_ORDER_CAST_TARGET : number = 6
+    DOTA_UNIT_ORDER_CAST_TARGET_TREE : number = 7
+    DOTA_UNIT_ORDER_CAST_NO_TARGET : number = 8
+    DOTA_UNIT_ORDER_CAST_TOGGLE : number = 9
+    DOTA_UNIT_ORDER_HOLD_POSITION : number = 10
+    DOTA_UNIT_ORDER_TRAIN_ABILITY : number = 11
+    DOTA_UNIT_ORDER_DROP_ITEM : number = 12
+    DOTA_UNIT_ORDER_GIVE_ITEM : number = 13
+    DOTA_UNIT_ORDER_PICKUP_ITEM : number = 14
+    DOTA_UNIT_ORDER_PICKUP_RUNE : number = 15
+    DOTA_UNIT_ORDER_PURCHASE_ITEM : number = 16
+    DOTA_UNIT_ORDER_SELL_ITEM : number = 17
+    DOTA_UNIT_ORDER_DISASSEMBLE_ITEM : number = 18
+    DOTA_UNIT_ORDER_MOVE_ITEM : number = 19
+    DOTA_UNIT_ORDER_CAST_TOGGLE_AUTO : number = 20
+    DOTA_UNIT_ORDER_STOP : number = 21
+    DOTA_UNIT_ORDER_TAUNT : number = 22
+    DOTA_UNIT_ORDER_BUYBACK : number = 23
+    DOTA_UNIT_ORDER_GLYPH : number = 24
+    DOTA_UNIT_ORDER_EJECT_ITEM_FROM_STASH : number = 25
+    DOTA_UNIT_ORDER_CAST_RUNE : number = 26
+    DOTA_UNIT_ORDER_PING_ABILITY : number = 27
+    DOTA_UNIT_ORDER_MOVE_TO_DIRECTION : number = 28
+    DOTA_UNIT_ORDER_PATROL : number = 29
+    DOTA_UNIT_ORDER_VECTOR_TARGET_POSITION : number = 30
+    DOTA_UNIT_ORDER_RADAR : number = 31
+    DOTA_UNIT_ORDER_SET_ITEM_COMBINE_LOCK : number = 32
+    DOTA_UNIT_ORDER_CONTINUE : number = 33
+    DOTA_UNIT_ORDER_VECTOR_TARGET_CANCELED : number = 34
+    DOTA_UNIT_ORDER_CAST_RIVER_PAINT : number = 35
+    DOTA_UNIT_ORDER_PREGAME_ADJUST_ITEM_ASSIGNMENT : number = 36
+    DOTA_UNIT_ORDER_DROP_ITEM_AT_FOUNTAIN : number = 37
+    DOTA_UNIT_ORDER_TAKE_ITEM_FROM_NEUTRAL_ITEM_STASH : number = 38
+    DOTA_UNIT_ORDER_MOVE_RELATIVE : number = 39
+    DOTA_UNIT_ORDER_CAST_TOGGLE_ALT : number = 40
+    DOTA_UNIT_ORDER_CONSUME_ITEM : number = 41
+    DOTA_UNIT_ORDER_SET_ITEM_MARK_FOR_SELL : number = 42
+DOTA_OVERHEAD_ALERT : object
+    OVERHEAD_ALERT_GOLD : number = 0
+    OVERHEAD_ALERT_DENY : number = 1
+    OVERHEAD_ALERT_CRITICAL : number = 2
+    OVERHEAD_ALERT_XP : number = 3
+    OVERHEAD_ALERT_BONUS_SPELL_DAMAGE : number = 4
+    OVERHEAD_ALERT_MISS : number = 5
+    OVERHEAD_ALERT_DAMAGE : number = 6
+    OVERHEAD_ALERT_EVADE : number = 7
+    OVERHEAD_ALERT_BLOCK : number = 8
+    OVERHEAD_ALERT_BONUS_POISON_DAMAGE : number = 9
+    OVERHEAD_ALERT_HEAL : number = 10
+    OVERHEAD_ALERT_MANA_ADD : number = 11
+    OVERHEAD_ALERT_MANA_LOSS : number = 12
+    OVERHEAD_ALERT_MAGICAL_BLOCK : number = 16
+    OVERHEAD_ALERT_INCOMING_DAMAGE : number = 17
+    OVERHEAD_ALERT_OUTGOING_DAMAGE : number = 18
+    OVERHEAD_ALERT_DISABLE_RESIST : number = 19
+    OVERHEAD_ALERT_DEATH : number = 20
+    OVERHEAD_ALERT_BLOCKED : number = 21
+    OVERHEAD_ALERT_ITEM_RECEIVED : number = 22
+    OVERHEAD_ALERT_SHARD : number = 23
+    OVERHEAD_ALERT_DEADLY_BLOW : number = 24
+    OVERHEAD_ALERT_FORCE_MISS : number = 25
+    OVERHEAD_ALERT_AEGIS : number = 26
+    OVERHEAD_ALERT_DISPEL : number = 27
+    OVERHEAD_ALERT_BONUS_PURE_DAMAGE : number = 28
+DOTA_HeroPickState : object
+    DOTA_HEROPICK_STATE_NONE : number = 0
+    DOTA_HEROPICK_STATE_AP_SELECT : number = 1
+    DOTA_HEROPICK_STATE_SD_SELECT : number = 2
+    DOTA_HEROPICK_STATE_INTRO_SELECT_UNUSED : number = 3
+    DOTA_HEROPICK_STATE_RD_SELECT_UNUSED : number = 4
+    DOTA_HEROPICK_STATE_CM_INTRO : number = 5
+    DOTA_HEROPICK_STATE_CM_CAPTAINPICK : number = 6
+    DOTA_HEROPICK_STATE_CM_BAN1 : number = 7
+    DOTA_HEROPICK_STATE_CM_BAN2 : number = 8
+    DOTA_HEROPICK_STATE_CM_BAN3 : number = 9
+    DOTA_HEROPICK_STATE_CM_BAN4 : number = 10
+    DOTA_HEROPICK_STATE_CM_BAN5 : number = 11
+    DOTA_HEROPICK_STATE_CM_BAN6 : number = 12
+    DOTA_HEROPICK_STATE_CM_BAN7 : number = 13
+    DOTA_HEROPICK_STATE_CM_BAN8 : number = 14
+    DOTA_HEROPICK_STATE_CM_BAN9 : number = 15
+    DOTA_HEROPICK_STATE_CM_BAN10 : number = 16
+    DOTA_HEROPICK_STATE_CM_BAN11 : number = 17
+    DOTA_HEROPICK_STATE_CM_BAN12 : number = 18
+    DOTA_HEROPICK_STATE_CM_BAN13 : number = 19
+    DOTA_HEROPICK_STATE_CM_BAN14 : number = 20
+    DOTA_HEROPICK_STATE_CM_SELECT1 : number = 21
+    DOTA_HEROPICK_STATE_CM_SELECT2 : number = 22
+    DOTA_HEROPICK_STATE_CM_SELECT3 : number = 23
+    DOTA_HEROPICK_STATE_CM_SELECT4 : number = 24
+    DOTA_HEROPICK_STATE_CM_SELECT5 : number = 25
+    DOTA_HEROPICK_STATE_CM_SELECT6 : number = 26
+    DOTA_HEROPICK_STATE_CM_SELECT7 : number = 27
+    DOTA_HEROPICK_STATE_CM_SELECT8 : number = 28
+    DOTA_HEROPICK_STATE_CM_SELECT9 : number = 29
+    DOTA_HEROPICK_STATE_CM_SELECT10 : number = 30
+    DOTA_HEROPICK_STATE_CM_PICK : number = 31
+    DOTA_HEROPICK_STATE_AR_SELECT : number = 32
+    DOTA_HEROPICK_STATE_MO_SELECT : number = 33
+    DOTA_HEROPICK_STATE_FH_SELECT : number = 34
+    DOTA_HEROPICK_STATE_CD_INTRO : number = 35
+    DOTA_HEROPICK_STATE_CD_CAPTAINPICK : number = 36
+    DOTA_HEROPICK_STATE_CD_BAN1 : number = 37
+    DOTA_HEROPICK_STATE_CD_BAN2 : number = 38
+    DOTA_HEROPICK_STATE_CD_BAN3 : number = 39
+    DOTA_HEROPICK_STATE_CD_BAN4 : number = 40
+    DOTA_HEROPICK_STATE_CD_BAN5 : number = 41
+    DOTA_HEROPICK_STATE_CD_BAN6 : number = 42
+    DOTA_HEROPICK_STATE_CD_SELECT1 : number = 43
+    DOTA_HEROPICK_STATE_CD_SELECT2 : number = 44
+    DOTA_HEROPICK_STATE_CD_SELECT3 : number = 45
+    DOTA_HEROPICK_STATE_CD_SELECT4 : number = 46
+    DOTA_HEROPICK_STATE_CD_SELECT5 : number = 47
+    DOTA_HEROPICK_STATE_CD_SELECT6 : number = 48
+    DOTA_HEROPICK_STATE_CD_SELECT7 : number = 49
+    DOTA_HEROPICK_STATE_CD_SELECT8 : number = 50
+    DOTA_HEROPICK_STATE_CD_SELECT9 : number = 51
+    DOTA_HEROPICK_STATE_CD_SELECT10 : number = 52
+    DOTA_HEROPICK_STATE_CD_PICK : number = 53
+    DOTA_HEROPICK_STATE_BD_SELECT : number = 54
+    DOTA_HERO_PICK_STATE_ABILITY_DRAFT_SELECT : number = 55
+    DOTA_HERO_PICK_STATE_ARDM_SELECT : number = 56
+    DOTA_HEROPICK_STATE_ALL_DRAFT_SELECT : number = 57
+    DOTA_HERO_PICK_STATE_CUSTOMGAME_SELECT : number = 58
+    DOTA_HEROPICK_STATE_SELECT_PENALTY : number = 59
+    DOTA_HEROPICK_STATE_CUSTOM_PICK_RULES : number = 60
+    DOTA_HEROPICK_STATE_SCENARIO_PICK : number = 61
+    DOTA_HEROPICK_STATE_COUNT : number = 62
+DOTATeam_t : object
+    DOTA_TEAM_FIRST : number = 2
+    DOTA_TEAM_GOODGUYS : number = 2
+    DOTA_TEAM_BADGUYS : number = 3
+    DOTA_TEAM_NEUTRALS : number = 4
+    DOTA_TEAM_NOTEAM : number = 5
+    DOTA_TEAM_CUSTOM_1 : number = 6
+    DOTA_TEAM_CUSTOM_2 : number = 7
+    DOTA_TEAM_CUSTOM_3 : number = 8
+    DOTA_TEAM_CUSTOM_4 : number = 9
+    DOTA_TEAM_CUSTOM_5 : number = 10
+    DOTA_TEAM_CUSTOM_6 : number = 11
+    DOTA_TEAM_CUSTOM_7 : number = 12
+    DOTA_TEAM_CUSTOM_8 : number = 13
+    DOTA_TEAM_DRAFT_POOL : number = 14
+    DOTA_TEAM_COUNT : number = 15
+    DOTA_TEAM_CUSTOM_MIN : number = 6
+    DOTA_TEAM_CUSTOM_MAX : number = 13
+    DOTA_TEAM_CUSTOM_COUNT : number = 8
+DOTA_RUNES : object
+    DOTA_RUNE_INVALID : number = -1
+    DOTA_RUNE_DOUBLEDAMAGE : number = 0
+    DOTA_RUNE_HASTE : number = 1
+    DOTA_RUNE_ILLUSION : number = 2
+    DOTA_RUNE_INVISIBILITY : number = 3
+    DOTA_RUNE_REGENERATION : number = 4
+    DOTA_RUNE_BOUNTY : number = 5
+    DOTA_RUNE_ARCANE : number = 6
+    DOTA_RUNE_WATER : number = 7
+    DOTA_RUNE_XP : number = 8
+    DOTA_RUNE_SHIELD : number = 9
+    DOTA_RUNE_COUNT : number = 10
+DOTA_UNIT_TARGET_TEAM : object
+    DOTA_UNIT_TARGET_TEAM_NONE : number = 0
+    DOTA_UNIT_TARGET_TEAM_FRIENDLY : number = 1
+    DOTA_UNIT_TARGET_TEAM_ENEMY : number = 2
+    DOTA_UNIT_TARGET_TEAM_CUSTOM : number = 4
+    DOTA_UNIT_TARGET_TEAM_BOTH : number = 3
+DOTA_UNIT_TARGET_TYPE : object
+    DOTA_UNIT_TARGET_NONE : number = 0
+    DOTA_UNIT_TARGET_HERO : number = 1
+    DOTA_UNIT_TARGET_CREEP : number = 2
+    DOTA_UNIT_TARGET_BUILDING : number = 4
+    DOTA_UNIT_TARGET_COURIER : number = 16
+    DOTA_UNIT_TARGET_OTHER : number = 32
+    DOTA_UNIT_TARGET_TREE : number = 64
+    DOTA_UNIT_TARGET_CUSTOM : number = 128
+    DOTA_UNIT_TARGET_SELF : number = 256
+    DOTA_UNIT_TARGET_BASIC : number = 18
+    DOTA_UNIT_TARGET_ALL : number = 55
+    DOTA_UNIT_TARGET_HEROES_AND_CREEPS : number = 19
+DOTA_UNIT_TARGET_FLAGS : object
+    DOTA_UNIT_TARGET_FLAG_NONE : number = 0
+    DOTA_UNIT_TARGET_FLAG_RANGED_ONLY : number = 2
+    DOTA_UNIT_TARGET_FLAG_MELEE_ONLY : number = 4
+    DOTA_UNIT_TARGET_FLAG_DEAD : number = 8
+    DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES : number = 16
+    DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES : number = 32
+    DOTA_UNIT_TARGET_FLAG_INVULNERABLE : number = 64
+    DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE : number = 128
+    DOTA_UNIT_TARGET_FLAG_NO_INVIS : number = 256
+    DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS : number = 512
+    DOTA_UNIT_TARGET_FLAG_PLAYER_CONTROLLED : number = 1024
+    DOTA_UNIT_TARGET_FLAG_NOT_DOMINATED : number = 2048
+    DOTA_UNIT_TARGET_FLAG_NOT_SUMMONED : number = 4096
+    DOTA_UNIT_TARGET_FLAG_NOT_ILLUSIONS : number = 8192
+    DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE : number = 16384
+    DOTA_UNIT_TARGET_FLAG_MANA_ONLY : number = 32768
+    DOTA_UNIT_TARGET_FLAG_CHECK_DISABLE_HELP : number = 65536
+    DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO : number = 131072
+    DOTA_UNIT_TARGET_FLAG_OUT_OF_WORLD : number = 262144
+    DOTA_UNIT_TARGET_FLAG_NOT_NIGHTMARED : number = 524288
+    DOTA_UNIT_TARGET_FLAG_PREFER_ENEMIES : number = 1048576
+    DOTA_UNIT_TARGET_FLAG_RESPECT_OBSTRUCTIONS : number = 2097152
+    DOTA_UNIT_TARGET_FLAG_CAN_BE_SEEN : number = 384
+DOTALimits_t : object
+    DOTA_MAX_PLAYERS : number = 64
+    DOTA_MAX_TEAM : number = 24
+    DOTA_MAX_PLAYER_TEAMS : number = 10
+    DOTA_MAX_TEAM_PLAYERS : number = 24
+    DOTA_MAX_SPECTATOR_TEAM_SIZE : number = 40
+    DOTA_MAX_SPECTATOR_LOBBY_SIZE : number = 15
+    DOTA_DEFAULT_MAX_TEAM : number = 5
+    DOTA_DEFAULT_MAX_TEAM_PLAYERS : number = 10
+DOTAInventoryFlags_t : object
+    DOTA_INVENTORY_ALLOW_NONE : number = 0
+    DOTA_INVENTORY_ALLOW_MAIN : number = 1
+    DOTA_INVENTORY_ALLOW_STASH : number = 2
+    DOTA_INVENTORY_ALLOW_DROP_ON_GROUND : number = 4
+    DOTA_INVENTORY_ALLOW_DROP_AT_FOUNTAIN : number = 8
+    DOTA_INVENTORY_LIMIT_DROP_ON_GROUND : number = 16
+    DOTA_INVENTORY_ALL_ACCESS : number = 3
+EDOTA_ModifyGold_Reason : object
+    DOTA_ModifyGold_Unspecified : number = 0
+    DOTA_ModifyGold_Death : number = 1
+    DOTA_ModifyGold_Buyback : number = 2
+    DOTA_ModifyGold_PurchaseConsumable : number = 3
+    DOTA_ModifyGold_PurchaseItem : number = 4
+    DOTA_ModifyGold_AbandonedRedistribute : number = 5
+    DOTA_ModifyGold_SellItem : number = 6
+    DOTA_ModifyGold_AbilityCost : number = 7
+    DOTA_ModifyGold_CheatCommand : number = 8
+    DOTA_ModifyGold_SelectionPenalty : number = 9
+    DOTA_ModifyGold_GameTick : number = 10
+    DOTA_ModifyGold_Building : number = 11
+    DOTA_ModifyGold_HeroKill : number = 12
+    DOTA_ModifyGold_CreepKill : number = 13
+    DOTA_ModifyGold_NeutralKill : number = 14
+    DOTA_ModifyGold_RoshanKill : number = 15
+    DOTA_ModifyGold_CourierKill : number = 16
+    DOTA_ModifyGold_BountyRune : number = 17
+    DOTA_ModifyGold_SharedGold : number = 18
+    DOTA_ModifyGold_AbilityGold : number = 19
+    DOTA_ModifyGold_WardKill : number = 20
+    DOTA_ModifyGold_CourierKilledByThisPlayer : number = 21
+    DOTA_ModifyGold_SummonKill : number = 22
+DOTAUnitAttackCapability_t : object
+    DOTA_UNIT_CAP_NO_ATTACK : number = 0
+    DOTA_UNIT_CAP_MELEE_ATTACK : number = 1
+    DOTA_UNIT_CAP_RANGED_ATTACK : number = 2
+    DOTA_UNIT_CAP_RANGED_ATTACK_DIRECTIONAL : number = 4
+    DOTA_UNIT_ATTACK_CAPABILITY_BIT_COUNT : number = 3
+DOTAUnitMoveCapability_t : object
+    DOTA_UNIT_CAP_MOVE_NONE : number = 0
+    DOTA_UNIT_CAP_MOVE_GROUND : number = 1
+    DOTA_UNIT_CAP_MOVE_FLY : number = 2
+EShareAbility : object
+    ITEM_FULLY_SHAREABLE : number = 0
+    ITEM_PARTIALLY_SHAREABLE : number = 1
+    ITEM_NOT_SHAREABLE : number = 2
+DOTAMusicStatus_t : object
+    DOTA_MUSIC_STATUS_NONE : number = 0
+    DOTA_MUSIC_STATUS_EXPLORATION : number = 1
+    DOTA_MUSIC_STATUS_BATTLE : number = 2
+    DOTA_MUSIC_STATUS_PRE_GAME_EXPLORATION : number = 3
+    DOTA_MUSIC_STATUS_DEAD : number = 4
+    DOTA_MUSIC_STATUS_LAST : number = 5
+DOTA_ABILITY_BEHAVIOR : object
+    DOTA_ABILITY_BEHAVIOR_NONE : number = 0
+    DOTA_ABILITY_BEHAVIOR_HIDDEN : number = 1
+    DOTA_ABILITY_BEHAVIOR_PASSIVE : number = 2
+    DOTA_ABILITY_BEHAVIOR_NO_TARGET : number = 4
+    DOTA_ABILITY_BEHAVIOR_UNIT_TARGET : number = 8
+    DOTA_ABILITY_BEHAVIOR_POINT : number = 16
+    DOTA_ABILITY_BEHAVIOR_AOE : number = 32
+    DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE : number = 64
+    DOTA_ABILITY_BEHAVIOR_CHANNELLED : number = 128
+    DOTA_ABILITY_BEHAVIOR_ITEM : number = 256
+    DOTA_ABILITY_BEHAVIOR_TOGGLE : number = 512
+    DOTA_ABILITY_BEHAVIOR_DIRECTIONAL : number = 1024
+    DOTA_ABILITY_BEHAVIOR_IMMEDIATE : number = 2048
+    DOTA_ABILITY_BEHAVIOR_AUTOCAST : number = 4096
+    DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET : number = 8192
+    DOTA_ABILITY_BEHAVIOR_OPTIONAL_POINT : number = 16384
+    DOTA_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET : number = 32768
+    DOTA_ABILITY_BEHAVIOR_AURA : number = 65536
+    DOTA_ABILITY_BEHAVIOR_ATTACK : number = 131072
+    DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT : number = 262144
+    DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES : number = 524288
+    DOTA_ABILITY_BEHAVIOR_UNRESTRICTED : number = 1048576
+    DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE : number = 2097152
+    DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL : number = 4194304
+    DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT : number = 8388608
+    DOTA_ABILITY_BEHAVIOR_DONT_ALERT_TARGET : number = 16777216
+    DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK : number = 33554432
+    DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN : number = 67108864
+    DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING : number = 134217728
+    DOTA_ABILITY_BEHAVIOR_RUNE_TARGET : number = 268435456
+    DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL : number = 536870912
+    DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING : number = 1073741824
+    DOTA_ABILITY_BEHAVIOR_LAST_RESORT_POINT : number = -2147483648
+    DOTA_ABILITY_BEHAVIOR_CAN_SELF_CAST : number = 0
+    DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES : number = 0
+    DOTA_ABILITY_BEHAVIOR_UNLOCKED_BY_EFFECT_INDEX : number = 0
+    DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE : number = 0
+    DOTA_ABILITY_BEHAVIOR_FREE_DRAW_TARGETING : number = 0
+    DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE : number = 0
+    DOTA_ABILITY_BEHAVIOR_OVERSHOOT : number = 0
+    DOTA_ABILITY_BEHAVIOR_IGNORE_MUTED : number = 0
+    DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE : number = 0
+    DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS : number = 0
+    DOTA_ABILITY_BEHAVIOR_INNATE_UI : number = 0
+    DOTA_ABILITY_BEHAVIOR_UNSWAPPABLE : number = 0
+    DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES : number = 0
+    DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE : number = 0
+    DOTA_ABILITY_BEHAVIOR_AFFECTED_BY_MUTE : number = 0
+    DOTA_ABILITY_BEHAVIOR_IS_FAKE_ITEM : number = 0
+    DOTA_ABILITY_BEHAVIOR_FORCE_NO_INNATE_UI : number = 0
+    DOTA_ABILITY_BEHAVIOR_FORCE_KEYBIND : number = 0
+    DOTA_ABILITY_BEHAVIOR_ITEM_IMBUE : number = 0
+    DOTA_ABILITY_BEHAVIOR_HAS_DETAILS_UI : number = 0
+    DOTA_ABILITY_BEHAVIOR_DIRECT_KEYBIND : number = 0
+DAMAGE_TYPES : object
+    DAMAGE_TYPE_NONE : number = 0
+    DAMAGE_TYPE_PHYSICAL : number = 1
+    DAMAGE_TYPE_MAGICAL : number = 2
+    DAMAGE_TYPE_PURE : number = 4
+    DAMAGE_TYPE_HP_REMOVAL : number = 8
+    DAMAGE_TYPE_ABILITY_DEFINED : number = 16
+    DAMAGE_TYPE_ALL : number = 7
+ABILITY_TYPES : object
+    ABILITY_TYPE_BASIC : number = 0
+    ABILITY_TYPE_ULTIMATE : number = 1
+    ABILITY_TYPE_ATTRIBUTES : number = 2
+    ABILITY_TYPE_HIDDEN : number = 3
+SPELL_IMMUNITY_TYPES : object
+    SPELL_IMMUNITY_NONE : number = 0
+    SPELL_IMMUNITY_ALLIES_YES : number = 1
+    SPELL_IMMUNITY_ALLIES_NO : number = 2
+    SPELL_IMMUNITY_ENEMIES_YES : number = 3
+    SPELL_IMMUNITY_ENEMIES_NO : number = 4
+    SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO : number = 5
+DOTADamageFlag_t : object
+    DOTA_DAMAGE_FLAG_NONE : number = 0
+    DOTA_DAMAGE_FLAG_IGNORES_MAGIC_ARMOR : number = 1
+    DOTA_DAMAGE_FLAG_IGNORES_PHYSICAL_ARMOR : number = 2
+    DOTA_DAMAGE_FLAG_BYPASSES_INVULNERABILITY : number = 4
+    DOTA_DAMAGE_FLAG_BYPASSES_PHYSICAL_BLOCK : number = 8
+    DOTA_DAMAGE_FLAG_REFLECTION : number = 16
+    DOTA_DAMAGE_FLAG_HPLOSS : number = 32
+    DOTA_DAMAGE_FLAG_NO_DIRECTOR_EVENT : number = 64
+    DOTA_DAMAGE_FLAG_NON_LETHAL : number = 128
+    DOTA_DAMAGE_FLAG_NO_DAMAGE_MULTIPLIERS : number = 512
+    DOTA_DAMAGE_FLAG_NO_SPELL_AMPLIFICATION : number = 1024
+    DOTA_DAMAGE_FLAG_DONT_DISPLAY_DAMAGE_IF_SOURCE_HIDDEN : number = 2048
+    DOTA_DAMAGE_FLAG_NO_SPELL_LIFESTEAL : number = 4096
+    DOTA_DAMAGE_FLAG_PROPERTY_FIRE : number = 8192
+    DOTA_DAMAGE_FLAG_IGNORES_BASE_PHYSICAL_ARMOR : number = 16384
+    DOTA_DAMAGE_FLAG_SECONDARY_PROJECTILE_ATTACK : number = 32768
+    DOTA_DAMAGE_FLAG_FORCE_SPELL_AMPLIFICATION : number = 65536
+    DOTA_DAMAGE_FLAG_MAGIC_AUTO_ATTACK : number = 131072
+    DOTA_DAMAGE_FLAG_ATTACK_MODIFIER : number = 262144
+    DOTA_DAMAGE_FLAG_BYPASSES_ALL_BLOCK : number = 524288
+    DOTA_DAMAGE_FLAG_NO_REFLECTION : number = 1048576
+EDOTA_ModifyXP_Reason : object
+    DOTA_ModifyXP_Unspecified : number = 0
+    DOTA_ModifyXP_HeroKill : number = 1
+    DOTA_ModifyXP_CreepKill : number = 2
+    DOTA_ModifyXP_RoshanKill : number = 3
+    DOTA_ModifyXP_TomeOfKnowledge : number = 4
+    DOTA_ModifyXP_Outpost : number = 5
+    DOTA_ModifyXP_CatchUp : number = 6
+    DOTA_ModifyXP_HeroAbility : number = 7
+    DOTA_ModifyXP_SummonKill : number = 8
+    DOTA_ModifyXP_MAX : number = 9
+GameActivity_t : object
+    ACT_DOTA_IDLE : number = 1500
+    ACT_DOTA_IDLE_RARE : number = 1501
+    ACT_DOTA_RUN : number = 1502
+    ACT_DOTA_ATTACK : number = 1503
+    ACT_DOTA_ATTACK2 : number = 1504
+    ACT_DOTA_ATTACK_EVENT : number = 1505
+    ACT_DOTA_DIE : number = 1506
+    ACT_DOTA_FLINCH : number = 1507
+    ACT_DOTA_FLAIL : number = 1508
+    ACT_DOTA_DISABLED : number = 1509
+    ACT_DOTA_CAST_ABILITY_1 : number = 1510
+    ACT_DOTA_CAST_ABILITY_2 : number = 1511
+    ACT_DOTA_CAST_ABILITY_3 : number = 1512
+    ACT_DOTA_CAST_ABILITY_4 : number = 1513
+    ACT_DOTA_CAST_ABILITY_5 : number = 1514
+    ACT_DOTA_CAST_ABILITY_6 : number = 1515
+    ACT_DOTA_OVERRIDE_ABILITY_1 : number = 1516
+    ACT_DOTA_OVERRIDE_ABILITY_2 : number = 1517
+    ACT_DOTA_OVERRIDE_ABILITY_3 : number = 1518
+    ACT_DOTA_OVERRIDE_ABILITY_4 : number = 1519
+    ACT_DOTA_CHANNEL_ABILITY_1 : number = 1520
+    ACT_DOTA_CHANNEL_ABILITY_2 : number = 1521
+    ACT_DOTA_CHANNEL_ABILITY_3 : number = 1522
+    ACT_DOTA_CHANNEL_ABILITY_4 : number = 1523
+    ACT_DOTA_CHANNEL_ABILITY_5 : number = 1524
+    ACT_DOTA_CHANNEL_ABILITY_6 : number = 1525
+    ACT_DOTA_CHANNEL_END_ABILITY_1 : number = 1526
+    ACT_DOTA_CHANNEL_END_ABILITY_2 : number = 1527
+    ACT_DOTA_CHANNEL_END_ABILITY_3 : number = 1528
+    ACT_DOTA_CHANNEL_END_ABILITY_4 : number = 1529
+    ACT_DOTA_CHANNEL_END_ABILITY_5 : number = 1530
+    ACT_DOTA_CHANNEL_END_ABILITY_6 : number = 1531
+    ACT_DOTA_CONSTANT_LAYER : number = 1532
+    ACT_DOTA_CAPTURE : number = 1533
+    ACT_DOTA_SPAWN : number = 1534
+    ACT_DOTA_KILLTAUNT : number = 1535
+    ACT_DOTA_TAUNT : number = 1536
+    ACT_DOTA_THIRST : number = 1537
+    ACT_DOTA_CAST_DRAGONBREATH : number = 1538
+    ACT_DOTA_ECHO_SLAM : number = 1539
+    ACT_DOTA_CAST_ABILITY_1_END : number = 1540
+    ACT_DOTA_CAST_ABILITY_2_END : number = 1541
+    ACT_DOTA_CAST_ABILITY_3_END : number = 1542
+    ACT_DOTA_CAST_ABILITY_4_END : number = 1543
+    ACT_MIRANA_LEAP_END : number = 1544
+    ACT_WAVEFORM_START : number = 1545
+    ACT_WAVEFORM_END : number = 1546
+    ACT_DOTA_CAST_ABILITY_ROT : number = 1547
+    ACT_DOTA_DIE_SPECIAL : number = 1548
+    ACT_DOTA_RATTLETRAP_BATTERYASSAULT : number = 1549
+    ACT_DOTA_RATTLETRAP_POWERCOGS : number = 1550
+    ACT_DOTA_RATTLETRAP_HOOKSHOT_START : number = 1551
+    ACT_DOTA_RATTLETRAP_HOOKSHOT_LOOP : number = 1552
+    ACT_DOTA_RATTLETRAP_HOOKSHOT_END : number = 1553
+    ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE : number = 1554
+    ACT_DOTA_TINKER_REARM1 : number = 1555
+    ACT_DOTA_TINKER_REARM2 : number = 1556
+    ACT_DOTA_TINKER_REARM3 : number = 1557
+    ACT_TINY_AVALANCHE : number = 1558
+    ACT_TINY_TOSS : number = 1559
+    ACT_TINY_GROWL : number = 1560
+    ACT_DOTA_WEAVERBUG_ATTACH : number = 1561
+    ACT_DOTA_CAST_WILD_AXES_END : number = 1562
+    ACT_DOTA_CAST_LIFE_BREAK_START : number = 1563
+    ACT_DOTA_CAST_LIFE_BREAK_END : number = 1564
+    ACT_DOTA_NIGHTSTALKER_TRANSITION : number = 1565
+    ACT_DOTA_LIFESTEALER_RAGE : number = 1566
+    ACT_DOTA_LIFESTEALER_OPEN_WOUNDS : number = 1567
+    ACT_DOTA_SAND_KING_BURROW_IN : number = 1568
+    ACT_DOTA_SAND_KING_BURROW_OUT : number = 1569
+    ACT_DOTA_EARTHSHAKER_TOTEM_ATTACK : number = 1570
+    ACT_DOTA_WHEEL_LAYER : number = 1571
+    ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_START : number = 1572
+    ACT_DOTA_ALCHEMIST_CONCOCTION : number = 1573
+    ACT_DOTA_JAKIRO_LIQUIDFIRE_START : number = 1574
+    ACT_DOTA_JAKIRO_LIQUIDFIRE_LOOP : number = 1575
+    ACT_DOTA_LIFESTEALER_INFEST : number = 1576
+    ACT_DOTA_LIFESTEALER_INFEST_END : number = 1577
+    ACT_DOTA_LASSO_LOOP : number = 1578
+    ACT_DOTA_ALCHEMIST_CONCOCTION_THROW : number = 1579
+    ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_END : number = 1580
+    ACT_DOTA_CAST_COLD_SNAP : number = 1581
+    ACT_DOTA_CAST_GHOST_WALK : number = 1582
+    ACT_DOTA_CAST_TORNADO : number = 1583
+    ACT_DOTA_CAST_EMP : number = 1584
+    ACT_DOTA_CAST_ALACRITY : number = 1585
+    ACT_DOTA_CAST_CHAOS_METEOR : number = 1586
+    ACT_DOTA_CAST_SUN_STRIKE : number = 1587
+    ACT_DOTA_CAST_FORGE_SPIRIT : number = 1588
+    ACT_DOTA_CAST_ICE_WALL : number = 1589
+    ACT_DOTA_CAST_DEAFENING_BLAST : number = 1590
+    ACT_DOTA_VICTORY : number = 1591
+    ACT_DOTA_DEFEAT : number = 1592
+    ACT_DOTA_SPIRIT_BREAKER_CHARGE_POSE : number = 1593
+    ACT_DOTA_SPIRIT_BREAKER_CHARGE_END : number = 1594
+    ACT_DOTA_TELEPORT : number = 1595
+    ACT_DOTA_TELEPORT_END : number = 1596
+    ACT_DOTA_CAST_REFRACTION : number = 1597
+    ACT_DOTA_CAST_ABILITY_7 : number = 1598
+    ACT_DOTA_CANCEL_SIREN_SONG : number = 1599
+    ACT_DOTA_CHANNEL_ABILITY_7 : number = 1600
+    ACT_DOTA_LOADOUT : number = 1601
+    ACT_DOTA_FORCESTAFF_END : number = 1602
+    ACT_DOTA_POOF_END : number = 1603
+    ACT_DOTA_SLARK_POUNCE : number = 1604
+    ACT_DOTA_MAGNUS_SKEWER_START : number = 1605
+    ACT_DOTA_MAGNUS_SKEWER_END : number = 1606
+    ACT_DOTA_MEDUSA_STONE_GAZE : number = 1607
+    ACT_DOTA_RELAX_START : number = 1608
+    ACT_DOTA_RELAX_LOOP : number = 1609
+    ACT_DOTA_RELAX_END : number = 1610
+    ACT_DOTA_CENTAUR_STAMPEDE : number = 1611
+    ACT_DOTA_BELLYACHE_START : number = 1612
+    ACT_DOTA_BELLYACHE_LOOP : number = 1613
+    ACT_DOTA_BELLYACHE_END : number = 1614
+    ACT_DOTA_ROQUELAIRE_LAND : number = 1615
+    ACT_DOTA_ROQUELAIRE_LAND_IDLE : number = 1616
+    ACT_DOTA_GREEVIL_CAST : number = 1617
+    ACT_DOTA_GREEVIL_OVERRIDE_ABILITY : number = 1618
+    ACT_DOTA_GREEVIL_HOOK_START : number = 1619
+    ACT_DOTA_GREEVIL_HOOK_END : number = 1620
+    ACT_DOTA_GREEVIL_BLINK_BONE : number = 1621
+    ACT_DOTA_IDLE_SLEEPING : number = 1622
+    ACT_DOTA_INTRO : number = 1623
+    ACT_DOTA_GESTURE_POINT : number = 1624
+    ACT_DOTA_GESTURE_ACCENT : number = 1625
+    ACT_DOTA_SLEEPING_END : number = 1626
+    ACT_DOTA_AMBUSH : number = 1627
+    ACT_DOTA_ITEM_LOOK : number = 1628
+    ACT_DOTA_STARTLE : number = 1629
+    ACT_DOTA_FRUSTRATION : number = 1630
+    ACT_DOTA_TELEPORT_REACT : number = 1631
+    ACT_DOTA_TELEPORT_END_REACT : number = 1632
+    ACT_DOTA_SHRUG : number = 1633
+    ACT_DOTA_RELAX_LOOP_END : number = 1634
+    ACT_DOTA_PRESENT_ITEM : number = 1635
+    ACT_DOTA_IDLE_IMPATIENT : number = 1636
+    ACT_DOTA_SHARPEN_WEAPON : number = 1637
+    ACT_DOTA_SHARPEN_WEAPON_OUT : number = 1638
+    ACT_DOTA_IDLE_SLEEPING_END : number = 1639
+    ACT_DOTA_BRIDGE_DESTROY : number = 1640
+    ACT_DOTA_TAUNT_SNIPER : number = 1641
+    ACT_DOTA_DEATH_BY_SNIPER : number = 1642
+    ACT_DOTA_LOOK_AROUND : number = 1643
+    ACT_DOTA_CAGED_CREEP_RAGE : number = 1644
+    ACT_DOTA_CAGED_CREEP_RAGE_OUT : number = 1645
+    ACT_DOTA_CAGED_CREEP_SMASH : number = 1646
+    ACT_DOTA_CAGED_CREEP_SMASH_OUT : number = 1647
+    ACT_DOTA_IDLE_IMPATIENT_SWORD_TAP : number = 1648
+    ACT_DOTA_INTRO_LOOP : number = 1649
+    ACT_DOTA_BRIDGE_THREAT : number = 1650
+    ACT_DOTA_DAGON : number = 1651
+    ACT_DOTA_CAST_ABILITY_2_ES_ROLL_START : number = 1652
+    ACT_DOTA_CAST_ABILITY_2_ES_ROLL : number = 1653
+    ACT_DOTA_CAST_ABILITY_2_ES_ROLL_END : number = 1654
+    ACT_DOTA_NIAN_PIN_START : number = 1655
+    ACT_DOTA_NIAN_PIN_LOOP : number = 1656
+    ACT_DOTA_NIAN_PIN_END : number = 1657
+    ACT_DOTA_LEAP_STUN : number = 1658
+    ACT_DOTA_LEAP_SWIPE : number = 1659
+    ACT_DOTA_NIAN_INTRO_LEAP : number = 1660
+    ACT_DOTA_AREA_DENY : number = 1661
+    ACT_DOTA_NIAN_PIN_TO_STUN : number = 1662
+    ACT_DOTA_RAZE_1 : number = 1663
+    ACT_DOTA_RAZE_2 : number = 1664
+    ACT_DOTA_RAZE_3 : number = 1665
+    ACT_DOTA_UNDYING_DECAY : number = 1666
+    ACT_DOTA_UNDYING_SOUL_RIP : number = 1667
+    ACT_DOTA_UNDYING_TOMBSTONE : number = 1668
+    ACT_DOTA_WHIRLING_AXES_RANGED : number = 1669
+    ACT_DOTA_SHALLOW_GRAVE : number = 1670
+    ACT_DOTA_COLD_FEET : number = 1671
+    ACT_DOTA_ICE_VORTEX : number = 1672
+    ACT_DOTA_CHILLING_TOUCH : number = 1673
+    ACT_DOTA_ENFEEBLE : number = 1674
+    ACT_DOTA_FATAL_BONDS : number = 1675
+    ACT_DOTA_MIDNIGHT_PULSE : number = 1676
+    ACT_DOTA_ANCESTRAL_SPIRIT : number = 1677
+    ACT_DOTA_THUNDER_STRIKE : number = 1678
+    ACT_DOTA_KINETIC_FIELD : number = 1679
+    ACT_DOTA_STATIC_STORM : number = 1680
+    ACT_DOTA_MINI_TAUNT : number = 1681
+    ACT_DOTA_ARCTIC_BURN_END : number = 1682
+    ACT_DOTA_LOADOUT_RARE : number = 1683
+    ACT_DOTA_SWIM : number = 1684
+    ACT_DOTA_FLEE : number = 1685
+    ACT_DOTA_TROT : number = 1686
+    ACT_DOTA_SHAKE : number = 1687
+    ACT_DOTA_SWIM_IDLE : number = 1688
+    ACT_DOTA_WAIT_IDLE : number = 1689
+    ACT_DOTA_GREET : number = 1690
+    ACT_DOTA_TELEPORT_COOP_START : number = 1691
+    ACT_DOTA_TELEPORT_COOP_WAIT : number = 1692
+    ACT_DOTA_TELEPORT_COOP_END : number = 1693
+    ACT_DOTA_TELEPORT_COOP_EXIT : number = 1694
+    ACT_DOTA_SHOPKEEPER_PET_INTERACT : number = 1695
+    ACT_DOTA_ITEM_PICKUP : number = 1696
+    ACT_DOTA_ITEM_DROP : number = 1697
+    ACT_DOTA_CAPTURE_PET : number = 1698
+    ACT_DOTA_PET_WARD_OBSERVER : number = 1699
+    ACT_DOTA_PET_WARD_SENTRY : number = 1700
+    ACT_DOTA_PET_LEVEL : number = 1701
+    ACT_DOTA_CAST_BURROW_END : number = 1702
+    ACT_DOTA_LIFESTEALER_ASSIMILATE : number = 1703
+    ACT_DOTA_LIFESTEALER_EJECT : number = 1704
+    ACT_DOTA_ATTACK_EVENT_BASH : number = 1705
+    ACT_DOTA_CAPTURE_RARE : number = 1706
+    ACT_DOTA_AW_MAGNETIC_FIELD : number = 1707
+    ACT_DOTA_CAST_GHOST_SHIP : number = 1708
+    ACT_DOTA_FXANIM : number = 1709
+    ACT_DOTA_VICTORY_START : number = 1710
+    ACT_DOTA_DEFEAT_START : number = 1711
+    ACT_DOTA_DP_SPIRIT_SIPHON : number = 1712
+    ACT_DOTA_TRICKS_END : number = 1713
+    ACT_DOTA_ES_STONE_CALLER : number = 1714
+    ACT_DOTA_MK_STRIKE : number = 1715
+    ACT_DOTA_VERSUS : number = 1716
+    ACT_DOTA_CAPTURE_CARD : number = 1717
+    ACT_DOTA_MK_SPRING_SOAR : number = 1718
+    ACT_DOTA_MK_SPRING_END : number = 1719
+    ACT_DOTA_MK_TREE_SOAR : number = 1720
+    ACT_DOTA_MK_TREE_END : number = 1721
+    ACT_DOTA_MK_FUR_ARMY : number = 1722
+    ACT_DOTA_MK_SPRING_CAST : number = 1723
+    ACT_DOTA_NECRO_GHOST_SHROUD : number = 1724
+    ACT_DOTA_OVERRIDE_ARCANA : number = 1725
+    ACT_DOTA_SLIDE : number = 1726
+    ACT_DOTA_SLIDE_LOOP : number = 1727
+    ACT_DOTA_GENERIC_CHANNEL_1 : number = 1728
+    ACT_DOTA_GS_SOUL_CHAIN : number = 1729
+    ACT_DOTA_GS_INK_CREATURE : number = 1730
+    ACT_DOTA_TRANSITION : number = 1731
+    ACT_DOTA_BLINK_DAGGER : number = 1732
+    ACT_DOTA_BLINK_DAGGER_END : number = 1733
+    ACT_DOTA_CUSTOM_TOWER_ATTACK : number = 1734
+    ACT_DOTA_CUSTOM_TOWER_IDLE : number = 1735
+    ACT_DOTA_CUSTOM_TOWER_DIE : number = 1736
+    ACT_DOTA_CAST_COLD_SNAP_ORB : number = 1737
+    ACT_DOTA_CAST_GHOST_WALK_ORB : number = 1738
+    ACT_DOTA_CAST_TORNADO_ORB : number = 1739
+    ACT_DOTA_CAST_EMP_ORB : number = 1740
+    ACT_DOTA_CAST_ALACRITY_ORB : number = 1741
+    ACT_DOTA_CAST_CHAOS_METEOR_ORB : number = 1742
+    ACT_DOTA_CAST_SUN_STRIKE_ORB : number = 1743
+    ACT_DOTA_CAST_FORGE_SPIRIT_ORB : number = 1744
+    ACT_DOTA_CAST_ICE_WALL_ORB : number = 1745
+    ACT_DOTA_CAST_DEAFENING_BLAST_ORB : number = 1746
+    ACT_DOTA_NOTICE : number = 1747
+    ACT_DOTA_CAST_ABILITY_2_ALLY : number = 1748
+    ACT_DOTA_SHUFFLE_L : number = 1749
+    ACT_DOTA_SHUFFLE_R : number = 1750
+    ACT_DOTA_OVERRIDE_LOADOUT : number = 1751
+    ACT_DOTA_TAUNT_SPECIAL : number = 1752
+    ACT_DOTA_TELEPORT_START : number = 1753
+    ACT_DOTA_GENERIC_CHANNEL_1_START : number = 1754
+    ACT_DOTA_CUSTOM_TOWER_IDLE_RARE : number = 1755
+    ACT_DOTA_CUSTOM_TOWER_TAUNT : number = 1756
+    ACT_DOTA_CUSTOM_TOWER_HIGH_FIVE : number = 1757
+    ACT_DOTA_ATTACK_SPECIAL : number = 1758
+    ACT_DOTA_TRANSITION_IDLE : number = 1759
+    ACT_DOTA_PIERCE_THE_VEIL : number = 1760
+    ACT_DOTA_RUN_RARE : number = 1761
+    ACT_DOTA_VIPER_DIVE : number = 1762
+    ACT_DOTA_VIPER_DIVE_END : number = 1763
+    ACT_DOTA_MK_STRIKE_END : number = 1764
+    ACT_DOTA_SHADOW_VAULT : number = 1765
+    ACT_DOTA_KEZ_KATANA_ULT_START : number = 1766
+    ACT_DOTA_KEZ_KATANA_ULT_CHAIN_A : number = 1767
+    ACT_DOTA_KEZ_KATANA_ULT_CHAIN_B : number = 1768
+    ACT_DOTA_KEZ_KATANA_ULT_END : number = 1769
+    ACT_DOTA_KEZ_KATANA_IMPALE : number = 1770
+    ACT_DOTA_KEZ_KATANA_IMPALE_FAST : number = 1771
+    ACT_DOTA_UNICYCLE : number = 1772
+    ACT_DOTA_UNICYCLE_END : number = 1773
+    ACT_DOTA_LARGO_ULT_STRUM_SUCCESS : number = 1774
+    ACT_DOTA_LARGO_ULT_STRUM_FAIL : number = 1775
+    ACT_DOTA_MVP_SCREEN : number = 1776
+    ACT_DOTA_LARGO_ULT_TOGGLE_ON : number = 1777
+    ACT_DOTA_LARGO_ULT_TOGGLE_OFF : number = 1778
+DOTAMinimapEvent_t : object
+    DOTA_MINIMAP_EVENT_ANCIENT_UNDER_ATTACK : number = 2
+    DOTA_MINIMAP_EVENT_BASE_UNDER_ATTACK : number = 4
+    DOTA_MINIMAP_EVENT_BASE_GLYPHED : number = 8
+    DOTA_MINIMAP_EVENT_TEAMMATE_UNDER_ATTACK : number = 16
+    DOTA_MINIMAP_EVENT_TEAMMATE_TELEPORTING : number = 32
+    DOTA_MINIMAP_EVENT_TEAMMATE_DIED : number = 64
+    DOTA_MINIMAP_EVENT_TUTORIAL_TASK_ACTIVE : number = 128
+    DOTA_MINIMAP_EVENT_TUTORIAL_TASK_FINISHED : number = 256
+    DOTA_MINIMAP_EVENT_HINT_LOCATION : number = 512
+    DOTA_MINIMAP_EVENT_ENEMY_TELEPORTING : number = 1024
+    DOTA_MINIMAP_EVENT_CANCEL_TELEPORTING : number = 2048
+    DOTA_MINIMAP_EVENT_RADAR : number = 4096
+    DOTA_MINIMAP_EVENT_RADAR_TARGET : number = 8192
+    DOTA_MINIMAP_EVENT_MOVE_TO_TARGET : number = 16384
+DOTASlotType_t : object
+    DOTA_LOADOUT_TYPE_INVALID : number = -1
+    DOTA_LOADOUT_TYPE_WEAPON : number = 0
+    DOTA_LOADOUT_TYPE_OFFHAND_WEAPON : number = 1
+    DOTA_LOADOUT_TYPE_WEAPON2 : number = 2
+    DOTA_LOADOUT_TYPE_OFFHAND_WEAPON2 : number = 3
+    DOTA_LOADOUT_TYPE_HEAD : number = 4
+    DOTA_LOADOUT_TYPE_SHOULDER : number = 5
+    DOTA_LOADOUT_TYPE_ARMS : number = 6
+    DOTA_LOADOUT_TYPE_ARMOR : number = 7
+    DOTA_LOADOUT_TYPE_BELT : number = 8
+    DOTA_LOADOUT_TYPE_NECK : number = 9
+    DOTA_LOADOUT_TYPE_BACK : number = 10
+    DOTA_LOADOUT_TYPE_GLOVES : number = 11
+    DOTA_LOADOUT_TYPE_LEGS : number = 12
+    DOTA_LOADOUT_TYPE_TAIL : number = 13
+    DOTA_LOADOUT_TYPE_MISC : number = 14
+    DOTA_LOADOUT_TYPE_COSTUME : number = 15
+    DOTA_LOADOUT_TYPE_HERO_BASE : number = 16
+    DOTA_LOADOUT_TYPE_BODY_HEAD : number = 17
+    DOTA_LOADOUT_TYPE_MOUNT : number = 18
+    DOTA_LOADOUT_TYPE_SUMMON : number = 19
+    DOTA_LOADOUT_TYPE_SHAPESHIFT : number = 20
+    DOTA_LOADOUT_TYPE_TAUNT : number = 21
+    DOTA_LOADOUT_TYPE_HERO_EFFIGY : number = 22
+    DOTA_LOADOUT_TYPE_AMBIENT_EFFECTS : number = 23
+    DOTA_LOADOUT_TYPE_ABILITY_ATTACK : number = 24
+    DOTA_LOADOUT_TYPE_ABILITY1 : number = 25
+    DOTA_LOADOUT_TYPE_ABILITY2 : number = 26
+    DOTA_LOADOUT_TYPE_ABILITY3 : number = 27
+    DOTA_LOADOUT_TYPE_ABILITY4 : number = 28
+    DOTA_LOADOUT_TYPE_ABILITY_ULTIMATE : number = 29
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_1 : number = 30
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_2 : number = 31
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_3 : number = 32
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_4 : number = 33
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_5 : number = 34
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_6 : number = 35
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_7 : number = 36
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_8 : number = 37
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_9 : number = 38
+    DOTA_LOADOUT_TYPE_VOICE : number = 39
+    DOTA_LOADOUT_TYPE_WEAPON_PERSONA_1 : number = 40
+    DOTA_LOADOUT_TYPE_OFFHAND_WEAPON_PERSONA_1 : number = 41
+    DOTA_LOADOUT_TYPE_WEAPON2_PERSONA_1 : number = 42
+    DOTA_LOADOUT_TYPE_OFFHAND_WEAPON2_PERSONA_1 : number = 43
+    DOTA_LOADOUT_TYPE_HEAD_PERSONA_1 : number = 44
+    DOTA_LOADOUT_TYPE_SHOULDER_PERSONA_1 : number = 45
+    DOTA_LOADOUT_TYPE_ARMS_PERSONA_1 : number = 46
+    DOTA_LOADOUT_TYPE_ARMOR_PERSONA_1 : number = 47
+    DOTA_LOADOUT_TYPE_BELT_PERSONA_1 : number = 48
+    DOTA_LOADOUT_TYPE_NECK_PERSONA_1 : number = 49
+    DOTA_LOADOUT_TYPE_BACK_PERSONA_1 : number = 50
+    DOTA_LOADOUT_TYPE_LEGS_PERSONA_1 : number = 51
+    DOTA_LOADOUT_TYPE_GLOVES_PERSONA_1 : number = 52
+    DOTA_LOADOUT_TYPE_TAIL_PERSONA_1 : number = 53
+    DOTA_LOADOUT_TYPE_MISC_PERSONA_1 : number = 54
+    DOTA_LOADOUT_TYPE_BODY_HEAD_PERSONA_1 : number = 55
+    DOTA_LOADOUT_TYPE_MOUNT_PERSONA_1 : number = 56
+    DOTA_LOADOUT_TYPE_SUMMON_PERSONA_1 : number = 57
+    DOTA_LOADOUT_TYPE_SHAPESHIFT_PERSONA_1 : number = 58
+    DOTA_LOADOUT_TYPE_TAUNT_PERSONA_1 : number = 59
+    DOTA_LOADOUT_TYPE_HERO_EFFIGY_PERSONA_1 : number = 60
+    DOTA_LOADOUT_TYPE_AMBIENT_EFFECTS_PERSONA_1 : number = 61
+    DOTA_LOADOUT_TYPE_ABILITY_ATTACK_PERSONA_1 : number = 62
+    DOTA_LOADOUT_TYPE_ABILITY1_PERSONA_1 : number = 63
+    DOTA_LOADOUT_TYPE_ABILITY2_PERSONA_1 : number = 64
+    DOTA_LOADOUT_TYPE_ABILITY3_PERSONA_1 : number = 65
+    DOTA_LOADOUT_TYPE_ABILITY4_PERSONA_1 : number = 66
+    DOTA_LOADOUT_TYPE_ABILITY_ULTIMATE_PERSONA_1 : number = 67
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_1_PERSONA_1 : number = 68
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_2_PERSONA_1 : number = 69
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_3_PERSONA_1 : number = 70
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_4_PERSONA_1 : number = 71
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_5_PERSONA_1 : number = 72
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_6_PERSONA_1 : number = 73
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_7_PERSONA_1 : number = 74
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_8_PERSONA_1 : number = 75
+    DOTA_LOADOUT_TYPE_ABILITY_EFFECTS_9_PERSONA_1 : number = 76
+    DOTA_LOADOUT_TYPE_VOICE_PERSONA_1 : number = 77
+    DOTA_LOADOUT_PERSONA_1_START : number = 40
+    DOTA_LOADOUT_PERSONA_1_END : number = 77
+    DOTA_LOADOUT_TYPE_PERSONA_SELECTOR : number = 78
+    DOTA_LOADOUT_TYPE_COURIER : number = 79
+    DOTA_LOADOUT_TYPE_ANNOUNCER : number = 80
+    DOTA_LOADOUT_TYPE_MEGA_KILLS : number = 81
+    DOTA_LOADOUT_TYPE_MUSIC : number = 82
+    DOTA_LOADOUT_TYPE_WARD : number = 83
+    DOTA_LOADOUT_TYPE_HUD_SKIN : number = 84
+    DOTA_LOADOUT_TYPE_LOADING_SCREEN : number = 85
+    DOTA_LOADOUT_TYPE_WEATHER : number = 86
+    DOTA_LOADOUT_TYPE_HEROIC_STATUE : number = 87
+    DOTA_LOADOUT_TYPE_MULTIKILL_BANNER : number = 88
+    DOTA_LOADOUT_TYPE_CURSOR_PACK : number = 89
+    DOTA_LOADOUT_TYPE_TELEPORT_EFFECT : number = 90
+    DOTA_LOADOUT_TYPE_BLINK_EFFECT : number = 91
+    DOTA_LOADOUT_TYPE_EMBLEM : number = 92
+    DOTA_LOADOUT_TYPE_TERRAIN : number = 93
+    DOTA_LOADOUT_TYPE_RADIANT_CREEPS : number = 94
+    DOTA_LOADOUT_TYPE_DIRE_CREEPS : number = 95
+    DOTA_LOADOUT_TYPE_RADIANT_TOWER : number = 96
+    DOTA_LOADOUT_TYPE_DIRE_TOWER : number = 97
+    DOTA_LOADOUT_TYPE_VERSUS_SCREEN : number = 98
+    DOTA_LOADOUT_TYPE_STREAK_EFFECT : number = 99
+    DOTA_LOADOUT_TYPE_KILL_EFFECT : number = 100
+    DOTA_LOADOUT_TYPE_DEATH_EFFECT : number = 101
+    DOTA_LOADOUT_TYPE_HEAD_EFFECT : number = 102
+    DOTA_LOADOUT_TYPE_MAP_EFFECT : number = 103
+    DOTA_LOADOUT_TYPE_COURIER_EFFECT : number = 104
+    DOTA_LOADOUT_TYPE_RADIANT_SIEGE_CREEPS : number = 105
+    DOTA_LOADOUT_TYPE_DIRE_SIEGE_CREEPS : number = 106
+    DOTA_LOADOUT_TYPE_ROSHAN : number = 107
+    DOTA_LOADOUT_TYPE_TORMENTOR : number = 108
+    DOTA_LOADOUT_TYPE_ANCIENT : number = 109
+    DOTA_LOADOUT_TYPE_PET_EFFIGY : number = 110
+    DOTA_PLAYER_LOADOUT_START : number = 79
+    DOTA_PLAYER_LOADOUT_END : number = 110
+    DOTA_LOADOUT_TYPE_NONE : number = 111
+    DOTA_LOADOUT_TYPE_COUNT : number = 112
+modifierfunction : object
+    MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE : number = 0
+    MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_TARGET : number = 1
+    MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_PROC : number = 2
+    MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_POST_CRIT : number = 3
+    MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE : number = 4
+    MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PHYSICAL : number = 5
+    MODIFIER_PROPERTY_PROCATTACK_CONVERT_PHYSICAL_TO_MAGICAL : number = 6
+    MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_MAGICAL : number = 7
+    MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PURE : number = 8
+    MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_MAGICAL_TARGET : number = 9
+    MODIFIER_PROPERTY_PROCATTACK_FEEDBACK : number = 10
+    MODIFIER_PROPERTY_OVERRIDE_ATTACK_DAMAGE : number = 11
+    MODIFIER_PROPERTY_PRE_ATTACK : number = 12
+    MODIFIER_PROPERTY_INVISIBILITY_LEVEL : number = 13
+    MODIFIER_PROPERTY_INVISIBILITY_ATTACK_BEHAVIOR_EXCEPTION : number = 14
+    MODIFIER_PROPERTY_PERSISTENT_INVISIBILITY : number = 15
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT : number = 16
+    MODIFIER_PROPERTY_MOVESPEED_BASE_OVERRIDE : number = 17
+    MODIFIER_PROPERTY_MOVESPEED_MIN_OVERRIDE : number = 18
+    MODIFIER_PROPERTY_MOVESPEED_MAX_OVERRIDE : number = 19
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE : number = 20
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE_UNIQUE : number = 21
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE : number = 22
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE_2 : number = 23
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT_UNIQUE : number = 24
+    MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT_UNIQUE_2 : number = 25
+    MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE : number = 26
+    MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE_MIN : number = 27
+    MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE_MAX : number = 28
+    MODIFIER_PROPERTY_IGNORE_MOVESPEED_LIMIT : number = 29
+    MODIFIER_PROPERTY_MOVESPEED_LIMIT : number = 30
+    MODIFIER_PROPERTY_ATTACKSPEED_BASE_OVERRIDE : number = 31
+    MODIFIER_PROPERTY_FIXED_ATTACK_RATE : number = 32
+    MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT : number = 33
+    MODIFIER_PROPERTY_IGNORE_ATTACKSPEED_LIMIT : number = 34
+    MODIFIER_PROPERTY_COOLDOWN_REDUCTION_CONSTANT : number = 35
+    MODIFIER_PROPERTY_MANACOST_REDUCTION_CONSTANT : number = 36
+    MODIFIER_PROPERTY_HEALTHCOST_REDUCTION_CONSTANT : number = 37
+    MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT : number = 38
+    MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT_ADJUST : number = 39
+    MODIFIER_PROPERTY_BASE_ATTACK_TIME_PERCENTAGE : number = 40
+    MODIFIER_PROPERTY_ATTACK_POINT_CONSTANT : number = 41
+    MODIFIER_PROPERTY_BONUSDAMAGEOUTGOING_PERCENTAGE : number = 42
+    MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE : number = 43
+    MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_ILLUSION : number = 44
+    MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_ILLUSION_AMPLIFY : number = 45
+    MODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE : number = 46
+    MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE : number = 47
+    MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_UNIQUE : number = 48
+    MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_UNIQUE_2 : number = 49
+    MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_TARGET : number = 50
+    MODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE : number = 51
+    MODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_TARGET : number = 52
+    MODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE : number = 53
+    MODIFIER_PROPERTY_LIFESTEAL_AMPLIFY_PERCENTAGE : number = 54
+    MODIFIER_PROPERTY_SPELL_LIFESTEAL_AMPLIFY_PERCENTAGE : number = 55
+    MODIFIER_PROPERTY_SPELL_LIFESTEAL_AMPLIFY_PERCENTAGE_UNIQUE : number = 56
+    MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE : number = 57
+    MODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE_UNIQUE : number = 58
+    MODIFIER_PROPERTY_MANA_DRAIN_AMPLIFY_PERCENTAGE : number = 59
+    MODIFIER_PROPERTY_MP_RESTORE_AMPLIFY_PERCENTAGE : number = 60
+    MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE : number = 61
+    MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE_UNIQUE : number = 62
+    MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE : number = 63
+    MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_PERCENTAGE : number = 64
+    MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_CONSTANT : number = 65
+    MODIFIER_PROPERTY_INCOMING_SPELL_DAMAGE_CONSTANT : number = 66
+    MODIFIER_PROPERTY_EVASION_CONSTANT : number = 67
+    MODIFIER_PROPERTY_NEGATIVE_EVASION_CONSTANT : number = 68
+    MODIFIER_PROPERTY_STATUS_RESISTANCE : number = 69
+    MODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING : number = 70
+    MODIFIER_PROPERTY_STATUS_RESISTANCE_CASTER : number = 71
+    MODIFIER_PROPERTY_AVOID_DAMAGE : number = 72
+    MODIFIER_PROPERTY_AVOID_SPELL : number = 73
+    MODIFIER_PROPERTY_MISS_PERCENTAGE : number = 74
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_BASE_PERCENTAGE : number = 75
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_TOTAL_PERCENTAGE : number = 76
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS : number = 77
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE : number = 78
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE_ACTIVE : number = 79
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_POST : number = 80
+    MODIFIER_PROPERTY_MIN_PHYSICAL_ARMOR : number = 81
+    MODIFIER_PROPERTY_IGNORE_PHYSICAL_ARMOR : number = 82
+    MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BASE_REDUCTION : number = 83
+    MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DIRECT_MODIFICATION : number = 84
+    MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS : number = 85
+    MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS_ILLUSIONS : number = 86
+    MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS_UNIQUE : number = 87
+    MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE : number = 88
+    MODIFIER_PROPERTY_BASE_MANA_REGEN : number = 89
+    MODIFIER_PROPERTY_MANA_REGEN_CONSTANT : number = 90
+    MODIFIER_PROPERTY_MANA_REGEN_CONSTANT_UNIQUE : number = 91
+    MODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE : number = 92
+    MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT : number = 93
+    MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE : number = 94
+    MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE_UNIQUE : number = 95
+    MODIFIER_PROPERTY_HEALTH_BONUS : number = 96
+    MODIFIER_PROPERTY_MANA_BONUS : number = 97
+    MODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS : number = 98
+    MODIFIER_PROPERTY_EXTRA_HEALTH_BONUS : number = 99
+    MODIFIER_PROPERTY_EXTRA_MANA_BONUS : number = 100
+    MODIFIER_PROPERTY_EXTRA_MANA_BONUS_PERCENTAGE : number = 101
+    MODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE : number = 102
+    MODIFIER_PROPERTY_EXTRA_MANA_PERCENTAGE : number = 103
+    MODIFIER_PROPERTY_STATS_STRENGTH_BONUS : number = 104
+    MODIFIER_PROPERTY_STATS_AGILITY_BONUS : number = 105
+    MODIFIER_PROPERTY_STATS_INTELLECT_BONUS : number = 106
+    MODIFIER_PROPERTY_STATS_STRENGTH_BONUS_PERCENTAGE : number = 107
+    MODIFIER_PROPERTY_STATS_AGILITY_BONUS_PERCENTAGE : number = 108
+    MODIFIER_PROPERTY_STATS_INTELLECT_BONUS_PERCENTAGE : number = 109
+    MODIFIER_PROPERTY_STATS_INTELLECT_NONE : number = 110
+    MODIFIER_PROPERTY_CAST_RANGE_BONUS : number = 111
+    MODIFIER_PROPERTY_CAST_RANGE_BONUS_PERCENTAGE : number = 112
+    MODIFIER_PROPERTY_CAST_RANGE_BONUS_TARGET : number = 113
+    MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING : number = 114
+    MODIFIER_PROPERTY_ATTACK_RANGE_BASE_OVERRIDE : number = 115
+    MODIFIER_PROPERTY_ATTACK_RANGE_BONUS : number = 116
+    MODIFIER_PROPERTY_ATTACK_RANGE_BONUS_UNIQUE : number = 117
+    MODIFIER_PROPERTY_ATTACK_RANGE_BONUS_PERCENTAGE : number = 118
+    MODIFIER_PROPERTY_MIN_ATTACK_RANGE : number = 119
+    MODIFIER_PROPERTY_MAX_ATTACK_RANGE : number = 120
+    MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS : number = 121
+    MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS_PERCENTAGE : number = 122
+    MODIFIER_PROPERTY_PROJECTILE_NAME : number = 123
+    MODIFIER_PROPERTY_REINCARNATION : number = 124
+    MODIFIER_PROPERTY_REINCARNATION_SUPPRESS_FX : number = 125
+    MODIFIER_PROPERTY_RESPAWNTIME : number = 126
+    MODIFIER_PROPERTY_RESPAWNTIME_PERCENTAGE : number = 127
+    MODIFIER_PROPERTY_RESPAWNTIME_STACKING : number = 128
+    MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE : number = 129
+    MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE_ONGOING : number = 130
+    MODIFIER_PROPERTY_CASTTIME_PERCENTAGE : number = 131
+    MODIFIER_PROPERTY_CASTTIME_CONSTANT : number = 132
+    MODIFIER_PROPERTY_ATTACK_ANIM_TIME_PERCENTAGE : number = 133
+    MODIFIER_PROPERTY_MANACOST_PERCENTAGE : number = 134
+    MODIFIER_PROPERTY_MANACOST_PERCENTAGE_STACKING : number = 135
+    MODIFIER_PROPERTY_HEALTHCOST_PERCENTAGE : number = 136
+    MODIFIER_PROPERTY_HEALTHCOST_PERCENTAGE_STACKING : number = 137
+    MODIFIER_PROPERTY_DEATHGOLDCOST : number = 138
+    MODIFIER_PROPERTY_PERCENTAGE_DEATHGOLDCOST : number = 139
+    MODIFIER_PROPERTY_EXP_RATE_BOOST : number = 140
+    MODIFIER_PROPERTY_GOLD_RATE_BOOST : number = 141
+    MODIFIER_PROPERTY_KILL_ASSIST_GOLD_BOOST : number = 142
+    MODIFIER_PROPERTY_CONVERT_EXP_TO_GOLD_PCT : number = 143
+    MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE : number = 144
+    MODIFIER_PROPERTY_PREATTACK_TARGET_CRITICALSTRIKE : number = 145
+    MODIFIER_PROPERTY_MAGICAL_CONSTANT_BLOCK : number = 146
+    MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK : number = 147
+    MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK_SPECIAL : number = 148
+    MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK_BONUS : number = 149
+    MODIFIER_PROPERTY_INNATE_DAMAGE_BLOCK_PCT_OVERRIDE : number = 150
+    MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK_UNAVOIDABLE_PRE_ARMOR : number = 151
+    MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK : number = 152
+    MODIFIER_PROPERTY_OVERRIDE_ANIMATION : number = 153
+    MODIFIER_PROPERTY_OVERRIDE_ANIMATION_RATE : number = 154
+    MODIFIER_PROPERTY_ABSORB_SPELL : number = 155
+    MODIFIER_PROPERTY_REFLECT_SPELL : number = 156
+    MODIFIER_PROPERTY_DISABLE_AUTOATTACK : number = 157
+    MODIFIER_PROPERTY_BONUS_DAY_VISION : number = 158
+    MODIFIER_PROPERTY_BONUS_DAY_VISION_PERCENTAGE : number = 159
+    MODIFIER_PROPERTY_BONUS_NIGHT_VISION : number = 160
+    MODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE : number = 161
+    MODIFIER_PROPERTY_BONUS_VISION_PERCENTAGE : number = 162
+    MODIFIER_PROPERTY_FIXED_DAY_VISION : number = 163
+    MODIFIER_PROPERTY_FIXED_NIGHT_VISION : number = 164
+    MODIFIER_PROPERTY_MIN_HEALTH : number = 165
+    MODIFIER_PROPERTY_MIN_MANA : number = 166
+    MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PHYSICAL : number = 167
+    MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_MAGICAL : number = 168
+    MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PURE : number = 169
+    MODIFIER_PROPERTY_IS_ILLUSION : number = 170
+    MODIFIER_PROPERTY_ILLUSION_LABEL : number = 171
+    MODIFIER_PROPERTY_STRONG_ILLUSION : number = 172
+    MODIFIER_PROPERTY_SUPER_ILLUSION : number = 173
+    MODIFIER_PROPERTY_SUPER_ILLUSION_WITH_ULTIMATE : number = 174
+    MODIFIER_PROPERTY_XP_DURING_DEATH : number = 175
+    MODIFIER_PROPERTY_TURN_RATE_PERCENTAGE : number = 176
+    MODIFIER_PROPERTY_TURN_RATE_OVERRIDE : number = 177
+    MODIFIER_PROPERTY_DISABLE_HEALING : number = 178
+    MODIFIER_PROPERTY_DISABLE_MANA_GAIN : number = 179
+    MODIFIER_PROPERTY_ALWAYS_ALLOW_ATTACK : number = 180
+    MODIFIER_PROPERTY_ALWAYS_ETHEREAL_ATTACK : number = 181
+    MODIFIER_PROPERTY_OVERRIDE_ATTACK_MAGICAL : number = 182
+    MODIFIER_PROPERTY_UNIT_STATS_NEEDS_REFRESH : number = 183
+    MODIFIER_PROPERTY_BOUNTY_CREEP_MULTIPLIER : number = 184
+    MODIFIER_PROPERTY_BOUNTY_OTHER_MULTIPLIER : number = 185
+    MODIFIER_PROPERTY_UNIT_DISALLOW_UPGRADING : number = 186
+    MODIFIER_PROPERTY_DODGE_PROJECTILE : number = 187
+    MODIFIER_PROPERTY_TRIGGER_COSMETIC_AND_END_ATTACK : number = 188
+    MODIFIER_PROPERTY_PRIMARY_STAT_DAMAGE_MULTIPLIER : number = 189
+    MODIFIER_PROPERTY_PREATTACK_DEADLY_BLOW : number = 190
+    MODIFIER_PROPERTY_ALWAYS_AUTOATTACK_WHILE_HOLD_POSITION : number = 191
+    MODIFIER_PROPERTY_PHYSICAL_ARMOR_PIERCING_PERCENTAGE_TARGET : number = 192
+    MODIFIER_PROPERTY_MAGICAL_ARMOR_PIERCING_PERCENTAGE_TARGET : number = 193
+    MODIFIER_PROPERTY_CRITICAL_STRIKE_BONUS : number = 194
+    MODIFIER_PROPERTY_CONVERT_ATTACK_PHYSICAL_TO_PURE : number = 195
+    MODIFIER_PROPERTY_BUFF_AMPLIFICATION : number = 196
+    MODIFIER_EVENT_ON_SPELL_TARGET_READY : number = 197
+    MODIFIER_EVENT_ON_ATTACK_RECORD : number = 198
+    MODIFIER_EVENT_ON_ATTACK_START : number = 199
+    MODIFIER_EVENT_ON_ATTACK : number = 200
+    MODIFIER_EVENT_ON_ATTACK_LANDED : number = 201
+    MODIFIER_EVENT_ON_ATTACK_FAIL : number = 202
+    MODIFIER_EVENT_ON_ATTACK_ALLIED : number = 203
+    MODIFIER_EVENT_ON_PROJECTILE_DODGE : number = 204
+    MODIFIER_EVENT_ON_ORDER : number = 205
+    MODIFIER_EVENT_ON_ORDER_RECEIVED : number = 206
+    MODIFIER_EVENT_ON_UNIT_MOVED : number = 207
+    MODIFIER_EVENT_ON_ABILITY_START : number = 208
+    MODIFIER_EVENT_ON_ABILITY_EXECUTED : number = 209
+    MODIFIER_EVENT_ON_ABILITY_FULLY_CAST : number = 210
+    MODIFIER_EVENT_ON_BREAK_INVISIBILITY : number = 211
+    MODIFIER_EVENT_ON_ABILITY_END_CHANNEL : number = 212
+    MODIFIER_EVENT_ON_PROCESS_UPGRADE : number = 213
+    MODIFIER_EVENT_ON_REFRESH : number = 214
+    MODIFIER_EVENT_ON_TAKEDAMAGE : number = 215
+    MODIFIER_EVENT_ON_DEATH_PREVENTED : number = 216
+    MODIFIER_EVENT_ON_STATE_CHANGED : number = 217
+    MODIFIER_EVENT_ON_ORB_EFFECT : number = 218
+    MODIFIER_EVENT_ON_PROCESS_CLEAVE : number = 219
+    MODIFIER_EVENT_ON_DAMAGE_CALCULATED : number = 220
+    MODIFIER_EVENT_ON_MAGIC_DAMAGE_CALCULATED : number = 221
+    MODIFIER_EVENT_ON_ATTACKED : number = 222
+    MODIFIER_EVENT_ON_DEATH : number = 223
+    MODIFIER_EVENT_ON_DEATH_COMPLETED : number = 224
+    MODIFIER_EVENT_ON_RESPAWN : number = 225
+    MODIFIER_EVENT_ON_SPENT_MANA : number = 226
+    MODIFIER_EVENT_ON_SPENT_HEALTH : number = 227
+    MODIFIER_EVENT_ON_SPENT_ITEM_CHARGE : number = 228
+    MODIFIER_EVENT_ON_TELEPORTING : number = 229
+    MODIFIER_EVENT_ON_TELEPORTED : number = 230
+    MODIFIER_EVENT_ON_SET_LOCATION : number = 231
+    MODIFIER_EVENT_ON_HEALTH_GAINED : number = 232
+    MODIFIER_EVENT_ON_MANA_GAINED : number = 233
+    MODIFIER_EVENT_ON_TAKEDAMAGE_KILLCREDIT : number = 234
+    MODIFIER_EVENT_ON_HERO_KILLED : number = 235
+    MODIFIER_EVENT_ON_HEAL_RECEIVED : number = 236
+    MODIFIER_EVENT_ON_REDIRECT_HEALTH_GAIN : number = 237
+    MODIFIER_EVENT_ON_BUILDING_KILLED : number = 238
+    MODIFIER_EVENT_ON_MODEL_CHANGED : number = 239
+    MODIFIER_EVENT_ON_MODIFIER_ADDED : number = 240
+    MODIFIER_EVENT_ON_MODIFIER_REMOVED : number = 241
+    MODIFIER_EVENT_ON_SCEPTER_UPGRADE_SELECTED : number = 242
+    MODIFIER_EVENT_ON_SHARD_UPGRADE_SELECTED : number = 243
+    MODIFIER_PROPERTY_TOOLTIP : number = 244
+    MODIFIER_PROPERTY_MODEL_CHANGE : number = 245
+    MODIFIER_PROPERTY_MODEL_SCALE : number = 246
+    MODIFIER_PROPERTY_MODEL_SCALE_ANIMATE_TIME : number = 247
+    MODIFIER_PROPERTY_MODEL_SCALE_USE_IN_OUT_EASE : number = 248
+    MODIFIER_PROPERTY_MODEL_SCALE_CONSTANT : number = 249
+    MODIFIER_PROPERTY_IS_SCEPTER : number = 250
+    MODIFIER_PROPERTY_IS_SHARD : number = 251
+    MODIFIER_PROPERTY_RADAR_COOLDOWN_REDUCTION : number = 252
+    MODIFIER_PROPERTY_TRANSLATE_ACTIVITY_MODIFIERS : number = 253
+    MODIFIER_PROPERTY_TRANSLATE_ATTACK_SOUND : number = 254
+    MODIFIER_PROPERTY_LIFETIME_FRACTION : number = 255
+    MODIFIER_PROPERTY_PROVIDES_FOW_POSITION : number = 256
+    MODIFIER_PROPERTY_SPELLS_REQUIRE_HP : number = 257
+    MODIFIER_PROPERTY_CONVERT_MANA_COST_TO_HEALTH_COST : number = 258
+    MODIFIER_PROPERTY_FORCE_DRAW_MINIMAP : number = 259
+    MODIFIER_PROPERTY_DISABLE_TURNING : number = 260
+    MODIFIER_PROPERTY_IGNORE_CAST_ANGLE : number = 261
+    MODIFIER_PROPERTY_CHANGE_ABILITY_VALUE : number = 262
+    MODIFIER_PROPERTY_OVERRIDE_ABILITY_SPECIAL : number = 263
+    MODIFIER_PROPERTY_OVERRIDE_ABILITY_SPECIAL_VALUE : number = 264
+    MODIFIER_PROPERTY_ABILITY_LAYOUT : number = 265
+    MODIFIER_EVENT_ON_DOMINATED : number = 266
+    MODIFIER_EVENT_ON_KILL : number = 267
+    MODIFIER_EVENT_ON_ASSIST : number = 268
+    MODIFIER_PROPERTY_TEMPEST_DOUBLE : number = 269
+    MODIFIER_PROPERTY_PRESERVE_PARTICLES_ON_MODEL_CHANGE : number = 270
+    MODIFIER_EVENT_ON_ATTACK_FINISHED : number = 271
+    MODIFIER_PROPERTY_IGNORE_COOLDOWN : number = 272
+    MODIFIER_PROPERTY_CAN_ATTACK_TREES : number = 273
+    MODIFIER_PROPERTY_VISUAL_Z_DELTA : number = 274
+    MODIFIER_PROPERTY_VISUAL_Z_SPEED_BASE_OVERRIDE : number = 275
+    MODIFIER_PROPERTY_INCOMING_DAMAGE_ILLUSION : number = 276
+    MODIFIER_PROPERTY_DONT_GIVE_VISION_OF_ATTACKER : number = 277
+    MODIFIER_PROPERTY_TOOLTIP2 : number = 278
+    MODIFIER_EVENT_ON_ATTACK_RECORD_DESTROY : number = 279
+    MODIFIER_EVENT_ON_PROJECTILE_OBSTRUCTION_HIT : number = 280
+    MODIFIER_PROPERTY_SUPPRESS_TELEPORT : number = 281
+    MODIFIER_EVENT_ON_ATTACK_CANCELLED : number = 282
+    MODIFIER_PROPERTY_SUPPRESS_CLEAVE : number = 283
+    MODIFIER_PROPERTY_BOT_ATTACK_SCORE_BONUS : number = 284
+    MODIFIER_PROPERTY_ATTACKSPEED_REDUCTION_PERCENTAGE : number = 285
+    MODIFIER_PROPERTY_MOVESPEED_REDUCTION_PERCENTAGE : number = 286
+    MODIFIER_PROPERTY_ATTACK_WHILE_MOVING_TARGET : number = 287
+    MODIFIER_PROPERTY_ATTACKSPEED_PERCENTAGE : number = 288
+    MODIFIER_EVENT_ON_ATTEMPT_PROJECTILE_DODGE : number = 289
+    MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE_STACKING : number = 290
+    MODIFIER_PROPERTY_SPELL_REDIRECT_TARGET : number = 291
+    MODIFIER_PROPERTY_TURN_RATE_CONSTANT : number = 292
+    MODIFIER_PROPERTY_PACK_RAT : number = 293
+    MODIFIER_PROPERTY_PHYSICALDAMAGEOUTGOING_PERCENTAGE : number = 294
+    MODIFIER_PROPERTY_KNOCKBACK_AMPLIFICATION_PERCENTAGE : number = 295
+    MODIFIER_PROPERTY_HEALTHBAR_PIPS : number = 296
+    MODIFIER_PROPERTY_INCOMING_DAMAGE_CONSTANT : number = 297
+    MODIFIER_EVENT_SPELL_APPLIED_SUCCESSFULLY : number = 298
+    MODIFIER_PROPERTY_AVOID_DAMAGE_AFTER_REDUCTIONS : number = 299
+    MODIFIER_PROPERTY_FAIL_ATTACK : number = 300
+    MODIFIER_PROPERTY_PREREDUCE_INCOMING_DAMAGE_MULT : number = 301
+    MODIFIER_PROPERTY_SUPPRESS_FULLSCREEN_DEATH_FX : number = 302
+    MODIFIER_PROPERTY_INCOMING_DAMAGE_CONSTANT_POST : number = 303
+    MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_MULTIPLICATIVE : number = 304
+    MODIFIER_PROPERTY_TICK_GOLD_MULTIPLIER : number = 305
+    MODIFIER_PROPERTY_SLOW_RESISTANCE_UNIQUE : number = 306
+    MODIFIER_PROPERTY_SLOW_RESISTANCE_STACKING : number = 307
+    MODIFIER_PROPERTY_SLOW_RESISTANCE_APPLIES_TO_ATTACKS : number = 308
+    MODIFIER_PROPERTY_AOE_BONUS_PERCENTAGE : number = 309
+    MODIFIER_PROPERTY_PROJECTILE_SPEED : number = 310
+    MODIFIER_PROPERTY_PROJECTILE_SPEED_TARGET : number = 311
+    MODIFIER_PROPERTY_BECOME_STRENGTH : number = 312
+    MODIFIER_PROPERTY_BECOME_AGILITY : number = 313
+    MODIFIER_PROPERTY_BECOME_INTELLIGENCE : number = 314
+    MODIFIER_PROPERTY_BECOME_UNIVERSAL : number = 315
+    MODIFIER_EVENT_ON_FORCE_PROC_MAGIC_STICK : number = 316
+    MODIFIER_EVENT_ON_DAMAGE_HPLOSS : number = 317
+    MODIFIER_PROPERTY_SHARE_XPRUNE : number = 318
+    MODIFIER_PROPERTY_XP_FOUNTAIN_COUNTDOWN_TIME_OVERRIDE : number = 319
+    MODIFIER_PROPERTY_NO_FREE_TP_SCROLL_ON_DEATH : number = 320
+    MODIFIER_PROPERTY_HAS_BONUS_NEUTRAL_ITEM_CHOICE : number = 321
+    MODIFIER_PROPERTY_HAS_BONUS_NEUTRAL_ITEM_PASSIVE : number = 322
+    MODIFIER_PROPERTY_PRESERVE_NEUTRAL_ITEM_PASSIVES : number = 323
+    MODIFIER_PROPERTY_FORCE_MAX_HEALTH : number = 324
+    MODIFIER_PROPERTY_FORCE_MAX_MANA : number = 325
+    MODIFIER_PROPERTY_AOE_BONUS_CONSTANT : number = 326
+    MODIFIER_PROPERTY_AOE_BONUS_CONSTANT_STACKING : number = 327
+    MODIFIER_EVENT_ON_TAKEDAMAGE_POST_UNAVOIDABLE_BLOCK : number = 328
+    MODIFIER_EVENT_ON_MUTE_DAMAGE_ABILITIES : number = 329
+    MODIFIER_PROPERTY_SUPPRESS_CRIT : number = 330
+    MODIFIER_PROPERTY_ABILITY_POINTS : number = 331
+    MODIFIER_PROPERTY_BUYBACK_PENALTY_PERCENT : number = 332
+    MODIFIER_PROPERTY_ITEM_SELLBACK_COST : number = 333
+    MODIFIER_PROPERTY_DISASSEMBLE_ANYTHING : number = 334
+    MODIFIER_PROPERTY_FIXED_MANA_REGEN : number = 335
+    MODIFIER_PROPERTY_BONUS_UPHILL_MISS_CHANCE : number = 336
+    MODIFIER_PROPERTY_CREEP_DENY_PERCENT : number = 337
+    MODIFIER_PROPERTY_ATTACKSPEED_ABSOLUTE_MAX : number = 338
+    MODIFIER_PROPERTY_FOW_TEAM : number = 339
+    MODIFIER_EVENT_ON_HERO_BEGIN_DYING : number = 340
+    MODIFIER_PROPERTY_BONUS_LOTUS_HEAL : number = 341
+    MODIFIER_PROPERTY_BASE_HP_REGEN_PER_STR_BONUS_PERCENTAGE : number = 342
+    MODIFIER_PROPERTY_BASE_ARMOR_PER_AGI_BONUS_PERCENTAGE : number = 343
+    MODIFIER_PROPERTY_BASE_ATTACKSPEED_PER_AGI_BONUS_PERCENTAGE : number = 344
+    MODIFIER_PROPERTY_BASE_MP_REGEN_PER_INT_BONUS_PERCENTAGE : number = 345
+    MODIFIER_PROPERTY_BASE_MRES_PER_INT_BONUS_PERCENTAGE : number = 346
+    MODIFIER_EVENT_ON_DAY_STARTED : number = 347
+    MODIFIER_EVENT_ON_NIGHT_STARTED : number = 348
+    MODIFIER_PROPERTY_CREATE_BONUS_ILLUSION_CHANCE : number = 349
+    MODIFIER_PROPERTY_CREATE_BONUS_ILLUSION_COUNT : number = 350
+    MODIFIER_PROPERTY_PSEUDORANDOM_BONUS : number = 351
+    MODIFIER_PROPERTY_ATTACK_HEIGHT_BONUS : number = 352
+    MODIFIER_PROPERTY_SKIP_ATTACK_REGULATOR : number = 353
+    MODIFIER_PROPERTY_MISS_PERCENTAGE_TARGET : number = 354
+    MODIFIER_PROPERTY_ADDITIONAL_NEUTRAL_ITEM_DROPS : number = 355
+    MODIFIER_PROPERTY_KILL_STREAK_BONUS_GOLD_PERCENTAGE : number = 356
+    MODIFIER_PROPERTY_HP_REGEN_MULTIPLIER_PRE_AMPLIFICATION : number = 357
+    MODIFIER_PROPERTY_HEROFACET_OVERRIDE : number = 358
+    MODIFIER_EVENT_ON_TREE_CUT_DOWN : number = 359
+    MODIFIER_EVENT_ON_CLEAVE_ATTACK_LANDED : number = 360
+    MODIFIER_PROPERTY_MIN_ATTRIBUTE_LEVEL : number = 361
+    MODIFIER_PROPERTY_TIER_TOKEN_REROLL : number = 362
+    MODIFIER_PROPERTY_VISION_DEGREES_RESTRICTION : number = 363
+    MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK_STACKING : number = 364
+    MODIFIER_PROPERTY_INVENTORY_SLOT_RESTRICTED : number = 365
+    MODIFIER_EVENT_ON_TIER_TOKEN_REROLLED : number = 366
+    MODIFIER_PROPERTY_REDIRECT_SPELL : number = 367
+    MODIFIER_PROPERTY_BASEATTACK_POSTBONUS : number = 368
+    MODIFIER_EVENT_ON_FOW_TEAM_CHANGED : number = 369
+    MODIFIER_PROPERTY_SUPPRESS_ATTACK_PROCS : number = 370
+    MODIFIER_EVENT_ON_ABILITY_TOGGLED : number = 371
+    MODIFIER_PROPERTY_AVOID_ATTACK_PROCS : number = 372
+    MODIFIER_EVENT_ON_RUNE_SPAWN : number = 373
+    MODIFIER_PROPERTY_PHYSICAL_LIFESTEAL : number = 374
+    MODIFIER_PROPERTY_MAGICAL_LIFESTEAL : number = 375
+    MODIFIER_EVENT_ON_PURE_DAMAGE_CALCULATED : number = 376
+    MODIFIER_EVENT_NEUTRAL_TRINKET_OPTIONS : number = 377
+    MODIFIER_EVENT_NEUTRAL_ENHANCEMENT_OPTIONS : number = 378
+    MODIFIER_PROPERTY_MOVESPEED_MAX_BONUS_CONSTANT : number = 379
+    MODIFIER_PROPERTY_MOVESPEED_POST_MULTIPLIER_BONUS_CONSTANT : number = 380
+    MODIFIER_PROPERTY_FORBID_ILLUSIONS : number = 381
+    MODIFIER_PROPERTY_MANACOST_OVERRIDE : number = 382
+    MODIFIER_PROPERTY_RESTORATION_AMPLIFICATION : number = 383
+    MODIFIER_PROPERTY_RESTORATION_AMPLIFICATION_UNIQUE : number = 384
+    MODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE_UNIQUE : number = 385
+    MODIFIER_PROPERTY_REDIRECT_HEALTH_GAIN : number = 386
+    MODIFIER_PROPERTY_SUPPRESS_INCOMING_CRIT : number = 387
+    MODIFIER_PROPERTY_UPGRADE_NEUTRAL_ARTIFACTS : number = 388
+    MODIFIER_PROPERTY_SUPPRESS_INVALID_MOVE_ATTACK_ORDERS : number = 389
+    MODIFIER_PROPERTY_CONSUMABLE_USE_SPEED : number = 390
+    MODIFIER_PROPERTY_REQUIRED_LEVEL : number = 391
+    MODIFIER_EVENT_ON_MODIFIER_REFRESHED : number = 392
+    MODIFIER_EVENT_ON_ABILITY_SWAPPED : number = 393
+    MODIFIER_PROPERTY_OVERRIDE_CREEP_BOUNTY : number = 394
+    MODIFIER_PROPERTY_OVERRIDE_BASE_DAMAGE : number = 395
+    MODIFIER_PROPERTY_UNTARGETABLE_FROM : number = 396
+    MODIFIER_PROPERTY_UNTARGETABLE_TO : number = 397
+    MODIFIER_PROPERTY_SUPER_ILLUSION_WITH_ITEMS : number = 398
+    MODIFIER_EVENT_ON_PURGE : number = 399
+    MODIFIER_EVENT_ON_ILLUSION_CREATED : number = 400
+    MODIFIER_PROPERTY_HEROLEVELSCALE : number = 401
+    MODIFIER_PROPERTY_REPLACE_ATTACK : number = 402
+    MODIFIER_PROPERTY_CUSTOM1 : number = 403
+    MODIFIER_PROPERTY_CUSTOM2 : number = 404
+    MODIFIER_PROPERTY_CUSTOM3 : number = 405
+    MODIFIER_EVENT_ON_CUSTOM1 : number = 406
+    MODIFIER_EVENT_ON_CUSTOM2 : number = 407
+    MODIFIER_EVENT_ON_CUSTOM3 : number = 408
+    MODIFIER_PROPERTY_IGNORE_FORCE_ATTACK_TARGET : number = 409
+    MODIFIER_EVENT_ON_TREE_PLANTED : number = 410
+    MODIFIER_EVENT_ON_DAMAGE_HP_LOSS_SELF : number = 411
+    MODIFIER_FUNCTION_LAST : number = 412
+    MODIFIER_FUNCTION_INVALID : number = 65535
+modifierstate : object
+    MODIFIER_STATE_ROOTED : number = 0
+    MODIFIER_STATE_DISARMED : number = 1
+    MODIFIER_STATE_ATTACK_IMMUNE : number = 2
+    MODIFIER_STATE_SILENCED : number = 3
+    MODIFIER_STATE_MUTED : number = 4
+    MODIFIER_STATE_STUNNED : number = 5
+    MODIFIER_STATE_HEXED : number = 6
+    MODIFIER_STATE_INVISIBLE : number = 7
+    MODIFIER_STATE_INVULNERABLE : number = 8
+    MODIFIER_STATE_MAGIC_IMMUNE : number = 9
+    MODIFIER_STATE_PROVIDES_VISION : number = 10
+    MODIFIER_STATE_NIGHTMARED : number = 11
+    MODIFIER_STATE_BLOCK_DISABLED : number = 12
+    MODIFIER_STATE_EVADE_DISABLED : number = 13
+    MODIFIER_STATE_UNSELECTABLE : number = 14
+    MODIFIER_STATE_CANNOT_TARGET_ENEMIES : number = 15
+    MODIFIER_STATE_CANNOT_TARGET_BUILDINGS : number = 16
+    MODIFIER_STATE_CANNOT_MISS : number = 17
+    MODIFIER_STATE_SPECIALLY_DENIABLE : number = 18
+    MODIFIER_STATE_FROZEN : number = 19
+    MODIFIER_STATE_COMMAND_RESTRICTED : number = 20
+    MODIFIER_STATE_NOT_ON_MINIMAP : number = 21
+    MODIFIER_STATE_LOW_ATTACK_PRIORITY : number = 22
+    MODIFIER_STATE_NO_HEALTH_BAR : number = 23
+    MODIFIER_STATE_NO_HEALTH_BAR_FOR_ENEMIES : number = 24
+    MODIFIER_STATE_NO_HEALTH_BAR_FOR_OTHER_PLAYERS : number = 25
+    MODIFIER_STATE_FLYING : number = 26
+    MODIFIER_STATE_NO_UNIT_COLLISION : number = 27
+    MODIFIER_STATE_NO_TEAM_MOVE_TO : number = 28
+    MODIFIER_STATE_NO_TEAM_SELECT : number = 29
+    MODIFIER_STATE_PASSIVES_DISABLED : number = 30
+    MODIFIER_STATE_DOMINATED : number = 31
+    MODIFIER_STATE_BLIND : number = 32
+    MODIFIER_STATE_OUT_OF_GAME : number = 33
+    MODIFIER_STATE_FAKE_ALLY : number = 34
+    MODIFIER_STATE_FLYING_FOR_PATHING_PURPOSES_ONLY : number = 35
+    MODIFIER_STATE_TRUESIGHT_IMMUNE : number = 36
+    MODIFIER_STATE_UNTARGETABLE : number = 37
+    MODIFIER_STATE_UNTARGETABLE_ALLIED : number = 38
+    MODIFIER_STATE_UNTARGETABLE_ENEMY : number = 39
+    MODIFIER_STATE_UNTARGETABLE_SELF : number = 40
+    MODIFIER_STATE_IGNORING_MOVE_AND_ATTACK_ORDERS : number = 41
+    MODIFIER_STATE_ALLOW_PATHING_THROUGH_TREES : number = 42
+    MODIFIER_STATE_NOT_ON_MINIMAP_FOR_ENEMIES : number = 43
+    MODIFIER_STATE_UNSLOWABLE : number = 44
+    MODIFIER_STATE_TETHERED : number = 45
+    MODIFIER_STATE_IGNORING_STOP_ORDERS : number = 46
+    MODIFIER_STATE_FEARED : number = 47
+    MODIFIER_STATE_TAUNTED : number = 48
+    MODIFIER_STATE_CANNOT_BE_MOTION_CONTROLLED : number = 49
+    MODIFIER_STATE_FORCED_FLYING_VISION : number = 50
+    MODIFIER_STATE_ATTACK_ALLIES : number = 51
+    MODIFIER_STATE_ALLOW_PATHING_THROUGH_CLIFFS : number = 52
+    MODIFIER_STATE_ALLOW_PATHING_THROUGH_POWER_COGS : number = 53
+    MODIFIER_STATE_SPECIALLY_UNDENIABLE : number = 54
+    MODIFIER_STATE_ALLOW_PATHING_THROUGH_OBSTRUCTIONS : number = 55
+    MODIFIER_STATE_DEBUFF_IMMUNE : number = 56
+    MODIFIER_STATE_ALLOW_PATHING_THROUGH_BASE_BLOCKER : number = 57
+    MODIFIER_STATE_IGNORING_MOVE_ORDERS : number = 58
+    MODIFIER_STATE_ATTACKS_ARE_MELEE : number = 59
+    MODIFIER_STATE_CAN_USE_BACKPACK_ITEMS : number = 60
+    MODIFIER_STATE_CASTS_IGNORE_CHANNELING : number = 61
+    MODIFIER_STATE_ATTACK_SELF : number = 62
+    MODIFIER_STATE_NEUTRALS_DONT_ATTACK : number = 63
+    MODIFIER_STATE_LAST : number = 64
+DOTAModifierAttribute_t : object
+    MODIFIER_ATTRIBUTE_NONE : number = 0
+    MODIFIER_ATTRIBUTE_PERMANENT : number = 1
+    MODIFIER_ATTRIBUTE_MULTIPLE : number = 2
+    MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE : number = 4
+    MODIFIER_ATTRIBUTE_AURA_PRIORITY : number = 8
+    MODIFIER_ATTRIBUTE_IGNORE_DODGE : number = 16
+    MODIFIER_ATTRIBUTE_DUPLICATED : number = 32
+Attributes : object
+    DOTA_ATTRIBUTE_STRENGTH : number = 0
+    DOTA_ATTRIBUTE_AGILITY : number = 1
+    DOTA_ATTRIBUTE_INTELLECT : number = 2
+    DOTA_ATTRIBUTE_ALL : number = 3
+    DOTA_ATTRIBUTE_MAX : number = 4
+    DOTA_ATTRIBUTE_INVALID : number = -1
+ParticleAttachment_t : object
+    PATTACH_INVALID : number = -1
+    PATTACH_ABSORIGIN : number = 0
+    PATTACH_ABSORIGIN_FOLLOW : number = 1
+    PATTACH_CUSTOMORIGIN : number = 2
+    PATTACH_CUSTOMORIGIN_FOLLOW : number = 3
+    PATTACH_POINT : number = 4
+    PATTACH_POINT_FOLLOW : number = 5
+    PATTACH_EYES_FOLLOW : number = 6
+    PATTACH_OVERHEAD_FOLLOW : number = 7
+    PATTACH_WORLDORIGIN : number = 8
+    PATTACH_ROOTBONE_FOLLOW : number = 9
+    PATTACH_RENDERORIGIN_FOLLOW : number = 10
+    PATTACH_MAIN_VIEW : number = 11
+    PATTACH_WATERWAKE : number = 12
+    PATTACH_CENTER_FOLLOW : number = 13
+    PATTACH_CUSTOM_GAME_STATE_1 : number = 14
+    PATTACH_HEALTHBAR : number = 15
+    MAX_PATTACH_TYPES : number = 16
+DOTA_MOTION_CONTROLLER_PRIORITY : object
+    DOTA_MOTION_CONTROLLER_PRIORITY_LOWEST : number = 0
+    DOTA_MOTION_CONTROLLER_PRIORITY_LOW : number = 1
+    DOTA_MOTION_CONTROLLER_PRIORITY_MEDIUM : number = 2
+    DOTA_MOTION_CONTROLLER_PRIORITY_HIGH : number = 3
+    DOTA_MOTION_CONTROLLER_PRIORITY_HIGHEST : number = 4
+    DOTA_MOTION_CONTROLLER_PRIORITY_ULTRA : number = 5
+DOTASpeechType_t : object
+    DOTA_SPEECH_USER_INVALID : number = 0
+    DOTA_SPEECH_USER_SINGLE : number = 1
+    DOTA_SPEECH_USER_TEAM : number = 2
+    DOTA_SPEECH_USER_TEAM_NEARBY : number = 3
+    DOTA_SPEECH_USER_NEARBY : number = 4
+    DOTA_SPEECH_USER_ALL : number = 5
+    DOTA_SPEECH_GOOD_TEAM : number = 6
+    DOTA_SPEECH_BAD_TEAM : number = 7
+    DOTA_SPEECH_SPECTATOR : number = 8
+    DOTA_SPEECH_USER_TEAM_NOSPECTATOR : number = 9
+    DOTA_SPEECH_RECIPIENT_TYPE_MAX : number = 10
+DOTAAbilitySpeakTrigger_t : object
+    DOTA_ABILITY_SPEAK_START_ACTION_PHASE : number = 0
+    DOTA_ABILITY_SPEAK_CAST : number = 1
+DotaCustomUIType_t : object
+    DOTA_CUSTOM_UI_TYPE_HUD : number = 0
+    DOTA_CUSTOM_UI_TYPE_HERO_SELECTION : number = 1
+    DOTA_CUSTOM_UI_TYPE_PREGAME_STRATEGY : number = 2
+    DOTA_CUSTOM_UI_TYPE_GAME_INFO : number = 3
+    DOTA_CUSTOM_UI_TYPE_GAME_SETUP : number = 4
+    DOTA_CUSTOM_UI_TYPE_FLYOUT_SCOREBOARD : number = 5
+    DOTA_CUSTOM_UI_TYPE_HUD_TOP_BAR : number = 6
+    DOTA_CUSTOM_UI_TYPE_END_SCREEN : number = 7
+    DOTA_CUSTOM_UI_TYPE_COUNT : number = 8
+    DOTA_CUSTOM_UI_TYPE_INVALID : number = -1
+DotaDefaultUIElement_t : object
+    DOTA_DEFAULT_UI_INVALID : number = -1
+    DOTA_DEFAULT_UI_TOP_TIMEOFDAY : number = 0
+    DOTA_DEFAULT_UI_TOP_HEROES : number = 1
+    DOTA_DEFAULT_UI_FLYOUT_SCOREBOARD : number = 2
+    DOTA_DEFAULT_UI_ACTION_PANEL : number = 3
+    DOTA_DEFAULT_UI_ACTION_MINIMAP : number = 4
+    DOTA_DEFAULT_UI_INVENTORY_PANEL : number = 5
+    DOTA_DEFAULT_UI_INVENTORY_SHOP : number = 6
+    DOTA_DEFAULT_UI_INVENTORY_ITEMS : number = 7
+    DOTA_DEFAULT_UI_INVENTORY_QUICKBUY : number = 8
+    DOTA_DEFAULT_UI_INVENTORY_COURIER : number = 9
+    DOTA_DEFAULT_UI_INVENTORY_PROTECT : number = 10
+    DOTA_DEFAULT_UI_INVENTORY_GOLD : number = 11
+    DOTA_DEFAULT_UI_SHOP_SUGGESTEDITEMS : number = 12
+    DOTA_DEFAULT_UI_SHOP_COMMONITEMS : number = 13
+    DOTA_DEFAULT_UI_HERO_SELECTION_TEAMS : number = 14
+    DOTA_DEFAULT_UI_HERO_SELECTION_GAME_NAME : number = 15
+    DOTA_DEFAULT_UI_HERO_SELECTION_CLOCK : number = 16
+    DOTA_DEFAULT_UI_HERO_SELECTION_HEADER : number = 17
+    DOTA_DEFAULT_UI_TOP_MENU_BUTTONS : number = 18
+    DOTA_DEFAULT_UI_TOP_BAR_BACKGROUND : number = 19
+    DOTA_DEFAULT_UI_TOP_BAR_RADIANT_TEAM : number = 20
+    DOTA_DEFAULT_UI_TOP_BAR_DIRE_TEAM : number = 21
+    DOTA_DEFAULT_UI_TOP_BAR_SCORE : number = 22
+    DOTA_DEFAULT_UI_ENDGAME : number = 23
+    DOTA_DEFAULT_UI_ENDGAME_CHAT : number = 24
+    DOTA_DEFAULT_UI_QUICK_STATS : number = 25
+    DOTA_DEFAULT_UI_PREGAME_STRATEGYUI : number = 26
+    DOTA_DEFAULT_UI_KILLCAM : number = 27
+    DOTA_DEFAULT_UI_FIGHT_RECAP : number = 28
+    DOTA_DEFAULT_UI_TOP_BAR : number = 29
+    DOTA_DEFAULT_UI_CUSTOMUI_BEHIND_HUD_ELEMENTS : number = 30
+    DOTA_DEFAULT_UI_AGHANIMS_STATUS : number = 31
+    DOTA_DEFAULT_UI_ELEMENT_COUNT : number = 32
+PlayerUltimateStateOrTime_t : object
+    PLAYER_ULTIMATE_STATE_READY : number = 0
+    PLAYER_ULTIMATE_STATE_NO_MANA : number = -1
+    PLAYER_ULTIMATE_STATE_NOT_LEVELED : number = -2
+    PLAYER_ULTIMATE_STATE_HIDDEN : number = -3
+PlayerOrderIssuer_t : object
+    DOTA_ORDER_ISSUER_SELECTED_UNITS : number = 0
+    DOTA_ORDER_ISSUER_CURRENT_UNIT_ONLY : number = 1
+    DOTA_ORDER_ISSUER_HERO_ONLY : number = 2
+    DOTA_ORDER_ISSUER_PASSED_UNIT_ONLY : number = 3
+OrderQueueBehavior_t : object
+    DOTA_ORDER_QUEUE_DEFAULT : number = 0
+    DOTA_ORDER_QUEUE_NEVER : number = 1
+    DOTA_ORDER_QUEUE_ALWAYS : number = 2
+CLICK_BEHAVIORS : object
+    DOTA_CLICK_BEHAVIOR_NONE : number = 0
+    DOTA_CLICK_BEHAVIOR_MOVE : number = 1
+    DOTA_CLICK_BEHAVIOR_ATTACK : number = 2
+    DOTA_CLICK_BEHAVIOR_CAST : number = 3
+    DOTA_CLICK_BEHAVIOR_DROP_ITEM : number = 4
+    DOTA_CLICK_BEHAVIOR_DROP_SHOP_ITEM : number = 5
+    DOTA_CLICK_BEHAVIOR_DRAG : number = 6
+    DOTA_CLICK_BEHAVIOR_LEARN_ABILITY : number = 7
+    DOTA_CLICK_BEHAVIOR_PATROL : number = 8
+    DOTA_CLICK_BEHAVIOR_VECTOR_CAST : number = 9
+    DOTA_CLICK_BEHAVIOR_UNUSED : number = 10
+    DOTA_CLICK_BEHAVIOR_RADAR : number = 11
+    DOTA_CLICK_BEHAVIOR_LAST : number = 12
+AbilityLearnResult_t : object
+    ABILITY_CAN_BE_UPGRADED : number = 0
+    ABILITY_CANNOT_BE_UPGRADED_NOT_UPGRADABLE : number = 1
+    ABILITY_CANNOT_BE_UPGRADED_AT_MAX : number = 2
+    ABILITY_CANNOT_BE_UPGRADED_REQUIRES_LEVEL : number = 3
+    ABILITY_NOT_LEARNABLE : number = 4
+DOTAKeybindCommand_t : object
+    DOTA_KEYBIND_NONE : number = 0
+    DOTA_KEYBIND_FIRST : number = 1
+    DOTA_KEYBIND_CAMERA_UP : number = 1
+    DOTA_KEYBIND_CAMERA_DOWN : number = 2
+    DOTA_KEYBIND_CAMERA_LEFT : number = 3
+    DOTA_KEYBIND_CAMERA_RIGHT : number = 4
+    DOTA_KEYBIND_CAMERA_GRIP : number = 5
+    DOTA_KEYBIND_CAMERA_YAW_GRIP : number = 6
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_1 : number = 7
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_2 : number = 8
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_3 : number = 9
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_4 : number = 10
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_5 : number = 11
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_6 : number = 12
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_7 : number = 13
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_8 : number = 14
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_9 : number = 15
+    DOTA_KEYBIND_CAMERA_SAVED_POSITION_10 : number = 16
+    DOTA_KEYBIND_HERO_ATTACK : number = 17
+    DOTA_KEYBIND_HERO_MOVE : number = 18
+    DOTA_KEYBIND_HERO_MOVE_DIRECTION : number = 19
+    DOTA_KEYBIND_PATROL : number = 20
+    DOTA_KEYBIND_HERO_STOP : number = 21
+    DOTA_KEYBIND_HERO_HOLD : number = 22
+    DOTA_KEYBIND_HERO_SELECT : number = 23
+    DOTA_KEYBIND_COURIER_SELECT : number = 24
+    DOTA_KEYBIND_COURIER_DELIVER : number = 25
+    DOTA_KEYBIND_COURIER_BURST : number = 26
+    DOTA_KEYBIND_COURIER_SHIELD : number = 27
+    DOTA_KEYBIND_PAUSE : number = 28
+    DOTA_SELECT_ALL : number = 29
+    DOTA_SELECT_ALL_OTHERS : number = 30
+    DOTA_RECENT_EVENT : number = 31
+    DOTA_KEYBIND_CHAT_TEAM : number = 32
+    DOTA_KEYBIND_CHAT_GLOBAL : number = 33
+    DOTA_KEYBIND_CHAT_TEAM2 : number = 34
+    DOTA_KEYBIND_CHAT_GLOBAL2 : number = 35
+    DOTA_KEYBIND_CHAT_VOICE_PARTY : number = 36
+    DOTA_KEYBIND_CHAT_VOICE_TEAM : number = 37
+    DOTA_KEYBIND_CHAT_WHEEL : number = 38
+    DOTA_KEYBIND_CHAT_WHEEL2 : number = 39
+    DOTA_KEYBIND_CHAT_WHEEL_CARE : number = 40
+    DOTA_KEYBIND_CHAT_WHEEL_BACK : number = 41
+    DOTA_KEYBIND_CHAT_WHEEL_NEED_WARDS : number = 42
+    DOTA_KEYBIND_CHAT_WHEEL_STUN : number = 43
+    DOTA_KEYBIND_CHAT_WHEEL_HELP : number = 44
+    DOTA_KEYBIND_CHAT_WHEEL_GET_PUSH : number = 45
+    DOTA_KEYBIND_CHAT_WHEEL_GOOD_JOB : number = 46
+    DOTA_KEYBIND_CHAT_WHEEL_MISSING : number = 47
+    DOTA_KEYBIND_CHAT_WHEEL_MISSING_TOP : number = 48
+    DOTA_KEYBIND_CHAT_WHEEL_MISSING_MIDDLE : number = 49
+    DOTA_KEYBIND_CHAT_WHEEL_MISSING_BOTTOM : number = 50
+    DOTA_KEYBIND_HERO_CHAT_WHEEL : number = 51
+    DOTA_KEYBIND_SPRAY_WHEEL : number = 52
+    DOTA_KEYBIND_ABILITY_PRIMARY1 : number = 53
+    DOTA_KEYBIND_ABILITY_PRIMARY2 : number = 54
+    DOTA_KEYBIND_ABILITY_PRIMARY3 : number = 55
+    DOTA_KEYBIND_ABILITY_SECONDARY1 : number = 56
+    DOTA_KEYBIND_ABILITY_SECONDARY2 : number = 57
+    DOTA_KEYBIND_ABILITY_ULTIMATE : number = 58
+    DOTA_KEYBIND_TALENT_UPGRADE_LEFT : number = 59
+    DOTA_KEYBIND_TALENT_UPGRADE_RIGHT : number = 60
+    DOTA_KEYBIND_TALENT_UPGRADE_ATTRIBUTE : number = 61
+    DOTA_KEYBIND_NEUTRAL_ITEM_SELECT1 : number = 62
+    DOTA_KEYBIND_NEUTRAL_ITEM_SELECT2 : number = 63
+    DOTA_KEYBIND_NEUTRAL_ITEM_SELECT3 : number = 64
+    DOTA_KEYBIND_NEUTRAL_ITEM_SELECT4 : number = 65
+    DOTA_KEYBIND_NEUTRAL_ITEM_SELECT5 : number = 66
+    DOTA_KEYBIND_ABILITY_PRIMARY1_QUICKCAST : number = 67
+    DOTA_KEYBIND_ABILITY_PRIMARY2_QUICKCAST : number = 68
+    DOTA_KEYBIND_ABILITY_PRIMARY3_QUICKCAST : number = 69
+    DOTA_KEYBIND_ABILITY_SECONDARY1_QUICKCAST : number = 70
+    DOTA_KEYBIND_ABILITY_SECONDARY2_QUICKCAST : number = 71
+    DOTA_KEYBIND_ABILITY_ULTIMATE_QUICKCAST : number = 72
+    DOTA_KEYBIND_ABILITY_PRIMARY1_EXPLICIT_AUTOCAST : number = 73
+    DOTA_KEYBIND_ABILITY_PRIMARY2_EXPLICIT_AUTOCAST : number = 74
+    DOTA_KEYBIND_ABILITY_PRIMARY3_EXPLICIT_AUTOCAST : number = 75
+    DOTA_KEYBIND_ABILITY_SECONDARY1_EXPLICIT_AUTOCAST : number = 76
+    DOTA_KEYBIND_ABILITY_SECONDARY2_EXPLICIT_AUTOCAST : number = 77
+    DOTA_KEYBIND_ABILITY_ULTIMATE_EXPLICIT_AUTOCAST : number = 78
+    DOTA_KEYBIND_ABILITY_PRIMARY1_QUICKCAST_AUTOCAST : number = 79
+    DOTA_KEYBIND_ABILITY_PRIMARY2_QUICKCAST_AUTOCAST : number = 80
+    DOTA_KEYBIND_ABILITY_PRIMARY3_QUICKCAST_AUTOCAST : number = 81
+    DOTA_KEYBIND_ABILITY_SECONDARY1_QUICKCAST_AUTOCAST : number = 82
+    DOTA_KEYBIND_ABILITY_SECONDARY2_QUICKCAST_AUTOCAST : number = 83
+    DOTA_KEYBIND_ABILITY_ULTIMATE_QUICKCAST_AUTOCAST : number = 84
+    DOTA_KEYBIND_ABILITY_PRIMARY1_AUTOMATIC_AUTOCAST : number = 85
+    DOTA_KEYBIND_ABILITY_PRIMARY2_AUTOMATIC_AUTOCAST : number = 86
+    DOTA_KEYBIND_ABILITY_PRIMARY3_AUTOMATIC_AUTOCAST : number = 87
+    DOTA_KEYBIND_ABILITY_SECONDARY1_AUTOMATIC_AUTOCAST : number = 88
+    DOTA_KEYBIND_ABILITY_SECONDARY2_AUTOMATIC_AUTOCAST : number = 89
+    DOTA_KEYBIND_ABILITY_ULTIMATE_AUTOMATIC_AUTOCAST : number = 90
+    DOTA_KEYBIND_INVENTORY1 : number = 91
+    DOTA_KEYBIND_INVENTORY2 : number = 92
+    DOTA_KEYBIND_INVENTORY3 : number = 93
+    DOTA_KEYBIND_INVENTORY4 : number = 94
+    DOTA_KEYBIND_INVENTORY5 : number = 95
+    DOTA_KEYBIND_INVENTORY6 : number = 96
+    DOTA_KEYBIND_INVENTORYTP : number = 97
+    DOTA_KEYBIND_INVENTORYNEUTRAL : number = 98
+    DOTA_KEYBIND_INVENTORY1_QUICKCAST : number = 99
+    DOTA_KEYBIND_INVENTORY2_QUICKCAST : number = 100
+    DOTA_KEYBIND_INVENTORY3_QUICKCAST : number = 101
+    DOTA_KEYBIND_INVENTORY4_QUICKCAST : number = 102
+    DOTA_KEYBIND_INVENTORY5_QUICKCAST : number = 103
+    DOTA_KEYBIND_INVENTORY6_QUICKCAST : number = 104
+    DOTA_KEYBIND_INVENTORYTP_QUICKCAST : number = 105
+    DOTA_KEYBIND_INVENTORYNEUTRAL_QUICKCAST : number = 106
+    DOTA_KEYBIND_INVENTORY1_AUTOCAST : number = 107
+    DOTA_KEYBIND_INVENTORY2_AUTOCAST : number = 108
+    DOTA_KEYBIND_INVENTORY3_AUTOCAST : number = 109
+    DOTA_KEYBIND_INVENTORY4_AUTOCAST : number = 110
+    DOTA_KEYBIND_INVENTORY5_AUTOCAST : number = 111
+    DOTA_KEYBIND_INVENTORY6_AUTOCAST : number = 112
+    DOTA_KEYBIND_INVENTORYTP_AUTOCAST : number = 113
+    DOTA_KEYBIND_INVENTORYNEUTRAL_AUTOCAST : number = 114
+    DOTA_KEYBIND_INVENTORY1_QUICKAUTOCAST : number = 115
+    DOTA_KEYBIND_INVENTORY2_QUICKAUTOCAST : number = 116
+    DOTA_KEYBIND_INVENTORY3_QUICKAUTOCAST : number = 117
+    DOTA_KEYBIND_INVENTORY4_QUICKAUTOCAST : number = 118
+    DOTA_KEYBIND_INVENTORY5_QUICKAUTOCAST : number = 119
+    DOTA_KEYBIND_INVENTORY6_QUICKAUTOCAST : number = 120
+    DOTA_KEYBIND_INVENTORYTP_QUICKAUTOCAST : number = 121
+    DOTA_KEYBIND_INVENTORYNEUTRAL_QUICKAUTOCAST : number = 122
+    DOTA_KEYBIND_CONTROL_GROUP1 : number = 123
+    DOTA_KEYBIND_CONTROL_GROUP2 : number = 124
+    DOTA_KEYBIND_CONTROL_GROUP3 : number = 125
+    DOTA_KEYBIND_CONTROL_GROUP4 : number = 126
+    DOTA_KEYBIND_CONTROL_GROUP5 : number = 127
+    DOTA_KEYBIND_CONTROL_GROUP6 : number = 128
+    DOTA_KEYBIND_CONTROL_GROUP7 : number = 129
+    DOTA_KEYBIND_CONTROL_GROUP8 : number = 130
+    DOTA_KEYBIND_CONTROL_GROUP9 : number = 131
+    DOTA_KEYBIND_CONTROL_GROUP10 : number = 132
+    DOTA_KEYBIND_CONTROL_GROUPCYCLE : number = 133
+    DOTA_KEYBIND_SELECT_ALLY1 : number = 134
+    DOTA_KEYBIND_SELECT_ALLY2 : number = 135
+    DOTA_KEYBIND_SELECT_ALLY3 : number = 136
+    DOTA_KEYBIND_SELECT_ALLY4 : number = 137
+    DOTA_KEYBIND_SELECT_ALLY5 : number = 138
+    DOTA_KEYBIND_SHOP_TOGGLE : number = 139
+    DOTA_KEYBIND_SCOREBOARD_TOGGLE : number = 140
+    DOTA_KEYBIND_COMBATLOG_TOGGLE : number = 141
+    DOTA_KEYBIND_SCREENSHOT : number = 142
+    DOTA_KEYBIND_ESCAPE : number = 143
+    DOTA_KEYBIND_CONSOLE : number = 144
+    DOTA_KEYBIND_DEATH_SUMMARY : number = 145
+    DOTA_KEYBIND_LEARN_ABILITIES : number = 146
+    DOTA_KEYBIND_LEARN_STATS : number = 147
+    DOTA_KEYBIND_ACTIVATE_GLYPH : number = 148
+    DOTA_KEYBIND_ACTIVATE_RADAR : number = 149
+    DOTA_KEYBIND_PURCHASE_QUICKBUY : number = 150
+    DOTA_KEYBIND_PURCHASE_STICKY : number = 151
+    DOTA_KEYBIND_TOGGLE_BUYBACK_PROTECTION : number = 152
+    DOTA_KEYBIND_GRAB_STASH_ITEMS : number = 153
+    DOTA_KEYBIND_TOGGLE_AUTOATTACK : number = 154
+    DOTA_KEYBIND_TOGGLE_OVERLAYMAP : number = 155
+    DOTA_KEYBIND_OVERLAYMAP_INPUTKEY : number = 156
+    DOTA_KEYBIND_FILTER_ENEMY : number = 157
+    DOTA_KEYBIND_FILTER_ALLY : number = 158
+    DOTA_KEYBIND_FILTER_HERO : number = 159
+    DOTA_KEYBIND_FILTER_NONHERO : number = 160
+    DOTA_KEYBIND_TAUNT : number = 161
+    DOTA_KEYBIND_SHOP_CONSUMABLES : number = 162
+    DOTA_KEYBIND_SHOP_ATTRIBUTES : number = 163
+    DOTA_KEYBIND_SHOP_ARMAMENTS : number = 164
+    DOTA_KEYBIND_SHOP_ARCANE : number = 165
+    DOTA_KEYBIND_SHOP_BASICS : number = 166
+    DOTA_KEYBIND_SHOP_SUPPORT : number = 167
+    DOTA_KEYBIND_SHOP_CASTER : number = 168
+    DOTA_KEYBIND_SHOP_WEAPONS : number = 169
+    DOTA_KEYBIND_SHOP_ARMOR : number = 170
+    DOTA_KEYBIND_SHOP_ARTIFACTS : number = 171
+    DOTA_KEYBIND_SHOP_SIDE_PAGE_1 : number = 172
+    DOTA_KEYBIND_SHOP_SIDE_PAGE_2 : number = 173
+    DOTA_KEYBIND_SHOP_SECRET : number = 174
+    DOTA_KEYBIND_SHOP_SEARCHBOX : number = 175
+    DOTA_KEYBIND_SHOP_SLOT_1 : number = 176
+    DOTA_KEYBIND_SHOP_SLOT_2 : number = 177
+    DOTA_KEYBIND_SHOP_SLOT_3 : number = 178
+    DOTA_KEYBIND_SHOP_SLOT_4 : number = 179
+    DOTA_KEYBIND_SHOP_SLOT_5 : number = 180
+    DOTA_KEYBIND_SHOP_SLOT_6 : number = 181
+    DOTA_KEYBIND_SHOP_SLOT_7 : number = 182
+    DOTA_KEYBIND_SHOP_SLOT_8 : number = 183
+    DOTA_KEYBIND_SHOP_SLOT_9 : number = 184
+    DOTA_KEYBIND_SHOP_SLOT_10 : number = 185
+    DOTA_KEYBIND_SHOP_SLOT_11 : number = 186
+    DOTA_KEYBIND_SHOP_SLOT_12 : number = 187
+    DOTA_KEYBIND_SHOP_SLOT_13 : number = 188
+    DOTA_KEYBIND_SHOP_SLOT_14 : number = 189
+    DOTA_KEYBIND_SPEC_CAMERA_UP : number = 190
+    DOTA_KEYBIND_SPEC_CAMERA_DOWN : number = 191
+    DOTA_KEYBIND_SPEC_CAMERA_LEFT : number = 192
+    DOTA_KEYBIND_SPEC_CAMERA_RIGHT : number = 193
+    DOTA_KEYBIND_SPEC_CAMERA_GRIP : number = 194
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_1 : number = 195
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_2 : number = 196
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_3 : number = 197
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_4 : number = 198
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_5 : number = 199
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_6 : number = 200
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_7 : number = 201
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_8 : number = 202
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_9 : number = 203
+    DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_10 : number = 204
+    DOTA_KEYBIND_SPEC_UNIT_SELECT : number = 205
+    DOTA_KEYBIND_SPEC_HERO_SELECT : number = 206
+    DOTA_KEYBIND_SPEC_PAUSE : number = 207
+    DOTA_KEYBIND_SPEC_CHAT : number = 208
+    DOTA_KEYBIND_SPEC_SCOREBOARD : number = 209
+    DOTA_KEYBIND_SPEC_INCREASE_REPLAY_SPEED : number = 210
+    DOTA_KEYBIND_SPEC_DECREASE_REPLAY_SPEED : number = 211
+    DOTA_KEYBIND_SPEC_STATS_ITEM : number = 212
+    DOTA_KEYBIND_SPEC_STATS_GOLD : number = 213
+    DOTA_KEYBIND_SPEC_STATS_XP : number = 214
+    DOTA_KEYBIND_SPEC_STATS_FANTASY : number = 215
+    DOTA_KEYBIND_SPEC_STATS_WINCHANCE : number = 216
+    DOTA_KEYBIND_SPEC_FOW_TOGGLEBOTH : number = 217
+    DOTA_KEYBIND_SPEC_FOW_TOGGLERADIENT : number = 218
+    DOTA_KEYBIND_SPEC_FOW_TOGGLEDIRE : number = 219
+    DOTA_KEYBIND_SPEC_OPEN_BROADCASTER_MENU : number = 220
+    DOTA_KEYBIND_SPEC_DROPDOWN_KDA : number = 221
+    DOTA_KEYBIND_SPEC_DROPDOWN_LASTHITS_DENIES : number = 222
+    DOTA_KEYBIND_SPEC_DROPDOWN_LEVEL : number = 223
+    DOTA_KEYBIND_SPEC_DROPDOWN_XP_PER_MIN : number = 224
+    DOTA_KEYBIND_SPEC_DROPDOWN_GOLD : number = 225
+    DOTA_KEYBIND_SPEC_DROPDOWN_TOTALGOLD : number = 226
+    DOTA_KEYBIND_SPEC_DROPDOWN_GOLD_PER_MIN : number = 227
+    DOTA_KEYBIND_SPEC_DROPDOWN_BUYBACK : number = 228
+    DOTA_KEYBIND_SPEC_DROPDOWN_NETWORTH : number = 229
+    DOTA_KEYBIND_SPEC_DROPDOWN_FANTASY : number = 230
+    DOTA_KEYBIND_SPEC_DROPDOWN_SORT : number = 231
+    DOTA_KEYBIND_SPEC_DROPDOWN_CLOSE : number = 232
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_1 : number = 233
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_2 : number = 234
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_3 : number = 235
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_4 : number = 236
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_5 : number = 237
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_6 : number = 238
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_7 : number = 239
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_8 : number = 240
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_9 : number = 241
+    DOTA_KEYBIND_SPEC_FOCUS_PLAYER_10 : number = 242
+    DOTA_KEYBIND_SPEC_COACH_VIEWTOGGLE : number = 243
+    DOTA_KEYBIND_INSPECTHEROINWORLD : number = 244
+    DOTA_KEYBIND_CAMERA_ZOOM_IN : number = 245
+    DOTA_KEYBIND_CAMERA_ZOOM_OUT : number = 246
+    DOTA_KEYBIND_CONTROL_GROUPCYCLEPREV : number = 247
+    DOTA_KEYBIND_DOTA_ALT : number = 248
+    DOTA_KEYBIND_DOTA_ALTERNATIVE_CAST_SWITCH : number = 249
+    DOTA_KEYBIND_COUNT : number = 250
+DOTA_SHOP_TYPE : object
+    DOTA_SHOP_HOME : number = 0
+    DOTA_SHOP_SIDE : number = 1
+    DOTA_SHOP_SECRET : number = 2
+    DOTA_SHOP_GROUND : number = 3
+    DOTA_SHOP_SIDE2 : number = 4
+    DOTA_SHOP_SECRET2 : number = 5
+    DOTA_SHOP_CUSTOM : number = 6
+    DOTA_SHOP_NEUTRALS : number = 7
+    DOTA_SHOP_NONE : number = 8
+IsDotaAltPressed : function -> client.dll+0x2275c60 method=client.dll+0x1bc8e40
+PlayUISoundEvent : function -> client.dll+0x2275470 method=client.dll+0x2278a20
+StopUISoundEvent : function -> client.dll+0x2275780 method=client.dll+0x2278a40
+IsUISoundEventPlaying : function -> client.dll+0x2275de0 method=client.dll+0x2278a10
+SetDuckingUIMusic : function -> client.dll+0x2275a40 method=client.dll+0x1bd4060
+WKArcanaGetNumUnclaimedHeroes : function -> client.dll+0x30ab060 method=client.dll+0x30b6120
+=== Panel context (Play) ===
+paneltype : string = DOTAPlay
+rememberchildfocus : boolean = false
+style : object
+actualuiscale_x : number = 0.8333333134651184
+actualuiscale_y : number = 0.8333333134651184
+scrolloffset_x : number = 0
+scrolloffset_y : number = 0
+actualyoffset : number = 3.4028234663852886e+38
+actualxoffset : number = 3.4028234663852886e+38
+actuallayoutheight : number = 0
+actuallayoutwidth : number = 0
+desiredlayoutheight : number = 0
+desiredlayoutwidth : number = 0
+contentheight : number = 0
+contentwidth : number = 0
+layoutfile : string = panorama\layout\play.xml
+id : string = Play
+type : string = DOTAPlay
+selectionpos_y : object = null
+selectionpos_x : object = null
+tabindex : object = null
+hittestchildren : boolean = true
+hittest : boolean = false
+inputnamespace : string = 
+defaultfocus : string = 
+checked : boolean = false
+enabled : boolean = true
+visible : boolean = true
+IsValid : function -> client.dll+0x38b67d0
+AddClass : function -> client.dll+0x38a3920 method=client.dll+0x38af450
+AddClasses : function -> client.dll+0x38a3490 method=client.dll+0x38af460
+RemoveClass : function -> client.dll+0x38a3920 method=client.dll+0x38ba350
+RemoveClasses : function -> client.dll+0x38a3490 method=client.dll+0x38ba360
+BHasClass : function -> client.dll+0x38a64f0 method=client.dll+0x38af570
+BAscendantHasClass : function -> client.dll+0x38a64f0 method=client.dll+0x38af540
+SetHasClass : function -> client.dll+0x38a4b50 method=client.dll+0x38bb200
+ToggleClass : function -> client.dll+0x38a3920 method=client.dll+0x38bd760
+SwitchClass : function -> client.dll+0x38a47d0 method=client.dll+0x38bd750
+TriggerClass : function -> client.dll+0x38a3920 method=client.dll+0x38bd770
+ClearPanelEvent : function -> client.dll+0x38a3920 method=client.dll+0x38af910
+SetDraggable : function -> client.dll+0x38a5660 method=client.dll+0x38bb1d0
+IsDraggable : function -> client.dll+0x38a5a70 method=client.dll+0x38b6630
+IsSizeValid : function -> client.dll+0x38a5a70 method=client.dll+0x38b6660
+GetChildCount : function -> client.dll+0x389dc60 method=client.dll+0x38b24e0
+GetChild : function -> client.dll+0x389f140 method=client.dll+0x38b24b0
+GetChildIndex : function -> client.dll+0x389e310 method=client.dll+0x38b24f0
+Children : function -> client.dll+0x389da20 method=client.dll+0x38af440
+FindChildrenWithClassTraverse : function -> client.dll+0x389fdd0 method=client.dll+0x38b6dc0
+FindChildrenWithAttributeTraverse : function -> client.dll+0x389fdd0 method=client.dll+0x38b6da0
+GetParent : function -> client.dll+0x389eef0 method=client.dll+0x26df900
+SetParent : function -> client.dll+0x38a1af0 method=client.dll+0x38bb810
+FindChild : function -> client.dll+0x389f5a0 method=client.dll+0x389d460
+FindChildTraverse : function -> client.dll+0x389f5a0 method=client.dll+0x389d4c0
+FindChildInLayoutFile : function -> client.dll+0x389f5a0 method=client.dll+0x389d490
+FindPanelInThisOrParentLayoutFile : function -> client.dll+0x389f5a0 method=client.dll+0x389d4f0
+FindAncestor : function -> client.dll+0x389f5a0 method=client.dll+0x38b2030
+RemoveAndDeleteChildren : function -> client.dll+0x38a0da0 method=client.dll+0x38ba340
+MoveChildBefore : function -> client.dll+0x38a1f10 method=client.dll+0x25d1660
+MoveChildAfter : function -> client.dll+0x38a1f10 method=client.dll+0x30bb3e0
+GetPositionWithinWindow : function -> client.dll+0x38a0290 method=client.dll+0x38b4090
+GetPositionWithinAncestor : function -> client.dll+0x38a04e0 method=client.dll+0x38b4040
+GetPosition : function -> client.dll+0x38a0940 method=client.dll+0x38b3f60
+ApplyStyles : function -> client.dll+0x38a5660 method=client.dll+0x38af490
+ClearPropertyFromCode : function -> client.dll+0x38a4ed0 method=client.dll+0x38af920
+DeleteAsync : function -> client.dll+0x38a0fa0 method=client.dll+0x38afff0
+BIsTransparent : function -> client.dll+0x38a5a70 method=client.dll+0x38af600
+BAcceptsInput : function -> client.dll+0x38a5a70 method=client.dll+0x38af530
+BAcceptsFocus : function -> client.dll+0x38a5a70 method=client.dll+0x38af520
+SetFocus : function -> client.dll+0x38a5a70 method=client.dll+0x38bb1f0
+UpdateFocusInContext : function -> client.dll+0x38a5a70 method=client.dll+0x38bd790
+BHasHoverStyle : function -> client.dll+0x38a5a70 method=client.dll+0x38af590
+SetAcceptsInput : function -> client.dll+0x38a5660 method=client.dll+0x250fdd0
+SetAcceptsFocus : function -> client.dll+0x38a5660 method=client.dll+0x38ba780
+SetDisableFocusOnMouseDown : function -> client.dll+0x38a5660 method=client.dll+0x38bb1c0
+BHasKeyFocus : function -> client.dll+0x38a5a70 method=client.dll+0x38af5a0
+SetScrollParentToFitWhenFocused : function -> client.dll+0x38a5660 method=client.dll+0x38bc5f0
+BScrollParentToFitWhenFocused : function -> client.dll+0x38a5a70 method=client.dll+0x38af660
+IsSelected : function -> client.dll+0x38a5a70 method=client.dll+0x38b6650
+BHasDescendantKeyFocus : function -> client.dll+0x38a5a70 method=client.dll+0x38af580
+BLoadLayout : function -> client.dll+0x38a6120 method=client.dll+0x38af620
+BLoadLayoutSnippet : function -> client.dll+0x38a5cc0 method=client.dll+0x38af640
+BHasLayoutSnippet : function -> client.dll+0x38a5cc0 method=client.dll+0x38af5b0
+BGetSnippetNames : function -> client.dll+0x38a2280 method=client.dll+0x38af560
+SetTopOfInputContext : function -> client.dll+0x38a5660 method=client.dll+0x38bc880
+SetDialogVariable : function -> client.dll+0x38a29c0 method=client.dll+0x38bb250
+SetDialogVariableInt : function -> client.dll+0x38a2640 method=client.dll+0x38bb320
+SetDialogVariableTime : function -> client.dll+0x38a3110 method=client.dll+0x38bb3f0
+SetDialogVariableLocString : function -> client.dll+0x38a29c0 method=client.dll+0x38bb4c0
+SetDialogVariableLocStringNested : function -> client.dll+0x38a29c0 method=client.dll+0x38bb650
+ScrollToTop : function -> client.dll+0x38a0da0 method=client.dll+0x38ba550
+ScrollToBottom : function -> client.dll+0x38a0da0 method=client.dll+0x38ba410
+ScrollToLeftEdge : function -> client.dll+0x38a0da0 method=client.dll+0x38ba420
+ScrollToRightEdge : function -> client.dll+0x38a0da0 method=client.dll+0x38ba540
+ScrollParentToMakePanelFit : function -> client.dll+0x38a52e0 method=client.dll+0x38ba400
+ScrollToFitRegion : function -> client.dll+0x38a1740 method=client.dll+0x26288b0
+BCanSeeInParentScroll : function -> client.dll+0x38a5a70 method=client.dll+0x38af550
+PlayPanelSound : function -> client.dll+0x389deb0 method=client.dll+0x38ba310
+GetAttributeInt : function -> client.dll+0x389e770 method=client.dll+0x38b22e0
+GetAttributeString : function -> client.dll+0x389fa10 method=client.dll+0x38b2300
+GetAttributeUInt32 : function -> client.dll+0x389eb30 method=client.dll+0x38b22f0
+SetAttributeInt : function -> client.dll+0x38a3d40 method=client.dll+0x38ba790
+SetAttributeString : function -> client.dll+0x38a4440 method=client.dll+0x38ba7b0
+SetAttributeUInt32 : function -> client.dll+0x38a40c0 method=client.dll+0x38ba7a0
+SetInputNamespace : function -> client.dll+0x38a3920 method=client.dll+0x2510e00
+RegisterForReadyEvents : function -> client.dll+0x38a5660 method=client.dll+0x38ba330
+BReadyForDisplay : function -> client.dll+0x38a5a70 method=client.dll+0x38af650
+SetReadyForDisplay : function -> client.dll+0x38a5660 method=client.dll+0x38bc5d0
+SetPositionInPixels : function -> client.dll+0x38a13c0 method=client.dll+0x38b6e20
+SetWidthInPixels : function -> client.dll+0x38a0fa0 method=client.dll+0x38b6e80
+SetHeightInPixels : function -> client.dll+0x38a0fa0 method=client.dll+0x38b6de0
+Data : function -> client.dll+0x38a6950 method=client.dll+0x38b26e0
+SetSendScrollPositionChangedEvents : function -> client.dll+0x38a5660 method=client.dll+0x38bc6b0
+SetCompositionLayerTextureName : function -> client.dll+0x38a3920 method=client.dll+0x38ba7f0
+WriteCompositionLayerPNG : function -> client.dll+0x38a29c0 method=client.dll+0x38bd7b0
+WriteCompositionLayerJPEG : function -> client.dll+0x38a2d60 method=client.dll+0x38bd7a0
+GetActiveFeaturedGamemode : function -> client.dll+0x289fe20 method=client.dll+0x28baff0 this+0x2ef00000000
+GetFeaturedGamemodeProgress : function -> client.dll+0x289f780 method=client.dll+0x28b8670 this+0x2ef00000000
+GetFeaturedGamemodeMax : function -> client.dll+0x289f780 method=client.dll+0x28b8610 this+0x2ef00000000
+GetSelectedGameModes : function -> client.dll+0x289f780 method=client.dll+0x28b9030 this+0x2ef00000000
+UpdateCasualGameModeCheckboxes : function -> client.dll+0x289f9d0 method=client.dll+0x28d2780 this+0x2ef00000000
+SetPanelEvent : function -> panorama.dll+0x10f400 method=panorama.dll+0xf8b40
+RunScriptInPanelContext : function -> panorama.dll+0x10f400 method=panorama.dll+0xf91f0
+=== Registry (7 scopes) ===
+$ (28)
+    Msg(16) kind=0 ret=2  // Log a message
+    AssertHelper(16) kind=0 ret=2  // Trigger an assert
+    Warning(16) kind=0 ret=2  // Log a warning message to specified channel
+    DispatchEvent(16) kind=0 ret=2  // Dispatch an event
+    DispatchEventAsync(16) kind=0 ret=2  // Dispatch an event to occur later
+    RegisterEventHandler(16) kind=0 ret=2  // Register an event handler
+    RegisterForUnhandledEvent(16) kind=0 ret=2  // Register a handler for an event that is not otherwise handled
+    UnregisterForUnhandledEvent(16) kind=0 ret=2  // Remove an unhandled event handler
+    FindChildInContext(16) kind=0 ret=2  // Find an element
+    AsyncWebRequest(16) kind=0 ret=2  // Make a web request (disabled)
+    CreatePanel(16) kind=0 ret=2  // Create a new panel
+    CreatePanelWithProperties(16) kind=0 ret=2  // DEPRECATED: Use $.CreatePanel which has the same signature and supports properties.
+    CanLocalize(16) kind=0 ret=2  // Check whether the given localization token is known to the localization system.
+    Localize(16) kind=0 ret=2  // Localize a string. Optionally accepts a Panel argument for dialog variable values.
+    ConstructString(16) kind=0 ret=2  // Localize a string using the given property values
+    ConstructMFString(16) kind=0 ret=2  // Localize a MessageFormat string using the given property values
+    Language(16) kind=0 ret=2  // Get the current language
+    Schedule(16) kind=0 ret=2  // Schedule a function to be called later
+    CancelScheduled(16) kind=0 ret=2  // Cancels a scheduled function
+    FrameTime(16) kind=0 ret=2  // Gets the time this frame started, in seconds since panorama was initialized
+    GetContextPanel(16) kind=0 ret=2  // Get the current panel context
+    RegisterKeyBind(16) kind=0 ret=2  // Register a key binding
+    Each(16) kind=0 ret=2  // Call a function on each given item
+    DbgIsReloadingScript(16) kind=0 ret=2  // Call during JS startup code to check if script is being reloaded
+    HTMLEscape(16) kind=0 ret=2  // Convert a string to HTML-safe
+    LogChannel(16) kind=0 ret=2  // Create a logging channel
+    BImageFileExists(16) kind=0 ret=2  // Return true if a file exists.  Path will usually start with 'file://{images}'
+    MousePosition(16) kind=0 ret=2  // Return the position of the mouse in the parent window.
+DOTAHeroModelOverlay (117)
+    visible kind=2 ret=3
+    enabled kind=2 ret=3
+    checked kind=2 ret=3
+    defaultfocus kind=2 ret=14
+    inputnamespace kind=2 ret=15
+    hittest kind=2 ret=3
+    hittestchildren kind=2 ret=3
+    tabindex kind=2 ret=12
+    selectionpos_x kind=2 ret=12
+    selectionpos_y kind=2 ret=12
+    type kind=3 ret=15
+    id kind=3 ret=14
+    layoutfile kind=3 ret=0
+    contentwidth kind=3 ret=12
+    contentheight kind=3 ret=12
+    desiredlayoutwidth kind=3 ret=12
+    desiredlayoutheight kind=3 ret=12
+    actuallayoutwidth kind=3 ret=12
+    actuallayoutheight kind=3 ret=12
+    actualxoffset kind=3 ret=12
+    actualyoffset kind=3 ret=12
+    scrolloffset_y kind=3 ret=12
+    scrolloffset_x kind=3 ret=12
+    actualuiscale_y kind=3 ret=12
+    actualuiscale_x kind=3 ret=12
+    style kind=3 ret=0
+    AddClass(15) kind=1 ret=2
+    AddClasses(0) kind=1 ret=2
+    RemoveClass(15) kind=1 ret=2
+    RemoveClasses(0) kind=1 ret=2
+    BHasClass(15) kind=1 ret=3
+    BAscendantHasClass(15) kind=1 ret=3
+    SetHasClass(15, 3) kind=1 ret=2
+    ToggleClass(15) kind=1 ret=2
+    SwitchClass(15, 15) kind=1 ret=2
+    TriggerClass(15) kind=1 ret=2
+    ClearPanelEvent(15) kind=1 ret=2
+    SetDraggable(3) kind=1 ret=2
+    IsDraggable() kind=1 ret=3
+    IsSizeValid() kind=1 ret=3
+    GetChildCount() kind=1 ret=8
+    GetChild(8) kind=1 ret=0
+    GetChildIndex(0) kind=1 ret=8
+    Children() kind=1 ret=0
+    FindChildrenWithClassTraverse(15) kind=1 ret=0
+    FindChildrenWithAttributeTraverse(15) kind=1 ret=0
+    GetParent() kind=1 ret=0
+    SetParent(0) kind=1 ret=2
+    FindChild(14) kind=1 ret=0
+    FindChildTraverse(14) kind=1 ret=0
+    FindChildInLayoutFile(14) kind=1 ret=0
+    FindPanelInThisOrParentLayoutFile(14) kind=1 ret=0
+    FindAncestor(14) kind=1 ret=0
+    RemoveAndDeleteChildren() kind=1 ret=2
+    MoveChildBefore(0, 0) kind=1 ret=2
+    MoveChildAfter(0, 0) kind=1 ret=2
+    GetPositionWithinWindow() kind=1 ret=0
+    GetPositionWithinAncestor(0) kind=1 ret=0
+    GetPosition(3) kind=1 ret=0
+    ApplyStyles(3) kind=1 ret=2
+    ClearPropertyFromCode(0) kind=1 ret=2
+    DeleteAsync(12) kind=1 ret=2
+    BIsTransparent() kind=1 ret=3
+    BAcceptsInput() kind=1 ret=3
+    BAcceptsFocus() kind=1 ret=3
+    SetFocus() kind=1 ret=3
+    UpdateFocusInContext() kind=1 ret=3
+    BHasHoverStyle() kind=1 ret=3
+    SetAcceptsInput(3) kind=1 ret=2
+    SetAcceptsFocus(3) kind=1 ret=2
+    SetDisableFocusOnMouseDown(3) kind=1 ret=2
+    BHasKeyFocus() kind=1 ret=3
+    SetScrollParentToFitWhenFocused(3) kind=1 ret=2
+    BScrollParentToFitWhenFocused() kind=1 ret=3
+    IsSelected() kind=1 ret=3
+    BHasDescendantKeyFocus() kind=1 ret=3
+    BLoadLayout(14, 3, 3) kind=1 ret=3
+    BLoadLayoutSnippet(14) kind=1 ret=3
+    BHasLayoutSnippet(14) kind=1 ret=3
+    BGetSnippetNames(0) kind=1 ret=2
+    SetTopOfInputContext(3) kind=1 ret=2
+    SetDialogVariable(14, 14) kind=1 ret=2
+    SetDialogVariableInt(14, 8) kind=1 ret=2
+    SetDialogVariableTime(14, 10) kind=1 ret=2
+    SetDialogVariableLocString(14, 14) kind=1 ret=2
+    SetDialogVariableLocStringNested(14, 14) kind=1 ret=2
+    ScrollToTop() kind=1 ret=2
+    ScrollToBottom() kind=1 ret=2
+    ScrollToLeftEdge() kind=1 ret=2
+    ScrollToRightEdge() kind=1 ret=2
+    ScrollParentToMakePanelFit(0, 3) kind=1 ret=2
+    ScrollToFitRegion(12, 12, 12, 12, 0, 3, 3) kind=1 ret=2
+    BCanSeeInParentScroll() kind=1 ret=3
+    PlayPanelSound(14) kind=1 ret=8
+    GetAttributeInt(15, 8) kind=1 ret=8
+    GetAttributeString(15, 14) kind=1 ret=14
+    GetAttributeUInt32(15, 9) kind=1 ret=9
+    SetAttributeInt(15, 8) kind=1 ret=2
+    SetAttributeString(15, 14) kind=1 ret=2
+    SetAttributeUInt32(15, 9) kind=1 ret=2
+    SetInputNamespace(15) kind=1 ret=2
+    RegisterForReadyEvents(3) kind=1 ret=2
+    BReadyForDisplay() kind=1 ret=3
+    SetReadyForDisplay(3) kind=1 ret=2
+    SetPositionInPixels(12, 12, 12) kind=1 ret=2
+    SetWidthInPixels(12) kind=1 ret=2
+    SetHeightInPixels(12) kind=1 ret=2
+    Data(16) kind=1 ret=2
+    debug.description(16) kind=1 ret=2
+    SetSendScrollPositionChangedEvents(3) kind=1 ret=2
+    SetCompositionLayerTextureName(15) kind=1 ret=2
+    WriteCompositionLayerPNG(14, 14) kind=1 ret=2
+    WriteCompositionLayerJPEG(14, 14, 8, 8) kind=1 ret=2
+    SetPanelEvent(16) kind=1 ret=2
+    RunScriptInPanelContext(16) kind=1 ret=2
+    rememberchildfocus kind=2 ret=3
+    paneltype kind=3 ret=15
+DOTAPlay (122)
+    visible kind=2 ret=3
+    enabled kind=2 ret=3
+    checked kind=2 ret=3
+    defaultfocus kind=2 ret=14
+    inputnamespace kind=2 ret=15
+    hittest kind=2 ret=3
+    hittestchildren kind=2 ret=3
+    tabindex kind=2 ret=12
+    selectionpos_x kind=2 ret=12
+    selectionpos_y kind=2 ret=12
+    type kind=3 ret=15
+    id kind=3 ret=14
+    layoutfile kind=3 ret=0
+    contentwidth kind=3 ret=12
+    contentheight kind=3 ret=12
+    desiredlayoutwidth kind=3 ret=12
+    desiredlayoutheight kind=3 ret=12
+    actuallayoutwidth kind=3 ret=12
+    actuallayoutheight kind=3 ret=12
+    actualxoffset kind=3 ret=12
+    actualyoffset kind=3 ret=12
+    scrolloffset_y kind=3 ret=12
+    scrolloffset_x kind=3 ret=12
+    actualuiscale_y kind=3 ret=12
+    actualuiscale_x kind=3 ret=12
+    style kind=3 ret=0
+    AddClass(15) kind=1 ret=2
+    AddClasses(0) kind=1 ret=2
+    RemoveClass(15) kind=1 ret=2
+    RemoveClasses(0) kind=1 ret=2
+    BHasClass(15) kind=1 ret=3
+    BAscendantHasClass(15) kind=1 ret=3
+    SetHasClass(15, 3) kind=1 ret=2
+    ToggleClass(15) kind=1 ret=2
+    SwitchClass(15, 15) kind=1 ret=2
+    TriggerClass(15) kind=1 ret=2
+    ClearPanelEvent(15) kind=1 ret=2
+    SetDraggable(3) kind=1 ret=2
+    IsDraggable() kind=1 ret=3
+    IsSizeValid() kind=1 ret=3
+    GetChildCount() kind=1 ret=8
+    GetChild(8) kind=1 ret=0
+    GetChildIndex(0) kind=1 ret=8
+    Children() kind=1 ret=0
+    FindChildrenWithClassTraverse(15) kind=1 ret=0
+    FindChildrenWithAttributeTraverse(15) kind=1 ret=0
+    GetParent() kind=1 ret=0
+    SetParent(0) kind=1 ret=2
+    FindChild(14) kind=1 ret=0
+    FindChildTraverse(14) kind=1 ret=0
+    FindChildInLayoutFile(14) kind=1 ret=0
+    FindPanelInThisOrParentLayoutFile(14) kind=1 ret=0
+    FindAncestor(14) kind=1 ret=0
+    RemoveAndDeleteChildren() kind=1 ret=2
+    MoveChildBefore(0, 0) kind=1 ret=2
+    MoveChildAfter(0, 0) kind=1 ret=2
+    GetPositionWithinWindow() kind=1 ret=0
+    GetPositionWithinAncestor(0) kind=1 ret=0
+    GetPosition(3) kind=1 ret=0
+    ApplyStyles(3) kind=1 ret=2
+    ClearPropertyFromCode(0) kind=1 ret=2
+    DeleteAsync(12) kind=1 ret=2
+    BIsTransparent() kind=1 ret=3
+    BAcceptsInput() kind=1 ret=3
+    BAcceptsFocus() kind=1 ret=3
+    SetFocus() kind=1 ret=3
+    UpdateFocusInContext() kind=1 ret=3
+    BHasHoverStyle() kind=1 ret=3
+    SetAcceptsInput(3) kind=1 ret=2
+    SetAcceptsFocus(3) kind=1 ret=2
+    SetDisableFocusOnMouseDown(3) kind=1 ret=2
+    BHasKeyFocus() kind=1 ret=3
+    SetScrollParentToFitWhenFocused(3) kind=1 ret=2
+    BScrollParentToFitWhenFocused() kind=1 ret=3
+    IsSelected() kind=1 ret=3
+    BHasDescendantKeyFocus() kind=1 ret=3
+    BLoadLayout(14, 3, 3) kind=1 ret=3
+    BLoadLayoutSnippet(14) kind=1 ret=3
+    BHasLayoutSnippet(14) kind=1 ret=3
+    BGetSnippetNames(0) kind=1 ret=2
+    SetTopOfInputContext(3) kind=1 ret=2
+    SetDialogVariable(14, 14) kind=1 ret=2
+    SetDialogVariableInt(14, 8) kind=1 ret=2
+    SetDialogVariableTime(14, 10) kind=1 ret=2
+    SetDialogVariableLocString(14, 14) kind=1 ret=2
+    SetDialogVariableLocStringNested(14, 14) kind=1 ret=2
+    ScrollToTop() kind=1 ret=2
+    ScrollToBottom() kind=1 ret=2
+    ScrollToLeftEdge() kind=1 ret=2
+    ScrollToRightEdge() kind=1 ret=2
+    ScrollParentToMakePanelFit(0, 3) kind=1 ret=2
+    ScrollToFitRegion(12, 12, 12, 12, 0, 3, 3) kind=1 ret=2
+    BCanSeeInParentScroll() kind=1 ret=3
+    PlayPanelSound(14) kind=1 ret=8
+    GetAttributeInt(15, 8) kind=1 ret=8
+    GetAttributeString(15, 14) kind=1 ret=14
+    GetAttributeUInt32(15, 9) kind=1 ret=9
+    SetAttributeInt(15, 8) kind=1 ret=2
+    SetAttributeString(15, 14) kind=1 ret=2
+    SetAttributeUInt32(15, 9) kind=1 ret=2
+    SetInputNamespace(15) kind=1 ret=2
+    RegisterForReadyEvents(3) kind=1 ret=2
+    BReadyForDisplay() kind=1 ret=3
+    SetReadyForDisplay(3) kind=1 ret=2
+    SetPositionInPixels(12, 12, 12) kind=1 ret=2
+    SetWidthInPixels(12) kind=1 ret=2
+    SetHeightInPixels(12) kind=1 ret=2
+    Data(16) kind=1 ret=2
+    debug.description(16) kind=1 ret=2
+    SetSendScrollPositionChangedEvents(3) kind=1 ret=2
+    SetCompositionLayerTextureName(15) kind=1 ret=2
+    WriteCompositionLayerPNG(14, 14) kind=1 ret=2
+    WriteCompositionLayerJPEG(14, 14, 8, 8) kind=1 ret=2
+    GetActiveFeaturedGamemode(16) kind=1 ret=2
+    GetFeaturedGamemodeProgress() kind=1 ret=8
+    GetFeaturedGamemodeMax() kind=1 ret=8
+    GetSelectedGameModes() kind=1 ret=8
+    UpdateCasualGameModeCheckboxes() kind=1 ret=2
+    SetPanelEvent(16) kind=1 ret=2
+    RunScriptInPanelContext(16) kind=1 ret=2
+    rememberchildfocus kind=2 ret=3
+    paneltype kind=3 ret=15
+Panel (117)
+    visible kind=2 ret=3
+    enabled kind=2 ret=3
+    checked kind=2 ret=3
+    defaultfocus kind=2 ret=14
+    inputnamespace kind=2 ret=15
+    hittest kind=2 ret=3
+    hittestchildren kind=2 ret=3
+    tabindex kind=2 ret=12
+    selectionpos_x kind=2 ret=12
+    selectionpos_y kind=2 ret=12
+    type kind=3 ret=15
+    id kind=3 ret=14
+    layoutfile kind=3 ret=0
+    contentwidth kind=3 ret=12
+    contentheight kind=3 ret=12
+    desiredlayoutwidth kind=3 ret=12
+    desiredlayoutheight kind=3 ret=12
+    actuallayoutwidth kind=3 ret=12
+    actuallayoutheight kind=3 ret=12
+    actualxoffset kind=3 ret=12
+    actualyoffset kind=3 ret=12
+    scrolloffset_y kind=3 ret=12
+    scrolloffset_x kind=3 ret=12
+    actualuiscale_y kind=3 ret=12
+    actualuiscale_x kind=3 ret=12
+    style kind=3 ret=0
+    AddClass(15) kind=1 ret=2
+    AddClasses(0) kind=1 ret=2
+    RemoveClass(15) kind=1 ret=2
+    RemoveClasses(0) kind=1 ret=2
+    BHasClass(15) kind=1 ret=3
+    BAscendantHasClass(15) kind=1 ret=3
+    SetHasClass(15, 3) kind=1 ret=2
+    ToggleClass(15) kind=1 ret=2
+    SwitchClass(15, 15) kind=1 ret=2
+    TriggerClass(15) kind=1 ret=2
+    ClearPanelEvent(15) kind=1 ret=2
+    SetDraggable(3) kind=1 ret=2
+    IsDraggable() kind=1 ret=3
+    IsSizeValid() kind=1 ret=3
+    GetChildCount() kind=1 ret=8
+    GetChild(8) kind=1 ret=0
+    GetChildIndex(0) kind=1 ret=8
+    Children() kind=1 ret=0
+    FindChildrenWithClassTraverse(15) kind=1 ret=0
+    FindChildrenWithAttributeTraverse(15) kind=1 ret=0
+    GetParent() kind=1 ret=0
+    SetParent(0) kind=1 ret=2
+    FindChild(14) kind=1 ret=0
+    FindChildTraverse(14) kind=1 ret=0
+    FindChildInLayoutFile(14) kind=1 ret=0
+    FindPanelInThisOrParentLayoutFile(14) kind=1 ret=0
+    FindAncestor(14) kind=1 ret=0
+    RemoveAndDeleteChildren() kind=1 ret=2
+    MoveChildBefore(0, 0) kind=1 ret=2
+    MoveChildAfter(0, 0) kind=1 ret=2
+    GetPositionWithinWindow() kind=1 ret=0
+    GetPositionWithinAncestor(0) kind=1 ret=0
+    GetPosition(3) kind=1 ret=0
+    ApplyStyles(3) kind=1 ret=2
+    ClearPropertyFromCode(0) kind=1 ret=2
+    DeleteAsync(12) kind=1 ret=2
+    BIsTransparent() kind=1 ret=3
+    BAcceptsInput() kind=1 ret=3
+    BAcceptsFocus() kind=1 ret=3
+    SetFocus() kind=1 ret=3
+    UpdateFocusInContext() kind=1 ret=3
+    BHasHoverStyle() kind=1 ret=3
+    SetAcceptsInput(3) kind=1 ret=2
+    SetAcceptsFocus(3) kind=1 ret=2
+    SetDisableFocusOnMouseDown(3) kind=1 ret=2
+    BHasKeyFocus() kind=1 ret=3
+    SetScrollParentToFitWhenFocused(3) kind=1 ret=2
+    BScrollParentToFitWhenFocused() kind=1 ret=3
+    IsSelected() kind=1 ret=3
+    BHasDescendantKeyFocus() kind=1 ret=3
+    BLoadLayout(14, 3, 3) kind=1 ret=3
+    BLoadLayoutSnippet(14) kind=1 ret=3
+    BHasLayoutSnippet(14) kind=1 ret=3
+    BGetSnippetNames(0) kind=1 ret=2
+    SetTopOfInputContext(3) kind=1 ret=2
+    SetDialogVariable(14, 14) kind=1 ret=2
+    SetDialogVariableInt(14, 8) kind=1 ret=2
+    SetDialogVariableTime(14, 10) kind=1 ret=2
+    SetDialogVariableLocString(14, 14) kind=1 ret=2
+    SetDialogVariableLocStringNested(14, 14) kind=1 ret=2
+    ScrollToTop() kind=1 ret=2
+    ScrollToBottom() kind=1 ret=2
+    ScrollToLeftEdge() kind=1 ret=2
+    ScrollToRightEdge() kind=1 ret=2
+    ScrollParentToMakePanelFit(0, 3) kind=1 ret=2
+    ScrollToFitRegion(12, 12, 12, 12, 0, 3, 3) kind=1 ret=2
+    BCanSeeInParentScroll() kind=1 ret=3
+    PlayPanelSound(14) kind=1 ret=8
+    GetAttributeInt(15, 8) kind=1 ret=8
+    GetAttributeString(15, 14) kind=1 ret=14
+    GetAttributeUInt32(15, 9) kind=1 ret=9
+    SetAttributeInt(15, 8) kind=1 ret=2
+    SetAttributeString(15, 14) kind=1 ret=2
+    SetAttributeUInt32(15, 9) kind=1 ret=2
+    SetInputNamespace(15) kind=1 ret=2
+    RegisterForReadyEvents(3) kind=1 ret=2
+    BReadyForDisplay() kind=1 ret=3
+    SetReadyForDisplay(3) kind=1 ret=2
+    SetPositionInPixels(12, 12, 12) kind=1 ret=2
+    SetWidthInPixels(12) kind=1 ret=2
+    SetHeightInPixels(12) kind=1 ret=2
+    Data(16) kind=1 ret=2
+    debug.description(16) kind=1 ret=2
+    SetSendScrollPositionChangedEvents(3) kind=1 ret=2
+    SetCompositionLayerTextureName(15) kind=1 ret=2
+    WriteCompositionLayerPNG(14, 14) kind=1 ret=2
+    WriteCompositionLayerJPEG(14, 14, 8, 8) kind=1 ret=2
+    SetPanelEvent(16) kind=1 ret=2
+    RunScriptInPanelContext(16) kind=1 ret=2
+    rememberchildfocus kind=2 ret=3
+    paneltype kind=3 ret=15
+Label (121)
+    visible kind=2 ret=3
+    enabled kind=2 ret=3
+    checked kind=2 ret=3
+    defaultfocus kind=2 ret=14
+    inputnamespace kind=2 ret=15
+    hittest kind=2 ret=3
+    hittestchildren kind=2 ret=3
+    tabindex kind=2 ret=12
+    selectionpos_x kind=2 ret=12
+    selectionpos_y kind=2 ret=12
+    type kind=3 ret=15
+    id kind=3 ret=14
+    layoutfile kind=3 ret=0
+    contentwidth kind=3 ret=12
+    contentheight kind=3 ret=12
+    desiredlayoutwidth kind=3 ret=12
+    desiredlayoutheight kind=3 ret=12
+    actuallayoutwidth kind=3 ret=12
+    actuallayoutheight kind=3 ret=12
+    actualxoffset kind=3 ret=12
+    actualyoffset kind=3 ret=12
+    scrolloffset_y kind=3 ret=12
+    scrolloffset_x kind=3 ret=12
+    actualuiscale_y kind=3 ret=12
+    actualuiscale_x kind=3 ret=12
+    style kind=3 ret=0
+    AddClass(15) kind=1 ret=2
+    AddClasses(0) kind=1 ret=2
+    RemoveClass(15) kind=1 ret=2
+    RemoveClasses(0) kind=1 ret=2
+    BHasClass(15) kind=1 ret=3
+    BAscendantHasClass(15) kind=1 ret=3
+    SetHasClass(15, 3) kind=1 ret=2
+    ToggleClass(15) kind=1 ret=2
+    SwitchClass(15, 15) kind=1 ret=2
+    TriggerClass(15) kind=1 ret=2
+    ClearPanelEvent(15) kind=1 ret=2
+    SetDraggable(3) kind=1 ret=2
+    IsDraggable() kind=1 ret=3
+    IsSizeValid() kind=1 ret=3
+    GetChildCount() kind=1 ret=8
+    GetChild(8) kind=1 ret=0
+    GetChildIndex(0) kind=1 ret=8
+    Children() kind=1 ret=0
+    FindChildrenWithClassTraverse(15) kind=1 ret=0
+    FindChildrenWithAttributeTraverse(15) kind=1 ret=0
+    GetParent() kind=1 ret=0
+    SetParent(0) kind=1 ret=2
+    FindChild(14) kind=1 ret=0
+    FindChildTraverse(14) kind=1 ret=0
+    FindChildInLayoutFile(14) kind=1 ret=0
+    FindPanelInThisOrParentLayoutFile(14) kind=1 ret=0
+    FindAncestor(14) kind=1 ret=0
+    RemoveAndDeleteChildren() kind=1 ret=2
+    MoveChildBefore(0, 0) kind=1 ret=2
+    MoveChildAfter(0, 0) kind=1 ret=2
+    GetPositionWithinWindow() kind=1 ret=0
+    GetPositionWithinAncestor(0) kind=1 ret=0
+    GetPosition(3) kind=1 ret=0
+    ApplyStyles(3) kind=1 ret=2
+    ClearPropertyFromCode(0) kind=1 ret=2
+    DeleteAsync(12) kind=1 ret=2
+    BIsTransparent() kind=1 ret=3
+    BAcceptsInput() kind=1 ret=3
+    BAcceptsFocus() kind=1 ret=3
+    SetFocus() kind=1 ret=3
+    UpdateFocusInContext() kind=1 ret=3
+    BHasHoverStyle() kind=1 ret=3
+    SetAcceptsInput(3) kind=1 ret=2
+    SetAcceptsFocus(3) kind=1 ret=2
+    SetDisableFocusOnMouseDown(3) kind=1 ret=2
+    BHasKeyFocus() kind=1 ret=3
+    SetScrollParentToFitWhenFocused(3) kind=1 ret=2
+    BScrollParentToFitWhenFocused() kind=1 ret=3
+    IsSelected() kind=1 ret=3
+    BHasDescendantKeyFocus() kind=1 ret=3
+    BLoadLayout(14, 3, 3) kind=1 ret=3
+    BLoadLayoutSnippet(14) kind=1 ret=3
+    BHasLayoutSnippet(14) kind=1 ret=3
+    BGetSnippetNames(0) kind=1 ret=2
+    SetTopOfInputContext(3) kind=1 ret=2
+    SetDialogVariable(14, 14) kind=1 ret=2
+    SetDialogVariableInt(14, 8) kind=1 ret=2
+    SetDialogVariableTime(14, 10) kind=1 ret=2
+    SetDialogVariableLocString(14, 14) kind=1 ret=2
+    SetDialogVariableLocStringNested(14, 14) kind=1 ret=2
+    ScrollToTop() kind=1 ret=2
+    ScrollToBottom() kind=1 ret=2
+    ScrollToLeftEdge() kind=1 ret=2
+    ScrollToRightEdge() kind=1 ret=2
+    ScrollParentToMakePanelFit(0, 3) kind=1 ret=2
+    ScrollToFitRegion(12, 12, 12, 12, 0, 3, 3) kind=1 ret=2
+    BCanSeeInParentScroll() kind=1 ret=3
+    PlayPanelSound(14) kind=1 ret=8
+    GetAttributeInt(15, 8) kind=1 ret=8
+    GetAttributeString(15, 14) kind=1 ret=14
+    GetAttributeUInt32(15, 9) kind=1 ret=9
+    SetAttributeInt(15, 8) kind=1 ret=2
+    SetAttributeString(15, 14) kind=1 ret=2
+    SetAttributeUInt32(15, 9) kind=1 ret=2
+    SetInputNamespace(15) kind=1 ret=2
+    RegisterForReadyEvents(3) kind=1 ret=2
+    BReadyForDisplay() kind=1 ret=3
+    SetReadyForDisplay(3) kind=1 ret=2
+    SetPositionInPixels(12, 12, 12) kind=1 ret=2
+    SetWidthInPixels(12) kind=1 ret=2
+    SetHeightInPixels(12) kind=1 ret=2
+    Data(16) kind=1 ret=2
+    debug.description(16) kind=1 ret=2
+    SetSendScrollPositionChangedEvents(3) kind=1 ret=2
+    SetCompositionLayerTextureName(15) kind=1 ret=2
+    WriteCompositionLayerPNG(14, 14) kind=1 ret=2
+    WriteCompositionLayerJPEG(14, 14, 8, 8) kind=1 ret=2
+    text kind=2 ret=14
+    html kind=2 ret=3
+    SetLocString(14) kind=1 ret=2
+    SetAlreadyLocalizedText(14) kind=1 ret=2
+    SetPanelEvent(16) kind=1 ret=2
+    RunScriptInPanelContext(16) kind=1 ret=2
+    rememberchildfocus kind=2 ret=3
+    paneltype kind=3 ret=15
+ToggleButton (119)
+    visible kind=2 ret=3
+    enabled kind=2 ret=3
+    checked kind=2 ret=3
+    defaultfocus kind=2 ret=14
+    inputnamespace kind=2 ret=15
+    hittest kind=2 ret=3
+    hittestchildren kind=2 ret=3
+    tabindex kind=2 ret=12
+    selectionpos_x kind=2 ret=12
+    selectionpos_y kind=2 ret=12
+    type kind=3 ret=15
+    id kind=3 ret=14
+    layoutfile kind=3 ret=0
+    contentwidth kind=3 ret=12
+    contentheight kind=3 ret=12
+    desiredlayoutwidth kind=3 ret=12
+    desiredlayoutheight kind=3 ret=12
+    actuallayoutwidth kind=3 ret=12
+    actuallayoutheight kind=3 ret=12
+    actualxoffset kind=3 ret=12
+    actualyoffset kind=3 ret=12
+    scrolloffset_y kind=3 ret=12
+    scrolloffset_x kind=3 ret=12
+    actualuiscale_y kind=3 ret=12
+    actualuiscale_x kind=3 ret=12
+    style kind=3 ret=0
+    AddClass(15) kind=1 ret=2
+    AddClasses(0) kind=1 ret=2
+    RemoveClass(15) kind=1 ret=2
+    RemoveClasses(0) kind=1 ret=2
+    BHasClass(15) kind=1 ret=3
+    BAscendantHasClass(15) kind=1 ret=3
+    SetHasClass(15, 3) kind=1 ret=2
+    ToggleClass(15) kind=1 ret=2
+    SwitchClass(15, 15) kind=1 ret=2
+    TriggerClass(15) kind=1 ret=2
+    ClearPanelEvent(15) kind=1 ret=2
+    SetDraggable(3) kind=1 ret=2
+    IsDraggable() kind=1 ret=3
+    IsSizeValid() kind=1 ret=3
+    GetChildCount() kind=1 ret=8
+    GetChild(8) kind=1 ret=0
+    GetChildIndex(0) kind=1 ret=8
+    Children() kind=1 ret=0
+    FindChildrenWithClassTraverse(15) kind=1 ret=0
+    FindChildrenWithAttributeTraverse(15) kind=1 ret=0
+    GetParent() kind=1 ret=0
+    SetParent(0) kind=1 ret=2
+    FindChild(14) kind=1 ret=0
+    FindChildTraverse(14) kind=1 ret=0
+    FindChildInLayoutFile(14) kind=1 ret=0
+    FindPanelInThisOrParentLayoutFile(14) kind=1 ret=0
+    FindAncestor(14) kind=1 ret=0
+    RemoveAndDeleteChildren() kind=1 ret=2
+    MoveChildBefore(0, 0) kind=1 ret=2
+    MoveChildAfter(0, 0) kind=1 ret=2
+    GetPositionWithinWindow() kind=1 ret=0
+    GetPositionWithinAncestor(0) kind=1 ret=0
+    GetPosition(3) kind=1 ret=0
+    ApplyStyles(3) kind=1 ret=2
+    ClearPropertyFromCode(0) kind=1 ret=2
+    DeleteAsync(12) kind=1 ret=2
+    BIsTransparent() kind=1 ret=3
+    BAcceptsInput() kind=1 ret=3
+    BAcceptsFocus() kind=1 ret=3
+    SetFocus() kind=1 ret=3
+    UpdateFocusInContext() kind=1 ret=3
+    BHasHoverStyle() kind=1 ret=3
+    SetAcceptsInput(3) kind=1 ret=2
+    SetAcceptsFocus(3) kind=1 ret=2
+    SetDisableFocusOnMouseDown(3) kind=1 ret=2
+    BHasKeyFocus() kind=1 ret=3
+    SetScrollParentToFitWhenFocused(3) kind=1 ret=2
+    BScrollParentToFitWhenFocused() kind=1 ret=3
+    IsSelected() kind=1 ret=3
+    BHasDescendantKeyFocus() kind=1 ret=3
+    BLoadLayout(14, 3, 3) kind=1 ret=3
+    BLoadLayoutSnippet(14) kind=1 ret=3
+    BHasLayoutSnippet(14) kind=1 ret=3
+    BGetSnippetNames(0) kind=1 ret=2
+    SetTopOfInputContext(3) kind=1 ret=2
+    SetDialogVariable(14, 14) kind=1 ret=2
+    SetDialogVariableInt(14, 8) kind=1 ret=2
+    SetDialogVariableTime(14, 10) kind=1 ret=2
+    SetDialogVariableLocString(14, 14) kind=1 ret=2
+    SetDialogVariableLocStringNested(14, 14) kind=1 ret=2
+    ScrollToTop() kind=1 ret=2
+    ScrollToBottom() kind=1 ret=2
+    ScrollToLeftEdge() kind=1 ret=2
+    ScrollToRightEdge() kind=1 ret=2
+    ScrollParentToMakePanelFit(0, 3) kind=1 ret=2
+    ScrollToFitRegion(12, 12, 12, 12, 0, 3, 3) kind=1 ret=2
+    BCanSeeInParentScroll() kind=1 ret=3
+    PlayPanelSound(14) kind=1 ret=8
+    GetAttributeInt(15, 8) kind=1 ret=8
+    GetAttributeString(15, 14) kind=1 ret=14
+    GetAttributeUInt32(15, 9) kind=1 ret=9
+    SetAttributeInt(15, 8) kind=1 ret=2
+    SetAttributeString(15, 14) kind=1 ret=2
+    SetAttributeUInt32(15, 9) kind=1 ret=2
+    SetInputNamespace(15) kind=1 ret=2
+    RegisterForReadyEvents(3) kind=1 ret=2
+    BReadyForDisplay() kind=1 ret=3
+    SetReadyForDisplay(3) kind=1 ret=2
+    SetPositionInPixels(12, 12, 12) kind=1 ret=2
+    SetWidthInPixels(12) kind=1 ret=2
+    SetHeightInPixels(12) kind=1 ret=2
+    Data(16) kind=1 ret=2
+    debug.description(16) kind=1 ret=2
+    SetSendScrollPositionChangedEvents(3) kind=1 ret=2
+    SetCompositionLayerTextureName(15) kind=1 ret=2
+    WriteCompositionLayerPNG(14, 14) kind=1 ret=2
+    WriteCompositionLayerJPEG(14, 14, 8, 8) kind=1 ret=2
+    SetSelected(3) kind=1 ret=2
+    text kind=2 ret=14
+    SetPanelEvent(16) kind=1 ret=2
+    RunScriptInPanelContext(16) kind=1 ret=2
+    rememberchildfocus kind=2 ret=3
+    paneltype kind=3 ret=15
+TabButton (117)
+    visible kind=2 ret=3
+    enabled kind=2 ret=3
+    checked kind=2 ret=3
+    defaultfocus kind=2 ret=14
+    inputnamespace kind=2 ret=15
+    hittest kind=2 ret=3
+    hittestchildren kind=2 ret=3
+    tabindex kind=2 ret=12
+    selectionpos_x kind=2 ret=12
+    selectionpos_y kind=2 ret=12
+    type kind=3 ret=15
+    id kind=3 ret=14
+    layoutfile kind=3 ret=0
+    contentwidth kind=3 ret=12
+    contentheight kind=3 ret=12
+    desiredlayoutwidth kind=3 ret=12
+    desiredlayoutheight kind=3 ret=12
+    actuallayoutwidth kind=3 ret=12
+    actuallayoutheight kind=3 ret=12
+    actualxoffset kind=3 ret=12
+    actualyoffset kind=3 ret=12
+    scrolloffset_y kind=3 ret=12
+    scrolloffset_x kind=3 ret=12
+    actualuiscale_y kind=3 ret=12
+    actualuiscale_x kind=3 ret=12
+    style kind=3 ret=0
+    AddClass(15) kind=1 ret=2
+    AddClasses(0) kind=1 ret=2
+    RemoveClass(15) kind=1 ret=2
+    RemoveClasses(0) kind=1 ret=2
+    BHasClass(15) kind=1 ret=3
+    BAscendantHasClass(15) kind=1 ret=3
+    SetHasClass(15, 3) kind=1 ret=2
+    ToggleClass(15) kind=1 ret=2
+    SwitchClass(15, 15) kind=1 ret=2
+    TriggerClass(15) kind=1 ret=2
+    ClearPanelEvent(15) kind=1 ret=2
+    SetDraggable(3) kind=1 ret=2
+    IsDraggable() kind=1 ret=3
+    IsSizeValid() kind=1 ret=3
+    GetChildCount() kind=1 ret=8
+    GetChild(8) kind=1 ret=0
+    GetChildIndex(0) kind=1 ret=8
+    Children() kind=1 ret=0
+    FindChildrenWithClassTraverse(15) kind=1 ret=0
+    FindChildrenWithAttributeTraverse(15) kind=1 ret=0
+    GetParent() kind=1 ret=0
+    SetParent(0) kind=1 ret=2
+    FindChild(14) kind=1 ret=0
+    FindChildTraverse(14) kind=1 ret=0
+    FindChildInLayoutFile(14) kind=1 ret=0
+    FindPanelInThisOrParentLayoutFile(14) kind=1 ret=0
+    FindAncestor(14) kind=1 ret=0
+    RemoveAndDeleteChildren() kind=1 ret=2
+    MoveChildBefore(0, 0) kind=1 ret=2
+    MoveChildAfter(0, 0) kind=1 ret=2
+    GetPositionWithinWindow() kind=1 ret=0
+    GetPositionWithinAncestor(0) kind=1 ret=0
+    GetPosition(3) kind=1 ret=0
+    ApplyStyles(3) kind=1 ret=2
+    ClearPropertyFromCode(0) kind=1 ret=2
+    DeleteAsync(12) kind=1 ret=2
+    BIsTransparent() kind=1 ret=3
+    BAcceptsInput() kind=1 ret=3
+    BAcceptsFocus() kind=1 ret=3
+    SetFocus() kind=1 ret=3
+    UpdateFocusInContext() kind=1 ret=3
+    BHasHoverStyle() kind=1 ret=3
+    SetAcceptsInput(3) kind=1 ret=2
+    SetAcceptsFocus(3) kind=1 ret=2
+    SetDisableFocusOnMouseDown(3) kind=1 ret=2
+    BHasKeyFocus() kind=1 ret=3
+    SetScrollParentToFitWhenFocused(3) kind=1 ret=2
+    BScrollParentToFitWhenFocused() kind=1 ret=3
+    IsSelected() kind=1 ret=3
+    BHasDescendantKeyFocus() kind=1 ret=3
+    BLoadLayout(14, 3, 3) kind=1 ret=3
+    BLoadLayoutSnippet(14) kind=1 ret=3
+    BHasLayoutSnippet(14) kind=1 ret=3
+    BGetSnippetNames(0) kind=1 ret=2
+    SetTopOfInputContext(3) kind=1 ret=2
+    SetDialogVariable(14, 14) kind=1 ret=2
+    SetDialogVariableInt(14, 8) kind=1 ret=2
+    SetDialogVariableTime(14, 10) kind=1 ret=2
+    SetDialogVariableLocString(14, 14) kind=1 ret=2
+    SetDialogVariableLocStringNested(14, 14) kind=1 ret=2
+    ScrollToTop() kind=1 ret=2
+    ScrollToBottom() kind=1 ret=2
+    ScrollToLeftEdge() kind=1 ret=2
+    ScrollToRightEdge() kind=1 ret=2
+    ScrollParentToMakePanelFit(0, 3) kind=1 ret=2
+    ScrollToFitRegion(12, 12, 12, 12, 0, 3, 3) kind=1 ret=2
+    BCanSeeInParentScroll() kind=1 ret=3
+    PlayPanelSound(14) kind=1 ret=8
+    GetAttributeInt(15, 8) kind=1 ret=8
+    GetAttributeString(15, 14) kind=1 ret=14
+    GetAttributeUInt32(15, 9) kind=1 ret=9
+    SetAttributeInt(15, 8) kind=1 ret=2
+    SetAttributeString(15, 14) kind=1 ret=2
+    SetAttributeUInt32(15, 9) kind=1 ret=2
+    SetInputNamespace(15) kind=1 ret=2
+    RegisterForReadyEvents(3) kind=1 ret=2
+    BReadyForDisplay() kind=1 ret=3
+    SetReadyForDisplay(3) kind=1 ret=2
+    SetPositionInPixels(12, 12, 12) kind=1 ret=2
+    SetWidthInPixels(12) kind=1 ret=2
+    SetHeightInPixels(12) kind=1 ret=2
+    Data(16) kind=1 ret=2
+    debug.description(16) kind=1 ret=2
+    SetSendScrollPositionChangedEvents(3) kind=1 ret=2
+    SetCompositionLayerTextureName(15) kind=1 ret=2
+    WriteCompositionLayerPNG(14, 14) kind=1 ret=2
+    WriteCompositionLayerJPEG(14, 14, 8, 8) kind=1 ret=2
+    SetPanelEvent(16) kind=1 ret=2
+    RunScriptInPanelContext(16) kind=1 ret=2
+    rememberchildfocus kind=2 ret=3
+    paneltype kind=3 ret=15
