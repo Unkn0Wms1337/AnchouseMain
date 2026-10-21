@@ -2,9 +2,9 @@
 
 Open-source internal Dota 2 skin changer for Windows.
 
-![Arcana with gems](assets/arcana.jpg)
-
 ![Skin distribution](assets/unusual.jpg)
+
+![Arcana with gems](assets/arcana.jpg)
 
 ## Features
 
@@ -65,7 +65,7 @@ Every equippable cosmetic is added to the inventory automatically, so all skins
 are available in the hero loadout without pressing anything. The `+` button
 remains for bundles and entries outside the wearable catalog:
 
-![Grant an item](assets/grant.jng)
+![Grant an item](assets/grant.jpg)
 
 The first injection writes the full catalog to `anchousechanger.cfg` beside the DLL,
 so the file can grow to a few MB. Delete it to reset the fake inventory and
