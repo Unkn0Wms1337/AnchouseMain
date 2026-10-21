@@ -1,4 +1,4 @@
-# anchousechanger
+# AnchouseChanger - Main
 
 Open-source internal Dota 2 skin changer for Windows.
 
