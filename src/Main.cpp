@@ -1,5 +1,6 @@
 #include <windows.h>
 
+#include "Changer/Inventory/SkinPersistence.h"
 #include "Hooks/Hooks.h"
 #include "SDK/Logger/Logger.h"
 #include "SDK/SDK.h"
@@ -27,6 +28,9 @@ BOOL WINAPI DllMain(HINSTANCE Instance, DWORD Reason, LPVOID Reserved)
             CloseHandle(Thread);
     }
     else if (Reason == DLL_PROCESS_DETACH)
+    {
         LogW("Detach, process exit %d", Reserved != nullptr);
+        SkinPersistence::Flush();
+    }
     return TRUE;
 }
