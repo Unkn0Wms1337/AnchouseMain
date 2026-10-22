@@ -10,6 +10,7 @@ FakeItems.cpp
 GemCatalog.cpp
 InventorySync.cpp
 RealItems.cpp
+SkinPersistence.cpp
 AssetPrecache.cpp
 FakeLoadout.cpp
 ItemSockets.cpp
@@ -17,12 +18,11 @@ EmblemEffect.cpp
 ImpactEffects.cpp
 LoadoutOverride.cpp
 NetSkins.cpp
-PacketRewriter.cpp
 Создание кода...
 Компиляция...
+PacketRewriter.cpp
 ParticleReplace.cpp
 WearableSwap.cpp
-TreasureAddButton.cpp
 UnusualSettings.cpp
 UnusualEffects.cpp
 UnusualStore.cpp
