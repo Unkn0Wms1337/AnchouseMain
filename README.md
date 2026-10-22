@@ -6,7 +6,7 @@
 
 ![Аркана с камнями](assets/arcana.jpg)
 
-![Необычный эффект](assets/unusual.jpg)
+![Необычный эффект](assets/grant.jpg)
 
 ## Что нового в 1.2
 
