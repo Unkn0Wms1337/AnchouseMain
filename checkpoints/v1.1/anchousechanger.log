@@ -1,0 +1,85 @@
+[      0] [+] Loaded
+[     16] [+] Config C:\Users\Unkn0Wn\Desktop\AnchouseChanger\checkpoints\v1.1\anchousechanger.cfg loaded, 2 keys
+[     16] [+] UIEngine 00007FF83F16E1C8 -> 000005A886A99C00
+[     16] [+] SchemaSystem_001 00007FF8637C6610
+[     47] [+] Schema scopes 21, bindings 16607, classes 12195, fields 43339
+[     78] [+] g_pGameRules 00007FF8166A8008 m_nGameState 0x7C
+[     94] [+] g_pGameEntitySystem 00007FF816A392D8 -> 000005A8984C4000
+[    187] [+] LocalPlayerControllers 00007FF816677D38 m_hAssignedHero 0x914
+[    281] [+] GetItemSchema 00007FF8137EAFF0 GetItemDefinition 00007FF8137B2640
+[    531] [+] CDOTAInventoryManager 00007FF816927800
+[    641] [+] ResourceSystem013 00007FF862B570C0
+[   1078] [+] NetworkClientService_001 00007FF85E073BC0 NetworkServerService_001 00007FF85E0740B0
+[   1109] [+] CGCClient 00007FF81685C9C0
+[   1109] [+] ISteamUser 000002CE011C0D00
+[   1156] [+] RunFrame 0x7ff83ec36860
+[   1187] [+] Grant: prepared, 0 new items, 17 ms
+[   1187] [+] Grant: queued 12491 items, chunk 256
+[   1187] [+] Dump 3521 lines -> C:\Users\Unkn0Wn\Desktop\AnchouseChanger\checkpoints\v1.1\panorama_dump.txt
+[   1187] [+] Panel context 0 root DotaDashboard depth 5
+[   1187] [+] Panel context 1 root DotaDashboard depth 8
+[   1187] [+] Panel context 2 root DotaDashboard depth 4
+[   1203] [+] Panel context 3 root DotaHud depth 3
+[   1203] [+] Panel context 4 root DotaHud depth 3
+[   1203] [+] Panel context 5 root DotaHud depth 4
+[   1203] [+] Panel context 6 root DotaHud depth 9
+[   1203] [+] Panel context 7 root DotaHud depth 6
+[   1203] [+] Panel context 8 root DotaHud depth 6
+[   1203] [+] Panel context 9 root DotaHud depth 3
+[   1203] [+] Panel context 10 root DotaHud depth 3
+[   1203] [+] Panel context 11 root DotaHud depth 2
+[   1203] [+] Panel context 12 root DotaHud depth 2
+[   1203] [+] Panel context 13 root DotaHud depth 2
+[   1203] [+] Panel context 14 root DotaHud depth 1
+[   1203] [+] Panel context 15 root DotaDashboard depth 5
+[   1203] [+] Panel context 16 root DotaDashboard depth 10
+[   1203] [+] Panel context 17 root DotaDashboard depth 9
+[   1203] [+] Panorama root DotaDashboard depth 4
+[   1234] [+] FrameStageNotify 0x7ff811dcef00
+[   1344] [+] GcSend 0x7ff813b8dcf0
+[   1437] [+] GcRecvPump 0x7ff813b92390
+[   1437] [+] Steam GC hooked 000002CE01020780
+[   1547] [+] EconWearableSpawn 0x7ff8137fa040
+[   1766] [+] GetItemInLoadout 0x7ff813746990
+[   1812] [+] NetFilter 0x7ff85d838c20
+[   1828] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[   1844] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[   1844] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[   1844] [+] Loadout hero 99 slot 17 0 -> 0x7000000000008d76 fake
+[   1844] [+] Loadout hero 1 slot 21 0 -> 0x70000000000035d7 fake
+[   1891] [+] SequenceDataChanged 0x7ff811f1efb0
+[   2687] [+] GC post: EMsg 28 (34 bytes) sent
+[   2687] [+] Grant: refresh -> gc (EMsg 28, attempt 1/5)
+[   3062] [+] SO cache subscribed owner 76561198650887504 version 30075106375192747
+[   3078] [+] Subscribe: 0 real items, 0 replaced, 12491 fakes added, 244 -> 506175 bytes
+[   3109] [+] Cache probe: fake 0x7000000000008d9c present
+[   3125] [+] SO cache subscribed owner 76561198650887504 version 318305482406553021
+[   3141] [+] Subscribe: 4 real items, 0 replaced, 12491 fakes added, 219 -> 506145 bytes
+[   4062] [+] Loadout hero 1000 slot 2 0 -> 0x7000000000009127 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 4 0 -> 0x7000000000002b92 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 7 0 -> 0x7000000000002d1d fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 13 0 -> 0x700000000000027e fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 14 0 -> 0x70000000000053c1 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 15 0 -> 0x7000000000004a47 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 16 0 -> 0x7000000000004a46 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 17 0 -> 0x7000000000005a9b fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 18 0 -> 0x7000000000005ca0 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 26 0 -> 0x70000000000030af fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 27 0 -> 0x70000000000030b0 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 28 0 -> 0x70000000000086b8 fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 29 0 -> 0x700000000000729b fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 30 0 -> 0x7000000000008c6e fake not in local inventory
+[   4062] [+] Loadout hero 1000 slot 31 0 -> 0x70000000000084e2 fake not in local inventory
+[   4609] [+] GC send framing: type 0x80001f92 header 0 size 11
+[   4609] [+] GC send: EMsg 8082 (11 bytes, #1)
+[   4797] [+] GC send: EMsg 2569 (37 bytes, #1)
+[   4844] [+] GC send: EMsg 8274 (20 bytes, #1)
+[   5094] [+] Cache probe: fake 0x7000000000008d9c present
+[   9109] [+] Pump: 255 ms
+[  11844] [+] Pump: 1058 ms
+[  16172] [+] Watchdog: frames=1101 queued=0 delivery=12491/12491 mode=2
+[  16875] [-] NetDelta not ready serializers 1 class_bits 0 classes 3229
+[  19094] [+] Pump: 1353 ms
+[  25859] [+] Pump: 1377 ms
+[  27172] [+] GC send: EMsg 4523 (153 bytes, #1)
+[  27875] [!] Detach, process exit 1

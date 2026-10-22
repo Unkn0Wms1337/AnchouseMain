@@ -1,0 +1,294 @@
+[      0] [+] Loaded
+[      0] [+] Config C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.cfg not found, starting empty
+[      0] [+] Storage: full catalog is memory-only; selected loadouts persist in anchousechanger.sets
+[      0] [+] Persistence: loaded 9 selected item(s) from C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[      0] [+] UIEngine 00007FF83EDEE1C8 -> 0000032A602DA200
+[      0] [+] SchemaSystem_001 00007FF877116610
+[     32] [+] Schema scopes 21, bindings 16607, classes 12195, fields 43339
+[     47] [+] g_pGameRules 00007FF80C8C8008 m_nGameState 0x7C
+[     63] [+] g_pGameEntitySystem 00007FF80CC592D8 -> 0000000000000000
+[    157] [+] LocalPlayerControllers 00007FF80C897D38 m_hAssignedHero 0x914
+[    235] [+] GetItemSchema 00007FF809A0AFF0 GetItemDefinition 00007FF8099D2640
+[    438] [+] CDOTAInventoryManager 00007FF80CB47800
+[    500] [+] ResourceSystem013 00007FF8795570C0
+[    860] [+] NetworkClientService_001 00007FF8529E3BC0 NetworkServerService_001 00007FF8529E40B0
+[    907] [+] CGCClient 00007FF80CA7C9C0
+[    907] [+] ISteamUser 00000213B7E30D00
+[    954] [+] RunFrame 0x7ff83e8b6860
+[   1000] [+] FrameStageNotify 0x7ff807feef00
+[   1094] [+] GcSend 0x7ff809dadcf0
+[   1157] [+] GcRecvPump 0x7ff809db2390
+[   1235] [+] EconWearableSpawn 0x7ff809a1a040
+[   1391] [+] GetItemInLoadout 0x7ff809966990
+[   1422] [+] NetFilter 0x7ff8521a8c20
+[   1485] [+] SequenceDataChanged 0x7ff80813efb0
+[   2172] [+] Steam GC hooked 00000213B7C90790
+[   2172] [+] GC send framing: type 0x80000fa6 header 0 size 56
+[   2172] [+] GC send: EMsg 4006 (56 bytes, #1)
+[   4141] [+] GC send: EMsg 2536 (12 bytes, #1)
+[   4141] [+] GC send: EMsg 2617 (8 bytes, #1)
+[   4141] [+] SO cache subscribed owner 76561199257555522 version 462420670503283383
+[   4141] [+] AutoGrant: enabled by loader marker (pid=22804)
+[   4157] [+] Wearables: adding 12374 of 26661 item definitions (727 global/persona/gem)
+[   4157] [+] Persistence: restored 9 of 9 selected item(s)
+[   4157] [+] Grant: prepared, 12374 new items, 11 ms
+[   4157] [+] Subscribe: 40 real items, 0 replaced, 12461 fakes added, 3436 -> 506212 bytes (served version 462420670503283383)
+[   4547] [+] Loadout hero 1000 slot 30 0 -> 0x7000000000008c6e fake not in local inventory
+[   4547] [+] Loadout hero 1000 slot 31 0 -> 0x70000000000084e2 fake not in local inventory
+[   4641] [+] GC send: EMsg 1077 (24 bytes, #1)
+[   4641] [+] GC send: EMsg 7197 (8 bytes, #1)
+[   4657] [+] GC send: EMsg 8673 (19 bytes, #1)
+[   4657] [+] GC send: EMsg 8137 (17 bytes, #1)
+[   4657] [+] GC send: EMsg 8879 (19 bytes, #1)
+[   4657] [+] GC send: EMsg 15000 (25 bytes, #1)
+[   4750] [+] Dump 3244 lines -> C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\panorama_dump.txt
+[   4750] [+] Panel context 0 root DotaDashboard depth 5
+[   4750] [+] Panel context 1 root DotaDashboard depth 8
+[   4750] [+] Panel context 2 root DotaDashboard depth 4
+[   4750] [+] Panel context 3 root DotaHud depth 3
+[   4750] [+] Panel context 4 root DotaHud depth 3
+[   4750] [+] Panel context 5 root DotaHud depth 4
+[   4750] [+] Panel context 6 root DotaHud depth 9
+[   4750] [+] Panel context 7 root DotaHud depth 6
+[   4750] [+] Panel context 8 root DotaHud depth 6
+[   4750] [+] Panel context 9 root DotaHud depth 3
+[   4750] [+] Panel context 10 root DotaHud depth 3
+[   4750] [+] Panel context 11 root DotaHud depth 2
+[   4750] [+] Panel context 12 root DotaHud depth 2
+[   4750] [+] Panel context 13 root DotaHud depth 2
+[   4750] [+] Panel context 14 root DotaHud depth 1
+[   4766] [+] Panel context 15 root DotaDashboard depth 5
+[   4766] [+] Panorama root DotaDashboard depth 4
+[   4938] [+] GC send: EMsg 8676 (17 bytes, #1)
+[   4938] [+] GC send: EMsg 8853 (17 bytes, #1)
+[   4938] [+] GC send: EMsg 9023 (17 bytes, #1)
+[   4938] [+] GC send: EMsg 8078 (17 bytes, #1)
+[   4938] [+] GC send: EMsg 8793 (17 bytes, #1)
+[   4938] [+] GC send: EMsg 7427 (17 bytes, #1)
+[   4969] [+] GC send: EMsg 7503 (17 bytes, #1)
+[   4969] [+] GC send: EMsg 7534 (23 bytes, #1)
+[   4969] [+] GC send: EMsg 8687 (23 bytes, #1)
+[   5000] [+] GC send: EMsg 2569 (37 bytes, #1)
+[   5000] [+] GC send: EMsg 8713 (23 bytes, #1)
+[   5047] [+] GC send: EMsg 8886 (25 bytes, #1)
+[   5266] [+] GC send: EMsg 8729 (287 bytes, #1)
+[   5407] [+] Persistence: saved 9 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[   5594] [+] GC send: EMsg 8800 (17 bytes, #1)
+[   5594] [+] GC send: EMsg 8944 (19 bytes, #1)
+[   6094] [+] Cache probe: fake 0x700000000000811e present
+[   6141] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[   6407] [+] NetDelta classinfo create_on_client 1 classes 0
+[  11688] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[  11688] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[  12563] [+] Precache equipped assets 44 loaded 44 manifest 0000032A96823020
+[  17235] [+] Pump: 113 ms
+[  17532] [+] Persistence: saved 9 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  19657] [+] Watchdog: frames=787 queued=0 delivery=12461/12461 mode=2
+[  21219] [+] NetDelta roundtrip check done verify_failures 0 packets 200 mismatches 0 failures 0
+[  25579] [+] Pump: 115 ms
+[  25875] [+] Persistence: saved 10 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  34657] [+] Watchdog: frames=2681 queued=0 delivery=12461/12461 mode=2
+[  35266] [+] NetDelta stats packets 600 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[  43438] [+] Pump: 114 ms
+[  43735] [+] Persistence: saved 11 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  49657] [+] Watchdog: frames=4746 queued=0 delivery=12461/12461 mode=2
+[  53047] [+] Pump: 114 ms
+[  53344] [+] Persistence: saved 12 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  56282] [+] Pump: 114 ms
+[  56563] [+] NetDelta stats packets 1200 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[  56579] [+] Persistence: saved 13 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  58063] [+] Pump: 226 ms
+[  58235] [+] Persistence: saved 14 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  61172] [+] Pump: 114 ms
+[  61469] [+] Persistence: saved 14 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  64000] [+] Pump: 229 ms
+[  64188] [+] Persistence: saved 15 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  64657] [+] Watchdog: frames=7175 queued=0 delivery=12461/12461 mode=2
+[  66188] [+] Pump: 115 ms
+[  66485] [+] Persistence: saved 15 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  67188] [+] Pump: 116 ms
+[  67469] [+] Persistence: saved 16 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  68969] [+] Pump: 229 ms
+[  69157] [+] Persistence: saved 17 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  70782] [+] Pump: 227 ms
+[  70969] [+] Persistence: saved 17 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  71407] [+] Pump: 227 ms
+[  71594] [+] Persistence: saved 17 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  73782] [+] Pump: 114 ms
+[  74079] [+] Persistence: saved 17 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  74688] [+] Pump: 116 ms
+[  74985] [+] Persistence: saved 18 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  76532] [+] Pump: 227 ms
+[  76719] [+] Persistence: saved 19 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  78563] [+] NetDelta stats packets 1800 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[  79657] [+] Watchdog: frames=9474 queued=0 delivery=12461/12461 mode=2
+[  80157] [+] Pump: 114 ms
+[  80454] [+] Persistence: saved 20 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  82407] [+] Pump: 113 ms
+[  82688] [+] Persistence: saved 21 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  85297] [+] Pump: 115 ms
+[  85579] [+] Persistence: saved 22 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  87266] [+] Pump: 113 ms
+[  87563] [+] Persistence: saved 23 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[  91235] [+] GC send: EMsg 8082 (10 bytes, #1)
+[  94657] [+] Watchdog: frames=11985 queued=0 delivery=12461/12461 mode=2
+[  96532] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[  96532] [-] NetDelta classinfo has no class list create_on_client 1
+[  97016] [+] NetDelta classinfo create_on_client 1 classes 0
+[  97016] [-] NetDelta classinfo has no class list create_on_client 1
+[  97375] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[  97375] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[  97422] [+] Precache equipped assets 81 loaded 81 manifest 0000032A9682F0E0
+[  98297] [+] SO cache subscribed owner 76561199257555522 version 462420670503283383
+[  98297] [+] Subscribe: version 462420670503283383 <= applied 462420670503283383, cache intact, duplicate discarded
+[  98297] [+] Subscribe: version 30075106651497178 <= applied 462420670503283383, empty stale duplicate discarded
+[ 102391] [+] Loadout hero 67 slot 0 0 -> 0x70000000000025be fake
+[ 102391] [+] Loadout hero 67 slot 1 0 -> 0x70000000000023f4 fake
+[ 102391] [+] Loadout hero 67 slot 2 0 -> 0x700000000000301a fake
+[ 102391] [+] Loadout hero 67 slot 3 0 -> 0x7000000000003019 fake
+[ 102391] [+] Loadout hero 67 slot 4 0 -> 0x7000000000001aee fake
+[ 102391] [+] Loadout hero 67 slot 5 0 -> 0x700000000000493e fake
+[ 102891] [+] NetSkins client model 305 0 -> 0x4a27ae963a03f574
+[ 102891] [+] NetSkins hero 305 npc_dota_hero_spectre models/items/spectre/spectre_arcana/spectre_arcana_base.vmdl style 1 skin 1
+[ 102907] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1534 variant 0 sequence 6 spct_arc_spawn default -
+[ 103250] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 7 sequence 66 spct_arc_run_alt_01_no_stab_red default -
+[ 103782] [+] NetDelta stats packets 2400 failures 0 mismatches 0 rewrites 0 active 130 records 8
+[ 105844] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 7 sequence 66 spct_arc_run_alt_01_no_stab_red default -
+[ 105891] [+] AnimLog m_hAttackTarget class CDOTA_Modifier_MonkeyKing_FurArmy_SoldierInPosition offset 0x1AB4
+[ 105891] [+] AnimLog unit npc 305 type 0 activity 1503 variant 1 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 32 spct_arc_attack_fast default - target 0
+[ 105891] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 1 sequence 32 spct_arc_attack_fast default -
+[ 106110] [+] AnimLog particle index 2 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 106922] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 107219] [+] AnimLog unit npc 305 type 0 activity 1503 variant 4 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 35 spct_arc_attack_01_fast default - target 0
+[ 107219] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 4 sequence 35 spct_arc_attack_01_fast default -
+[ 107422] [+] AnimLog particle index 4 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 107579] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 9 sequence 68 spct_arc_run_alt_01_no_stab_red_copy default -
+[ 108188] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 5 sequence 64 spct_arc_run_alt_01_x_spot_red default -
+[ 108250] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 108516] [+] AnimLog unit npc 305 type 0 activity 1503 variant 4 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 35 spct_arc_attack_01_fast default - target 0
+[ 108516] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 4 sequence 35 spct_arc_attack_01_fast default -
+[ 108750] [+] AnimLog particle index 6 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 108891] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 3 sequence 62 spct_arc_run_alt_01_red default -
+[ 109454] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 5 sequence 64 spct_arc_run_alt_01_x_spot_red default -
+[ 109547] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 109657] [+] Watchdog: frames=14712 queued=0 delivery=12461/12461 mode=2
+[ 109813] [+] AnimLog unit npc 305 type 0 activity 1503 variant 1 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 32 spct_arc_attack_fast default - target 0
+[ 109813] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 1 sequence 32 spct_arc_attack_fast default -
+[ 109954] [+] AnimLog unit npc 305 type 1 activity 1510 variant 0 rate 1.156250 castpoint 0.300000 lag 0.000000 sequence 52 spct_arc_cast_dagger default - target 0
+[ 109954] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1510 variant 0 sequence 52 spct_arc_cast_dagger default -
+[ 110250] [+] AnimLog projectile source 305 target 344 attack 0 attachment 1 particle particles/econ/items/spectre/spectre_transversant_soul/spectre_ti7_crimson_spectral_dagger_tracking.vpcf additional ?
+[ 110282] [+] AnimLog unit npc 305 type 0 activity 1503 variant 1 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 32 spct_arc_attack_fast default - target 0
+[ 110282] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 1 sequence 32 spct_arc_attack_fast default -
+[ 110485] [+] AnimLog particle index 8 entity 16383 modifiers 305 attach 2 name particles/units/heroes/hero_spectre/spectre_shadow_path_owner.vpcf
+[ 110516] [+] AnimLog particle index 9 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 111313] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 111625] [+] AnimLog unit npc 305 type 0 activity 1503 variant 7 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 38 spct_arc_attack_stab_fast default - target 0
+[ 111625] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 7 sequence 38 spct_arc_attack_stab_fast default -
+[ 111813] [+] AnimLog particle index 11 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 111922] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 112516] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 112688] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 112922] [+] AnimLog unit npc 305 type 0 activity 1503 variant 7 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 38 spct_arc_attack_stab_fast default - target 0
+[ 112922] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 7 sequence 38 spct_arc_attack_stab_fast default -
+[ 113157] [+] AnimLog particle index 13 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 113188] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 113625] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 113641] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 114219] [+] AnimLog unit npc 305 type 0 activity 1503 variant 1 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 32 spct_arc_attack_fast default - target 0
+[ 114219] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 1 sequence 32 spct_arc_attack_fast default -
+[ 114422] [+] AnimLog particle index 15 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 114516] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 115047] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 115422] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 115485] [+] AnimLog unit npc 305 type 0 activity 1503 variant 7 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 38 spct_arc_attack_stab_fast default - target 0
+[ 115485] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 7 sequence 38 spct_arc_attack_stab_fast default -
+[ 115719] [+] AnimLog particle index 17 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 115782] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 116188] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 116782] [+] AnimLog unit npc 305 type 0 activity 1503 variant 1 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 32 spct_arc_attack_fast default - target 0
+[ 116782] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 1 sequence 32 spct_arc_attack_fast default -
+[ 116985] [+] AnimLog particle index 19 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 117016] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 117344] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 118079] [+] AnimLog unit npc 305 type 0 activity 1503 variant 4 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 35 spct_arc_attack_01_fast default - target 0
+[ 118079] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 4 sequence 35 spct_arc_attack_01_fast default -
+[ 118313] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 118782] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 118891] [+] AnimLog unit npc 305 type 0 activity 1503 variant 4 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 35 spct_arc_attack_01_fast default - target 0
+[ 118891] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 4 sequence 35 spct_arc_attack_01_fast default -
+[ 119125] [+] AnimLog particle index 21 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 119750] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 15 sequence 74 spct_arc_run_spectral_dagger_red default -
+[ 121016] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 11 sequence 70 spct_arc_run_alt_upright_red default -
+[ 122219] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 122625] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1500 variant 0 sequence 14 spct_arc_idle default -
+[ 122860] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 3 sequence 62 spct_arc_run_alt_01_red default -
+[ 123782] [+] NetDelta stats packets 3000 failures 0 mismatches 0 rewrites 0 active 177 records 5
+[ 124657] [+] Watchdog: frames=17531 queued=0 delivery=12461/12461 mode=2
+[ 127719] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 3 sequence 62 spct_arc_run_alt_01_red default -
+[ 127985] [+] AnimLog unit npc 305 type 0 activity 1503 variant 7 rate 1.390000 castpoint 0.215827 lag 0.000000 sequence 38 spct_arc_attack_stab_fast default - target 0
+[ 127985] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1503 variant 7 sequence 38 spct_arc_attack_stab_fast default -
+[ 128219] [+] AnimLog particle index 25 entity 305 modifiers 16383 attach 0 name particles/units/heroes/hero_spectre/spectre_desolate.vpcf
+[ 128454] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 7 sequence 66 spct_arc_run_alt_01_no_stab_red default -
+[ 139188] [+] AnimLog seq npc 305 model models/items/spectre/spectre_arcana/spectre_arcana_base_c_1.vmdl activity 1502 variant 11 sequence 70 spct_arc_run_alt_upright_red default -
+[ 139657] [+] Watchdog: frames=20404 queued=0 delivery=12461/12461 mode=2
+[ 141782] [+] NetDelta serverinfo max_classes 3229 class_bits 12 tick_interval 0.033333
+[ 141782] [-] NetDelta classinfo has no class list create_on_client 1
+[ 141829] [+] NetDelta classinfo create_on_client 1 classes 0
+[ 141829] [-] NetDelta classinfo has no class list create_on_client 1
+[ 146188] [+] NetDelta serializers 3296 fields 2030 symbols 5517 polymorphic 0
+[ 146188] [+] NetDelta classes loaded count 3229 linked 3229 serializers_ready 1
+[ 146235] [+] Precache equipped assets 81 loaded 81 manifest 0000032A9616D5E0
+[ 149532] [+] NetDelta stats packets 3600 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 154657] [+] Watchdog: frames=21077 queued=0 delivery=12461/12461 mode=2
+[ 169532] [+] NetDelta stats packets 4200 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 169672] [+] Watchdog: frames=21718 queued=0 delivery=12461/12461 mode=2
+[ 183422] [+] Pump: 124 ms
+[ 183704] [+] Persistence: saved 24 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 184672] [+] Watchdog: frames=23916 queued=0 delivery=12461/12461 mode=2
+[ 189829] [+] NetDelta stats packets 4800 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 197297] [+] Pump: 123 ms
+[ 197579] [+] Persistence: saved 25 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 199672] [+] Watchdog: frames=26849 queued=0 delivery=12461/12461 mode=2
+[ 206750] [+] Pump: 122 ms
+[ 207032] [+] Persistence: saved 26 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 209625] [+] Pump: 727 ms
+[ 209657] [+] Persistence: saved 31 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 210782] [+] NetDelta stats packets 5400 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 214672] [+] Watchdog: frames=29647 queued=0 delivery=12461/12461 mode=2
+[ 220985] [+] Pump: 1151 ms
+[ 221016] [+] Persistence: saved 32 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 224454] [+] Pump: 313 ms
+[ 224547] [+] Persistence: saved 33 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 228094] [+] Pump: 244 ms
+[ 228266] [+] Persistence: saved 32 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 229672] [+] Watchdog: frames=31856 queued=0 delivery=12461/12461 mode=2
+[ 232704] [+] NetDelta stats packets 6000 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 244672] [+] Watchdog: frames=33496 queued=0 delivery=12461/12461 mode=2
+[ 252844] [+] NetDelta stats packets 6600 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 255344] [+] Pump: 901 ms
+[ 255360] [+] Persistence: saved 39 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 259672] [+] Watchdog: frames=35826 queued=0 delivery=12461/12461 mode=2
+[ 261954] [+] GC send: EMsg 1087 (39 bytes, #1)
+[ 262079] [+] Pump: 123 ms
+[ 262360] [+] Persistence: saved 39 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 264297] [+] GC send: EMsg 1088 (41 bytes, #1)
+[ 264422] [+] Pump: 123 ms
+[ 264704] [+] Persistence: saved 39 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 274063] [+] NetDelta stats packets 7200 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 274672] [+] Watchdog: frames=38184 queued=0 delivery=12461/12461 mode=2
+[ 289672] [+] Watchdog: frames=41019 queued=0 delivery=12461/12461 mode=2
+[ 294110] [+] NetDelta stats packets 7800 failures 0 mismatches 0 rewrites 0 active 0 records 0
+[ 297688] [+] Pump: 122 ms
+[ 297969] [+] Persistence: saved 39 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 298954] [+] GC send: EMsg 4523 (487 bytes, #1)
+[ 299750] [+] Pump: 122 ms
+[ 300032] [+] Persistence: saved 40 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 301032] [+] Pump: 122 ms
+[ 301329] [+] Persistence: saved 40 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 303500] [+] Pump: 121 ms
+[ 303782] [+] Persistence: saved 40 selected item(s) to C:\Users\Unkn0Wn\Desktop\AnchouseChanger\build\anchousechanger.sets
+[ 304672] [+] Watchdog: frames=43866 queued=0 delivery=12461/12461 mode=2
+[ 307844] [+] GC send: EMsg 8034 (17 bytes, #1)
+[ 308157] [+] GC send: EMsg 8303 (25 bytes, #1)
+[ 308157] [+] GC send: EMsg 8006 (23 bytes, #1)
+[ 315422] [!] Detach, process exit 1

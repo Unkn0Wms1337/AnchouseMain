@@ -121,9 +121,9 @@ echo   %BUILD%\anchousechanger.dll
 echo   %BUILD%\loader.exe
 echo.
 echo  Usage:
-echo    1. Start Dota 2 and wait for the main menu.
-echo    2. Run "%BUILD%\loader.exe"
-echo       or "%BUILD%\loader.exe" --launch
+echo    1. Close Dota 2.
+echo    2. Run "%BUILD%\loader.exe" --launch
+echo       The loader injects early, before the first SOCache subscription.
 echo.
 if "%PAUSE%"=="1" pause
 exit /b 0
