@@ -1,146 +1,291 @@
 # AnchouseChanger - Main
 
-Open-source internal Dota 2 skin changer for Windows.
+**Версия:** 1.2 (2026-10-22)
 
-![Skin distribution](assets/unusual.jpg)
+Внутренний open-source чейнджер скинов Dota 2 для Windows.
 
-![Arcana with gems](assets/arcana.jpg)
+![Аркана с камнями](assets/arcana.jpg)
 
-## Features
+![Необычный эффект](assets/unusual.jpg)
 
-- Any item added to the inventory and equipped from the hero loadout
-- Styles unlocked, sockets, prismatic and ethereal gems
-- Per-item unusual effect picker
-- Items, arcana models and effects applied in matches
+## Что нового в 1.2
 
-## Building
+- **Сохранение лоадаута.** Экипированные фейковые предметы, их стили, камни
+  в сокетах и необычные эффекты записываются в `anchousechanger.sets` рядом с
+  DLL и восстанавливаются при следующем инжекте через `loader.exe`.
+- **Ранний инжект.** `loader.exe --launch` дожидается загрузки нужных модулей
+  игры и выполняет инжект до первой подписки клиента на SOCache, поэтому
+  полный каталог заменяет эту подписку, а не приходит слишком поздно.
+- **Автовыдача только через лоадер.** Если запустить Dota 2 из Steam или
+  заинжектить DLL другим инструментом, реальный инвентарь не меняется.
+- **Кнопки добавления нет.** Каталог выдаётся автоматически, кнопка `+`
+  удалена.
+- **Окна «вы получили предметы» нет.** Модальное окно с новыми предметами
+  скрывается автоматически и больше не блокирует интерфейс.
 
-Requirements:
+Полный список изменений 1.1 → 1.2 — в [CHANGELOG.md](CHANGELOG.md).
 
-- Visual Studio 2022 or newer with the **Desktop development with C++** workload
+## Возможности
+
+- Любой предмет добавляется в инвентарь и экипируется через лоадаут героя
+- Разблокированные стили, сокеты, призматические и эфирные камни
+- Выбор необычного эффекта для каждого предмета отдельно
+- Выбранные сеты, стили, камни и эффекты переживают перезапуск игры, если
+  следующий запуск идёт через `loader.exe`
+- Предметы, модели аркан и эффекты применяются в матчах
+- Полный каталог выдаётся автоматически только при инжекте DLL через
+  `loader.exe`; отдельной кнопки добавления нет
+- Режимы запуска в меню: **«Запустить с модом»** инжектит через
+  `loader.exe`; **«Без мода»** запускает Dota 2 через Steam и сохраняет
+  настоящий инвентарь
+
+## Файлы
+
+Все runtime-файлы создаются рядом с DLL (в этом репозитории — в `build/`):
+
+| Файл | Назначение |
+|---|---|
+| `anchousechanger.dll` | сам мод, инжектится в `dota2.exe` |
+| `loader.exe` | ждёт игру и инжектит DLL |
+| `anchousechanger.cfg` | необязательный; только настройки выдачи, без скинов |
+| `anchousechanger.sets` | сохранённый выбор: экипировка, стили, камни, эффекты |
+| `anchousechanger.log` | диагностический лог |
+
+Удаление `anchousechanger.sets` сбрасывает сохранённый лоадаут, удаление
+`anchousechanger.cfg` — настройки выдачи.
+
+## Сборка
+
+Требования:
+
+- Visual Studio 2022 или новее с рабочей нагрузкой **Desktop development with C++**
 - CMake
-- Internet access on the first build
+- интернет при первой сборке
 
-Run `build.bat`. It downloads and builds protobuf, fetches the Dota 2 protobuf
-schemas, generates the message sources, and produces:
+Запусти `build.bat`. Скрипт скачивает и собирает protobuf, загружает схемы
+Dota 2, генерирует исходники сообщений и создаёт:
 
 - `build/anchousechanger.dll`
 - `build/loader.exe`
 
-The first build takes several minutes because protobuf is compiled from source.
-Later builds reuse `.deps/` and are much faster.
+Первая сборка занимает несколько минут, потому что protobuf компилируется из
+исходников. Последующие сборки используют `.deps/` и проходят гораздо быстрее.
 
-Useful commands:
+Полезные команды:
 
 ```bat
-build.bat            :: build DLL and loader
-build.bat rebuild    :: regenerate protobufs and rebuild
-build.bat clean      :: remove build output only
-build.bat distclean  :: remove build, generated protos and .deps
-build.bat nopause    :: build without the final pause
+build.bat            :: собрать DLL и лоадер
+build.bat rebuild    :: перегенерировать protobuf и пересобрать
+build.bat clean      :: удалить только результат сборки
+build.bat distclean  :: удалить build, сгенерированные прото и .deps
+build.bat nopause    :: сборка без финальной паузы
 ```
 
-The Dota 2 protobuf revision is pinned in `build.bat` (`PROTO_SHA`). If a game
-update changes the GC schema, update that hash and run `build.bat rebuild`.
+Ревизия Dota 2 protobuf закреплена в `build.bat` (`PROTO_SHA`). Если
+обновление игры меняет GC-схему, обнови этот хеш и запусти
+`build.bat rebuild`.
 
-## Usage
+## Использование
 
-1. Start Dota 2 and wait for the main menu.
-2. Run `build\loader.exe`. Use `build\loader.exe --launch` to start the game
-   through Steam first. The loader injects `anchousechanger.dll` from its own
-   directory by default.
+1. Закрой Dota 2.
+2. Запусти `build\loader.exe --launch`, чтобы игра стартовала через Steam, а
+   `anchousechanger.dll` заинжектился из папки лоадера. Лоадер дожидается
+   загрузки нужных модулей игры и выполняет инжект до первой подписки
+   клиента на кэш предметов. Инжект в уже запущенный клиент (например, после
+   загрузки главного меню) может не успеть заменить эту подписку.
 
-Loader options:
+Опции лоадера:
 
 ```text
 loader.exe [options] [dll_path]
 
---launch, -l      Start Dota 2 through Steam if it is not running
---pid <pid>, -p   Inject into a specific process
---dll <path>, -d  Use a custom DLL path
---help, -h        Show help
+--launch, -l      запустить Dota 2 через Steam, если она ещё не запущена
+                 (сначала закрой Dota; инжект идёт до первой подписки на SOCache)
+--pid <pid>, -p   инжект в конкретный процесс
+--dll <path>, -d  свой путь к DLL
+--help, -h        показать справку
 ```
 
-Every equippable cosmetic is added to the inventory automatically, so all skins
-are available in the hero loadout without pressing anything. The `+` button
-remains for bundles and entries outside the wearable catalog:
+`loader.exe` и `anchousechanger.dll` нужно обновлять вместе. Новая DLL
+требует маркер, который пишет новый лоадер; со старым лоадером автовыдача
+остаётся выключенной.
 
-![Grant an item](assets/grant.jpg)
+Меню предлагает такой же выбор двумя кнопками. **«Запустить с модом»**
+выполняет `loader.exe --launch`; **«Без мода»** открывает
+`steam://rungameid/570` без инжекта, и Dota 2 использует обычный инвентарь.
+Второй режим не загружает DLL и потому не включает автовыдачу. Он также не
+выгружает DLL из уже запущенной игры: если мод активен, сначала закрой
+Dota 2.
 
-The first injection writes the full catalog to `anchousechanger.cfg` beside the DLL,
-so the file can grow to a few MB. Delete it to reset the fake inventory and
-settings.
+Все доступные косметические предметы добавляются в инвентарь автоматически,
+когда DLL заинжекчена через `loader.exe`, поэтому все скины доступны в
+лоадауте героя без каких-либо нажатий. Автовыдача включается короткоживущим
+маркером, который лоадер пишет рядом с DLL перед инжектом; при запуске Dota 2
+из Steam без лоадера или инжекта DLL другим инструментом она остаётся
+выключенной. Полный каталог выдаётся автоматически; отдельной кнопки
+добавления нет.
 
-After injection the mod asks the game client to re-subscribe its item cache the
-same way it does when connecting to the GC, and merges the whole catalog into
-that single cache snapshot. The inventory is rebuilt once, with every skin
-already inside, so the items look like they were always there and no per-item
-stream is sent to the UI.
+## Сохранение лоадаута
 
-Sizing note: the Dota 2 client spends CPU proportional to the current inventory
-size on every item it applies from live GC updates (about 0.7 microseconds per
-already-owned item), so feeding ~11.7k items in batches costs the client around
-a minute of work no matter how the mod paces them. Delivering them inside one
-cache snapshot is the only path that can rebuild the inventory in one pass. If
-the client does not re-subscribe within a few seconds, the mod falls back to a
-safe paced delivery: one small GC message per frame, sized so the window never
-stops responding.
+Полный каталог собирается в памяти заново при каждом инжекте и никогда не
+пишется на диск. Сохраняются только выбранные предметы: экипированные
+фейковые предметы и их слоты (герой и глобальные), стили, камни в сокетах и
+необычные эффекты. Они хранятся в компактном бинарном файле
+`anchousechanger.sets` рядом с DLL.
 
-The behavior is configurable in `anchousechanger.cfg` (add the keys on separate
-lines):
+Изменения записываются вскоре после того, как сделаны (задержка 400 мс), и
+дополнительно сбрасываются из `DLL_PROCESS_DETACH` при выходе из Dota 2.
+Следующий инжект через лоадер восстанавливает сохранённые записи до выдачи
+полного снимка кэша, поэтому сохранённые сеты экипированы сразу и никаких
+дополнительных запросов не нужно.
+
+`anchousechanger.cfg` необязателен и содержит только настройки выдачи каталога
+(см. ниже); скины в нём не хранятся. При запуске мод удаляет устаревшие ключи
+`skin.items` / `skin.unusual` из старых конфигов, а если настроек не осталось —
+удаляет и сам файл. Лоадер по-прежнему удаляет сохранённый локальный SOCache
+Dota 2 и подтверждения фейковых предметов после выхода игры, поэтому обычный
+запуск из Steam без DLL стартует с реального инвентаря, а не с последнего
+фейкового каталога; файл `.sets` при этом сохраняется для следующего запуска
+с модом.
+
+## Как выдаётся каталог
+
+После инжекта мод просит клиент игры заново подписаться на кэш предметов —
+так же, как при подключении к GC, — и объединяет весь каталог в один снимок
+этого кэша. Инвентарь пересобирается один раз, уже со всеми скинами, поэтому
+предметы выглядят так, будто были там всегда, и в интерфейс не идёт
+поштучный поток.
+
+Если GC сначала присылает пустую подписку на кэш и сразу за ней полную, мод
+удерживает пустое сообщение и не добавляет каталог в него. Когда приходит
+полная подписка, пустое сообщение отбрасывается, и клиенту отдаётся только
+полный снимок вместе с каталогом. Если полная подписка так и не пришла,
+удержанное пустое сообщение воспроизводится через 2 секунды, а
+неопределённое удержанное сообщение отбрасывается через 6 секунд. Это
+предотвращает вторую пересборку инвентаря и устаревшие item view, которые
+могли заморозить игру при смене скина или личности.
+
+После выдачи полного снимка мод проверяет, принял ли клиент каталог. Если
+предмет-проба не появился через четыре секунды, тот же полный снимок
+отправляется ещё раз с увеличенной версией кэша. Этот путь восстановления
+никогда не откатывается к потоковой выдаче тысяч отдельных предметов и
+поэтому не может вернуть многоминутную заморозку.
+
+Dota обычно открывает модальное окно «получены новые предметы» после выдачи
+каталога. Мод скрывает это окно автоматически (панель `PopupItemReceived` /
+`ItemReceived`), включая диалог «1 из N» / «Принять все», чтобы оно не
+блокировало дашборд и лоадаут героя.
+
+Замечание о размере: клиент Dota 2 тратит CPU пропорционально текущему
+размеру инвентаря на каждый предмет, который применяет из живых
+GC-обновлений (около 0,7 микросекунды на уже имеющийся предмет), поэтому
+выдача ~12,5 тыс. предметов порциями стоит клиенту примерно минуты работы,
+как её ни разбивай. Отдать их внутри одного снимка кэша — единственный путь
+пересобрать инвентарь за один проход. Если GC вообще не присылает полную
+подписку, мод ждёт 12 секунд и переходит на порционную выдачу: по одному
+небольшому GC-сообщению за кадр, с размером, при котором окно остаётся
+отзывчивым. Этот запасной путь не используется, если полный снимок уже был
+отдан.
+
+## Настройки
+
+Поведение настраивается в `anchousechanger.cfg` (ключи добавляются отдельными
+строками). Файл необязателен и содержит только настройки выдачи; скины и
+сохранённый лоадаут в нём не хранятся.
 
 ```ini
-skin.grant.snapshot=0  ; never merge the catalog into cache snapshots
-skin.grant.probe=0     ; do not ask the client to re-subscribe, only stream
-skin.grant.wait=9      ; seconds to wait for a snapshot before streaming
-skin.grant.chunk=256   ; items per streamed message (0 = one message, freezes)
-skin.autogrant=0       ; disable automatic catalog injection entirely
+skin.grant.snapshot=0  ; никогда не объединять каталог со снимками кэша
+skin.grant.probe=0     ; не просить клиент переподписаться, только стримить
+skin.grant.wait=12     ; сколько секунд ждать снимок перед стримом
+skin.grant.chunk=256   ; предметов на сообщение стрима (0 = одно сообщение, фриз)
+skin.autogrant=0       ; полностью отключить автовыдачу (даже через лоадер)
 ```
 
-## Diagnostics
+## Диагностика
 
-`build\anchousechanger.log` gets a `[milliseconds]` prefix on every line, so a hang
-can be located by the last lines written. A background watchdog prints a line
-every 15 seconds:
+Каждая строка `build\anchousechanger.log` получает префикс `[миллисекунды]`,
+поэтому зависание можно найти по последним записанным строкам. Фоновый
+watchdog печатает строку каждые 15 секунд:
 
 ```text
-[  90000] [+] Watchdog: frames=5231 queued=0 delivery=11677/11677 mode=2
+[  19657] [+] Watchdog: frames=787 queued=0 delivery=12461/12461 mode=2
 ```
 
-`mode` is `0` while waiting for a cache snapshot, `1` while streaming and `2`
-when the catalog was merged into a snapshot.
+`mode` равен `0`, пока мод ждёт снимок кэша, `1` при стриминге и `2`, когда
+каталог был объединён со снимком.
 
-Grant stages appear as:
+Сохранение пишет собственные строки при старте и после каждого изменения:
 
 ```text
-[  1500] [+] Grant: refresh -> gc (EMsg 28, attempt 1/5)  <- ask the GC for the cache
-[  1620] [+] SO cache subscribed owner ...                <- the GC sent the snapshot
-[  1640] [+] Subscribe: 1 real items, 0 replaced, 11764 fakes added, 403 -> 460434 bytes
-[  1695] [+] Pump: 74 ms                                  <- one-time cache rebuild
+[      0] [+] Persistence: loaded 40 selected item(s) from ...\anchousechanger.sets
+[   4157] [+] Persistence: restored 40 of 40 selected item(s)
+[   5407] [+] Persistence: saved 40 selected item(s) to ...\anchousechanger.sets
 ```
 
-When the GC ignores the refresh, the mod keeps probing (a cache check message
-to the client at 4 s, a Dota cache-resend message at 6.5 s) and retries the
-refresh every 4 seconds. If no snapshot arrives within `skin.grant.wait`
-seconds, streaming starts and the log switches to `Grant: streamed` lines:
+Первая строка `AutoGrant:` показывает, принят ли маркер лоадера. Если там
+написано `no loader marker`, DLL заинжекчена другим инструментом, автовыдача
+отключена и предметы не добавляются.
+
+Этапы выдачи выглядят так:
 
 ```text
-[  9000] [+] Grant: no snapshot after 9000 ms, streaming 11764 items by 256
-[  9010] [+] Grant: streamed 256/11764 (256 items, 9010 ms)
+[   4141] [+] AutoGrant: enabled by loader marker (pid=22804)
+[   4157] [+] Subscribe: 40 real items, 0 replaced, 12461 fakes added, 3436 -> 506212 bytes
+[   4240] [+] Pump: 113 ms                                  <- одноразовая пересборка кэша
+[   6094] [+] Cache probe: fake 0x700000000000811e present
+[   6100] [+] UI: hiding received-items popup id="ItemReceived"
 ```
 
-If the game freezes:
+Если проба так и не появилась, строка восстановления выглядит так:
 
-- the watchdog lines keep appearing with `frames=` stuck - the main thread is
-  busy inside the game (usually while applying items); note the last `Grant:`
-  and `Pump:` lines and the `mode=`,
-- the whole log stops - the process is fully locked, note the very last line,
-- `queued=1` with `frames=` stuck means the client did not consume an injected
-  GC message; set `skin.autogrant=0` to confirm the source,
-- to rule out the cache-snapshot path, set `skin.grant.snapshot=0` and
-  `skin.grant.probe=0`; the mod then only streams batches and never resizes
-  snapshots.
+```text
+[   6950] [+] Grant: cache still empty, pushed complete snapshot again (504134 bytes, version ...)
+```
 
-## License
+Если GC сначала присылает пустую подписку, в логе видно, как она удерживается,
+а затем отбрасывается при приходе полной:
+
+```text
+[   2641] [+] Subscribe: empty cache version ... held, waiting for the complete cache
+[   2704] [+] Subscribe: staged empty version ... dropped, version ... served
+```
+
+Когда GC игнорирует запрос на обновление, мод продолжает проверять кэш
+(проверочное сообщение клиенту через 4 с, сообщение Dota о пересылке кэша
+через 6,5 с) и повторяет запрос каждые 4 секунды. Если снимок не приходит в
+течение `skin.grant.wait` секунд, начинается стриминг, и в логе появляются
+строки `Grant: streamed`:
+
+```text
+[   9000] [+] Grant: no snapshot after 9000 ms, streaming 12461 items by 256
+[   9010] [+] Grant: streamed 256/12461 (256 items, 9010 ms)
+```
+
+Штатное завершение заканчивается строкой detach:
+
+```text
+[ 315422] [!] Detach, process exit 1
+```
+
+Если игра зависла:
+
+- строки watchdog продолжают появляться, а `frames=` стоит на месте — главный
+  поток занят внутри игры (обычно применением предметов); отметь последние
+  строки `Grant:` и `Pump:` и значение `mode=`;
+- лог полностью остановился — процесс заблокирован намертво, запиши самую
+  последнюю строку;
+- `queued=1` при стоящем `frames=` означает, что клиент не потребил
+  заинжекченное GC-сообщение; поставь `skin.autogrant=0`, чтобы подтвердить
+  источник;
+- чтобы исключить путь со снимком кэша, поставь `skin.grant.snapshot=0` и
+  `skin.grant.probe=0`; тогда мод только стримит порциями и никогда не
+  изменяет размер снимков.
+
+## История изменений
+
+Заметки о выпусках — в [CHANGELOG.md](CHANGELOG.md), запись контрольной точки
+1.2 — в [CHECKPOINT.md](CHECKPOINT.md).
+
+## Лицензия
 
 GPL-3.0
